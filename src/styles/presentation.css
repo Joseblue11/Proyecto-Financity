@@ -1,0 +1,15 @@
+.presentation {
+    width: 100%;
+    height: 550px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Prestext{
+    width: 500px;
+    
+}

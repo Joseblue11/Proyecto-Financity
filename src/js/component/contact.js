@@ -1,13 +1,23 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2"
 
 export const Contact = () => {
-  const [envio,setEnvio]= useState("")
+  const [envio, setEnvio] = useState("");
+
   return (
     <div className="pt-5" id="Contactos">
       <form
         action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
         method="POST"
         className="pt-4"
+        onSubmit={() => {
+          Swal.fire({
+            title: "Formulario Enviado!",
+            text: "Gracias por contactarnos!",
+            icon: "success",
+            timer: 1500
+          });
+        }}
       >
         <div className="d-flex justify-content-center">
           <div
@@ -27,6 +37,7 @@ export const Contact = () => {
                   id="floatingInput"
                   placeholder="name-lastname"
                   style={{ width: "25rem" }}
+                  required
                 />
                 <label htmlFor="floatingInput" style={{ color: "gray" }}>
                   Nombre y Apellido
@@ -40,6 +51,7 @@ export const Contact = () => {
                   id="floatingInput"
                   placeholder="phone"
                   style={{ width: "25rem" }}
+                  required
                 />
                 <label htmlFor="floatingInput" style={{ color: "gray" }}>
                   Telefono
@@ -53,19 +65,21 @@ export const Contact = () => {
                   id="floatingInput"
                   placeholder="email"
                   style={{ width: "25rem" }}
+                  required
                 />
                 <label htmlFor="floatingInput" style={{ color: "gray" }}>
                   Correo electronico
                 </label>
               </div>
               <div className="form-floating mb-3">
-                <input
+                <textarea
                   type="message"
                   name="message"
                   className="form-control"
                   id="floatingInput"
                   placeholder="message"
                   style={{ width: "25rem", height: "10rem" }}
+                  required
                 />
                 <label htmlFor="floatingInput" style={{ color: "gray" }}>
                   Mensaje
@@ -73,21 +87,12 @@ export const Contact = () => {
               </div>
               <button
                 className="btn btn-primary"
-                // type="submit"
+                type="submit"
                 id="submitButton"
-                onClick={alert("Formulario Enviado")}
-              >Enviar
+                
+              >
+                Enviar a Don Cahslo
               </button>
-
-
-
-              {/* <div id="successMessage" style="display: none;">
-                <p>
-                  Agradecemos su interés en comunicarse con nosotros. Su
-                  consulta será atendida a la brevedad, en un plazo máximo de 24
-                  horas.
-                </p>
-              </div> */}
               <input
                 type="hidden"
                 name="_next"
