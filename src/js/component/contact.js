@@ -1,23 +1,46 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Swal from "sweetalert2"
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
+  const form = useRef()
   const [envio, setEnvio] = useState("");
 
-  return (
-    <div className="pt-5" id="Contactos">
-      <form
-        action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
-        method="POST"
-        className="pt-4"
-        onSubmit={() => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_ag5qlef', 'template_wxqo6zw', form.current, {
+        publicKey: 'EUztcpqsmP18PxTmq',
+      })
+      .then(
+        () => {
           Swal.fire({
             title: "Formulario Enviado!",
             text: "Gracias por contactarnos!",
             icon: "success",
             timer: 1500
           });
-        }}
+        },
+        (error) => {
+          Swal.fire({
+            title: "Error al enviar el formulario!",
+            text: "Intentelo mas tarde!",
+            icon: "error",
+            showConfirmButton:true
+          });
+        },
+      );
+  };
+
+  return (
+    <div className="pt-5" id="Contactos">
+      <form
+      ref={form}
+        // action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
+        // method="POST"
+        className="pt-4"
+        onSubmit={(e) => sendEmail(e)}
       >
         <div className="d-flex justify-content-center">
           <div
@@ -32,7 +55,7 @@ export const Contact = () => {
               <div className="form-floating mb-3">
                 <input
                   type="name"
-                  name="name"
+                  name="user_name"
                   className="form-control"
                   id="floatingInput"
                   placeholder="name-lastname"
@@ -46,7 +69,7 @@ export const Contact = () => {
               <div className="form-floating mb-3">
                 <input
                   type="phone"
-                  name="phone"
+                  name="user_phone"
                   className="form-control"
                   id="floatingInput"
                   placeholder="phone"
@@ -60,7 +83,7 @@ export const Contact = () => {
               <div className="form-floating mb-3">
                 <input
                   type="email"
-                  name="email"
+                  name="user_email"
                   className="form-control"
                   id="floatingInput"
                   placeholder="email"
