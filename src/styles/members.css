@@ -1,0 +1,67 @@
+.Members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* Dimensiones del Ordenador de Escritorio*/
+@media (min-width: 1441px) and (max-width: 2560px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 95vh;
+  }
+}
+/* Dimensiones del Ordenador portátil medio */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 95vh;
+  }
+}
+
+/* Dimensiones del Móvil Grande o Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 95vh;
+  }
+}
+
+/* Dimensiones del Móvil Mediano */
+@media (min-width: 426px) and (max-width: 767px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Members{
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 90vh;
+  }
+}
+
+/* Dimensiones del Móvil FUNCIONA BIEN */
+@media (min-width: 320px) and (max-width: 425px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 90vh;
+  }
+}

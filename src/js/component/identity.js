@@ -9,12 +9,13 @@ import {
   faGlobe
 } from "@fortawesome/free-solid-svg-icons";
 import { faGem, faLightbulb} from "@fortawesome/free-regular-svg-icons";
+import "../../styles/identity.css"
 
 export const Identity = () => {
   return (
     <div className="identity">
       <h1> Identidad: Mision,Vision y Valores</h1>
-      <div className="MV d-flex container-fluid pt-5">
+      {/* <div className="MV d-flex container-fluid pt-5">
         <div className="card-mv1 mb-3 p-2" style={{ maxWidth: 1000 }}>
           <div className="row g-0">
             <div className="container-fluid">
@@ -248,7 +249,7 @@ export const Identity = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

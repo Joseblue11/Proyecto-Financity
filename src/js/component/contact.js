@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import Swal from "sweetalert2"
 import emailjs from '@emailjs/browser';
+import "../../styles/contact.css"
 
 export const Contact = () => {
   const form = useRef()
@@ -34,8 +35,9 @@ export const Contact = () => {
   };
 
   return (
-    <div className="pt-5" id="Contactos">
-      <form
+    <div className="contact pt-5" id="Contactos">
+      <h2>Contactos</h2>
+      {/* <form
       ref={form}
         // action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
         // method="POST"
@@ -125,7 +127,7 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 };

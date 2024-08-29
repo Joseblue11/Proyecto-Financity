@@ -1,8 +1,9 @@
 import React from "react";
+import "../../styles/aboutUs.css";
 
 export const AboutUs = () => {
   return (
-    <div className="AboutUS" id="Conocenos">
+    <div className="AboutUs" id="Conocenos">
       <h1>Conoce la Ciudad</h1>
       <div className="fundation pt-5">
         <h3 className="Titulo1">
@@ -18,7 +19,7 @@ export const AboutUs = () => {
         <span style={{ color: "#0066CC" }}>ncity</span> */}
         </h3>
         <div className="FUNDATION container-fluid d-flex justify-content-center">
-          <div className="card-Fundation mb-3" style={{ maxWidth: 1000 }}>
+          {/* <div className="card-Fundation mb-3" style={{ maxWidth: 1000 }}>
             <div className="row g-0">
               <div className="container-fluid">
                 <div className="card-fundation">
@@ -65,7 +66,7 @@ export const AboutUs = () => {
               className="img-fundation img-fluid rounded-start pt-2"
               alt="..."
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

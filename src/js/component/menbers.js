@@ -9,12 +9,13 @@ import {
   faGlobe,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGem, faLightbulb } from "@fortawesome/free-regular-svg-icons";
+import "../../styles/members.css"
 
 export const Members = () => {
   return (
     <div className="Members">
       <h1>Ciudadanos</h1>
-      <div className="d-flex">
+      {/* <div className="d-flex">
         <div className="card" style={{ width: "18rem" }}>
           <img
             src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366513/portrait-cute-boy-showing-graph-his-office-desk_qg39ji.jpg"
@@ -211,7 +212,7 @@ export const Members = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

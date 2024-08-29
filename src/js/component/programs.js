@@ -1,10 +1,11 @@
 import React from "react";
+import "../../styles/programs.css"
 
 export const Programs = () => {
   return (
     <div className="Programs" id="Programas">
       <h1>Programas</h1>
-      <div className="col">
+      {/* <div className="col">
         <div className="card">
           <img src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366513/portrait-cute-boy-showing-graph-his-office-desk_qg39ji.jpg" className="card-img-top" alt="..." style={{width:"300px"}}/>
           <div className="card-body">
@@ -19,7 +20,7 @@ export const Programs = () => {
       </div>
       <div className="col">
         <div className="card">
-          <img src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366513/portrait-cute-boy-showing-graph-his-office-desk_qg39ji.jpg" className="card-img-top" alt="..." style={{width:"300px"}}/>
+          <img src="" className="card-img-top" alt="..." style={{width:"300px"}}/>
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">
@@ -29,7 +30,7 @@ export const Programs = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

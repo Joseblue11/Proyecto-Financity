@@ -1,15 +1,147 @@
 .presentation {
-    width: 100%;
-    height: 550px;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.Prestext{
-    width: 500px;
-    
+.Prestext {
+  width: 500px;
+}
+
+/* Dimensiones del Ordenador de Escritorio*/
+@media (min-width: 1441px) and (max-width: 2560px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 95vh;
+  }
+  .text-1{
+    display: block; /* Oculta todos los elementos por defecto */
+  }
+  .text-2{
+    display: none;
+  }
+  .text-3{
+    display: none;
+  }
+  .text-4{
+    display: none;
+  }
+  .text-5{
+    display: none;
+  }
+}
+/* Dimensiones del Ordenador portátil medio */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 95vh;
+  }
+  .text-1{
+    display: none; 
+  }
+  .text-2{
+    display: block;
+  }
+  .text-3{
+    display: none;
+  }
+  .text-4{
+    display: none;
+  }
+  .text-5{
+    display: none;
+  }
+}
+
+/* Dimensiones del Móvil Grande o Tablet */
+@media (min-width: 768px) and (max-width: 1024px)  {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895477/Ordenador_port%C3%A1til_medio_ggromq.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 95vh;
+  }
+  .text-1{
+    display: none; 
+  }
+  .text-2{
+    display: none; 
+  }
+  .text-3{
+    display: block;
+  }
+  .text-4{
+    display: none;
+  }
+  .text-5{
+    display: none;
+  }
+}
+
+/* Dimensiones del Móvil Mediano */
+@media (min-width: 426px) and (max-width: 767px)  {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 90vh;
+  }
+  .text-1{
+    display: none; 
+  }
+  .text-2{
+    display: none; 
+  }
+  .text-3{
+    display: none; 
+  }
+  .text-4{
+    display: block;
+  }
+  .text-5{
+    display: none;
+  }
+}
+
+
+/* Dimensiones del Móvil FUNCIONA BIEN */
+@media (min-width: 320px) and (max-width: 425px)  {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 90vh;
+  }
+  .text-1{
+    display: none; 
+  }
+  .text-2{
+    display: none; 
+  }
+  .text-3{
+    display: none; 
+  }
+  .text-4{
+    display: none;
+  }
+  .text-5{
+    display: block;
+  }
 }
