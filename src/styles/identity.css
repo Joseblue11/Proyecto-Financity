@@ -1,4 +1,6 @@
-.identity {
+.Identity {
+  color: white;
+  font-family: "Pally", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,34 +8,124 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
+.Identity-part1{
+  padding-top: 3vw;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+.Identity-mision{
+  display: flex;
+  width: 30vw;
+  height: 30vh;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+}
+.tittle-Mision{
+  margin-top: 20px;
+  font-size: 2vw; 
+  font-weight: bold;
+}
+.Identity-vision{
+  display: flex;
+  width: 30vw;
+  height: 30vh;
+  flex-direction: column;
+  align-content: center;
+  text-align: justify;
+}
+.tittle-Vision{
+  margin-top: 20px;
+  font-size: 2vw; 
+  font-weight: bold;
+}
+.Text1{
+  font-size: 1.2vw; 
+}
+.Identity-img{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items:center;
+  font-weight: bold;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.Identity-tittle{
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  margin-top: 10vh;
+  font-size: 1.8vw; 
+  font-weight: bold;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.Identity-image1{
+  width: 5vw;
+  height: 5vw;
+}
+.Identity-image{
+  width: 7vw;
+  height: 7vw;
+}
+.Identity-Icons{
+  width: 90%;
+  display: grid; /* Set the container to use grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
+  grid-gap: 20px; /* Optional: Add spacing between divs */
+}
+.Icons {
+  
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Identity-text{
+  font-size: 1.5vw; 
+  font-weight: bold;
+}
 
 /* Dimensiones del Ordenador de Escritorio*/
-@media (min-width: 1441px) and (max-width: 2560px) {
+@media (min-width: 1441px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
-  .identity {
+  .Identity {
     background-color: #ff9933;
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
+    background-size: 100vw 110vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 110vh;
   }
 }
 /* Dimensiones del Ordenador portátil medio */
 @media (min-width: 1025px) and (max-width: 1440px) {
   /* Estilos para pantallas de portátiles medianos */
-  .identity {
+  .Identity {
     background-color: #ff9933;
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
+    background-size: 100vw 110vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 110vh;
   }
 }
 
 /* Dimensiones del Móvil Grande o Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .identity {
+  .Identity {
     background-color: #ff9933;
     background-repeat: no-repeat;
     background-size: 100vw 95vh;
@@ -45,7 +137,7 @@
 /* Dimensiones del Móvil Mediano */
 @media (min-width: 426px) and (max-width: 767px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .identity {
+  .Identity {
     background-color: #ff9933;
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
@@ -57,7 +149,7 @@
 /* Dimensiones del Móvil FUNCIONA BIEN */
 @media (min-width: 320px) and (max-width: 425px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  .identity {
+  .Identity {
     background-color: #ff9933;
     background-repeat: no-repeat;
     background-size: 100vw 90vh;

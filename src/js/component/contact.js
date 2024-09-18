@@ -1,18 +1,18 @@
 import React, { useState, useRef } from "react";
-import Swal from "sweetalert2"
-import emailjs from '@emailjs/browser';
-import "../../styles/contact.css"
+import Swal from "sweetalert2";
+import emailjs from "@emailjs/browser";
+import "../../styles/contact.css";
 
 export const Contact = () => {
-  const form = useRef()
+  const form = useRef();
   const [envio, setEnvio] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_ag5qlef', 'template_wxqo6zw', form.current, {
-        publicKey: 'EUztcpqsmP18PxTmq',
+      .sendForm("service_ag5qlef", "template_wxqo6zw", form.current, {
+        publicKey: "EUztcpqsmP18PxTmq",
       })
       .then(
         () => {
@@ -20,7 +20,7 @@ export const Contact = () => {
             title: "Formulario Enviado!",
             text: "Gracias por contactarnos!",
             icon: "success",
-            timer: 1500
+            timer: 1500,
           });
         },
         (error) => {
@@ -28,9 +28,9 @@ export const Contact = () => {
             title: "Error al enviar el formulario!",
             text: "Intentelo mas tarde!",
             icon: "error",
-            showConfirmButton:true
+            showConfirmButton: true,
           });
-        },
+        }
       );
   };
 
@@ -38,7 +38,7 @@ export const Contact = () => {
     <div className="contact pt-5" id="Contactos">
       <h2>Contactos</h2>
       {/* <form
-      ref={form}
+        ref={form}
         // action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
         // method="POST"
         className="pt-4"
@@ -114,7 +114,6 @@ export const Contact = () => {
                 className="btn btn-primary"
                 type="submit"
                 id="submitButton"
-                
               >
                 Enviar a Don Cahslo
               </button>

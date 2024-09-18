@@ -1,23 +1,54 @@
 .AboutUs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+    font-family: "Pally", sans-serif;
   }
-  
- 
-  
+.title-About{
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: #ffa500;
+}  
+.About-Content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.text-about {
+  width: 45vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-about1{
+  text-align: justify;
+  color: #0066CC;
+  font-size: 1.7vw;
+  font-weight: bold;
+}
+.text-about2{
+  text-align: justify;
+  color: #ffa500;
+  font-size: 1.5vw;
+}
+
+.about-image {
+  width: 30vw;
+  height: 24vw;
+  border-radius: 35px;
+}
+
   /* Dimensiones del Ordenador de Escritorio*/
   @media (min-width: 1441px) and (max-width: 2560px) {
     /* Estilos para pantallas de portátiles medianos */
     .AboutUs {
       background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
       background-repeat: no-repeat;
-      background-size: 100vw 95vh;
+      background-size: 100vw 125vh;
       width: 100%; /* Ancho del cuerpo */
-      height: 95vh;
+      height: 125vh;
     }
 
   }
@@ -27,9 +58,9 @@
     .AboutUs {
       background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg"); 
       background-repeat: no-repeat;
-      background-size: 100vw 95vh;
+      background-size: 100vw 125vh;
       width: 100%; /* Ancho del cuerpo */
-      height: 95vh;
+      height: 125vh;
     }
   }
   

@@ -4,69 +4,42 @@ import "../../styles/aboutUs.css";
 export const AboutUs = () => {
   return (
     <div className="AboutUs" id="Conocenos">
-      <h1>Conoce la Ciudad</h1>
-      <div className="fundation pt-5">
-        <h3 className="Titulo1">
-          {/* <span style={{ color: "#0066CC" }}>La</span>
-        <span style={{ color: "#0099FF" }}> fun</span>
-        <span style={{ color: "#FFCC00" }}>da</span>
-        <span style={{ color: "#FF9933" }}>ci</span>
-        <span style={{ color: "#0066CC" }}>on</span>
-        <span style={{ color: "#0066CC" }}> Fi</span>
-        <span style={{ color: "#0099FF" }}>n</span>
-        <span style={{ color: "#FFCC00" }}>n</span>
-        <span style={{ color: "#FF9933" }}>a</span>
-        <span style={{ color: "#0066CC" }}>ncity</span> */}
-        </h3>
-        <div className="FUNDATION container-fluid d-flex justify-content-center">
-          {/* <div className="card-Fundation mb-3" style={{ maxWidth: 1000 }}>
-            <div className="row g-0">
-              <div className="container-fluid">
-                <div className="card-fundation">
-                  <h2 className="titulo-funda">
-                    <span style={{ color: "#0066CC" }}>Fi</span>
-                    <span style={{ color: "#0099FF" }}>n</span>
-                    <span style={{ color: "#FFCC00" }}>n</span>
-                    <span style={{ color: "#FF9933" }}>a</span>
-                    <span style={{ color: "#0066CC" }}>ncity</span>
-                  </h2>
-                  <p className="p-fun">
-                    Es una organización sin fines de lucro con un propósito
-                    social y estructura legal propia.
-                  </p>
-                  <ul className="ul-fun">
-                    <li>
-                      <b>Propósito:</b> Beneficiar al público en áreas como
-                      educación, ciencia, cultura o medio ambiente.
-                    </li>
-                    <li>
-                      <b>Patrimonio:</b> Recursos propios provenientes de
-                      donaciones para cumplir sus objetivos.
-                    </li>
-                    <li>
-                      <b>Personalidad jurídica:</b> Actúa de forma independiente
-                      y celebra contratos.
-                    </li>
-                    <li>
-                      <b>Sin fines de lucro:</b> Reinvierte sus excedentes en su
-                      misión.
-                    </li>
-                    <li>
-                      <b>Estructura:</b> Dirigida por un patronato que gestiona
-                      la organización.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="Imagenes d-flex col-md-3">
-            <img
-              src="https://img.freepik.com/foto-gratis/nino-pequeno-manos-llenas-pintura-boca-abierta_1187-2875.jpg?w=740&t=st=1721893251~exp=1721893851~hmac=72d2731dcada1e9391814e41ba681125b4968d0ddbb6fb2649f7a452fa8db966"
-              className="img-fundation img-fluid rounded-start pt-2"
-              alt="..."
-            />
-          </div> */}
+      <h2 className="title-About p-5">¡Conoce la Ciudad!</h2>
+      <div className="About-Content">
+        <div className="text-about">
+          <p className="text-about1 p-1">
+            ¡Somos la primera ciudad financiera para niños, niñas y
+            adolescentes!
+          </p>
+          <p className="text-about2">
+            Finnancity es la primera ciudad financiera para niños, niñas y
+            adolescentes venezolanos que promueve espacios de educación
+            económica para jóvenes a través de estrategias lúdicas con enfoque
+            pedagógico, fomentando la toma de decisiones responsables en las
+            finanzas personales desde temprana edad y fortaleciendo competencias
+            ejecutivas y socioemocionales para la vida de las personas que
+            visitan nuestra ciudad.
+          </p>
+          <p className="text-about2">
+            Nos caracterizamos por brindar un espacio para conectar, formar y
+            democratizar los conocimientos financieros en la niñez y
+            adolescencia, rompiendo con la creencia de que las finanzas
+            personales son un tema que solo les concierne una vez que son
+            adultos. De esta manera, apoyándonos en el trabajo comunitario, el
+            voluntariado y la virtualidad, damos paso a la creación de la
+            primera ciudad financiera para niños.
+          </p>
+          <p className="text-about2">
+          ¡Si quieres divertirte y aprender sobre finanzas personales has llegado 
+          al lugar correcto!
+          </p>
+        </div>
+        <div className="Img-about">
+          <img
+            src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366513/portrait-cute-boy-showing-graph-his-office-desk_qg39ji.jpg"
+            className="about-image img-fluid pt-2"
+            alt="..."
+          />
         </div>
       </div>
     </div>
