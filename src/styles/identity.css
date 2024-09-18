@@ -84,6 +84,7 @@
   grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
   grid-gap: 20px; /* Optional: Add spacing between divs */
 }
+
 .Icons {
   
   display: flex;

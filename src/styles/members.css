@@ -1,10 +1,60 @@
-.Members {
-  display: flex;
+.Members{
+  font-family: "Pally", sans-serif;
+  display: grid;
+  background-color: #ffcc00;
+  background-repeat: no-repeat;
+  background-size: 100vw 95vh;
+  width: 100%;
+  height: 130vh;
+  align-content: center;
   justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.Tittle-Members{
+  color: #0066CC;
+  font-size: 2.6vw;
+  font-weight: bold;
+}
+.Content {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+}
+.Members-part1 {
+  margin: 5vw;
+}
+.tittle-members{
+  color: #0099FF;
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 2vw;
+}
+.Members-image {
+  width: 15vw;
+  height: 15vw;
+}
+.Members-title {
+}
+.Members-text {
+}
+
+.Members-part2 {
+  margin-left: 10vw;
+}
+
+.members {
+  display: flex;
+  margin: 1vw;
+}
+
+.members-image {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 1vw;
 }
 
 /* Dimensiones del Ordenador de Escritorio*/
@@ -15,7 +65,7 @@
     background-repeat: no-repeat;
     background-size: 100vw 95vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 130vh;
   }
 }
 /* Dimensiones del Ordenador portátil medio */
@@ -26,7 +76,7 @@
     background-repeat: no-repeat;
     background-size: 100vw 95vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 130vh;
   }
 }
 
@@ -38,14 +88,14 @@
     background-repeat: no-repeat;
     background-size: 100vw 95vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 130vh;
   }
 }
 
 /* Dimensiones del Móvil Mediano */
 @media (min-width: 426px) and (max-width: 767px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Members{
+  .Members {
     background-color: #ffcc00;
     background-repeat: no-repeat;
     background-size: 100vw 90vh;

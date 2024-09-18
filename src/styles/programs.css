@@ -1,4 +1,11 @@
 .Programs {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.Programs-Content{
   display: flex;
   justify-content: center;
   align-items: center;

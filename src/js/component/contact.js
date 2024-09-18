@@ -36,8 +36,7 @@ export const Contact = () => {
 
   return (
     <div className="contact pt-5" id="Contactos">
-      <h2>Contactos</h2>
-      {/* <form
+      <form
         ref={form}
         // action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
         // method="POST"
@@ -50,7 +49,8 @@ export const Contact = () => {
             style={{ width: "30rem", height: "30rem" }}
           >
             <div className="card-header mb-3">
-              <h3> Contáctanos</h3>
+              <h3> ¿Quieres conversar con el Alcalde? </h3>
+              <p> ¡Déjale tu mensaje aquí y se lo enviaremos con mucho gusto! </p>
               <p>{envio}</p>
             </div>
             <div className="card-body">
@@ -126,7 +126,7 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-      </form> */}
+      </form>
     </div>
   );
 };
