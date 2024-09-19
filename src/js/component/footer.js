@@ -1,38 +1,71 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../../styles/footer.css"
+import "../../styles/footer.css";
 
 export const Footer = () => (
-  <footer className="container-fluid text-light footer py-3 mb-0 wow fadeIn" data-wow-delay="0.1s">
-		<div className="container">
-			<div className="row g-5">
-				<div className="col-lg-3 col-md-6 justify-content-center text-center">
-					<h1>logo</h1>
-				</div>
-				<div className="col-lg-3 col-md-6 justify-content-center text-center">
-					<h4 className="contacto-footer mb-4">Contáctanos</h4>
-					<p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Centro Comercial Vizcaya, piso 3.</p>
-					<p className="mb-2"><i className="fa fa-phone me-3"></i>+58 414 211 7731</p>
-					<p className="mb-2"><i className="fa fa-envelope me-3"></i>info@example.com</p>
-				</div>
-				<div className="col-lg-3 col-md-6 justify-content-center text-center">
-					<h4 className="mb-4 links-footer ">Popular Links</h4>
-					<div className="d-flex flex-column">
-						<Link className="btn btn-link" href="">Sobre nosotros</Link>
-						<Link className="btn btn-link" href="">Clases y servicios</Link>
-						<Link className="btn btn-link" to="/">Contacto</Link>
-					</div>
-				</div>
-				<div className="col-lg-3 col-md-6 justify-content-center text-center">
-					<h4 className="mb-4 follow-footer">Síguenos</h4>
-					<div className="d-flex pt-2 justify-content-center text-center">
-						{/* <a className="btn btn-square btn-outline-light me-1" href=""><i className="fab fa-twitter"></i></a>
-						<a className="btn btn-square btn-outline-light me-1" href=""><i className="fab fa-facebook-f"></i></a>
-						<a className="btn btn-square btn-outline-light me-1" href=""><i className="fab fa-youtube"></i></a>
-						<a className="btn btn-square btn-outline-light me-0" href=""><i className="fab fa-instagram"></i></a> */}
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+  <footer>
+    <div className="footer">
+      <div className="content-footer">
+        <div className="Part-footer">
+          <h2 className="tittle-footer">Finnancity</h2>
+          <p className="mb-2">
+            <i className="fa fa-map-marker-alt me-3"></i>Caracas, Venezuela
+          </p>
+          <p className="mb-2">
+            <i className="fa fa-envelope me-3"></i>finnancity@gmail.com
+          </p>
+        </div>
+        <div className="Part-footer">
+          <div className="links-footer">
+            <li className="link btn btn-link" href="">
+              <a className="link" href="#Conocenos">
+                ¡Conoce la ciudad!
+              </a>
+            </li>
+            <li className="link btn btn-link">
+              <a className="link" href="#Programas">
+                Nuestros Programas
+              </a>
+            </li>
+            <li className="link btn btn-link">
+              <a className="link" href="#Ciudadanos">
+                Ciudadanos
+              </a>
+            </li>
+            <li className="link btn btn-link">
+              <a className="link" href="#Contactos">
+                Contacta a Don Cashlo
+              </a>
+            </li>
+          </div>
+        </div>
+        <div className="Part-footer">
+          <h4 className="text-footer">¡Síguenos en nuestras redes sociales!</h4>
+          <div className="Redes">
+            <a
+              className="btn"
+              href="https://www.facebook.com/profile.php?id=61562882021706"
+            >
+              <img
+                src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366507/facebook_t7thht.png"
+                alt="Instagram"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+            <a className="btn" href="https://www.instagram.com/finnancity/">
+              <img
+                src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366509/instagram_1_onjkwa.png"
+                alt="Instagram"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+            <p className="text-finnancity">@finnancity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="Copy">
+      <p>2024 © Finnancity - Todos los derechos reservados.</p>
+    </div>
+  </footer>
 );

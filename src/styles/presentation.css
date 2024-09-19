@@ -76,10 +76,11 @@
     color: white;
     width: 45vw;
     height: 15vh;
+    margin-bottom: 3vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.8vw;
+    font-size: 2.5vw;
   }
   .Prestext-text {
     font-size: 1.4vw;
@@ -108,8 +109,8 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 25vw;
-    height: 25vw;
+    width: 23vw;
+    height: 23vw;
     border-radius: 50%;
   }
 }
@@ -121,9 +122,9 @@
     .presentation {
       background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
       background-repeat: no-repeat;
-      background-size: 100vw 95vh;
+      background-size: 100vw 75vh;
       width: 100%; /* Ancho del cuerpo */
-      height: 95vh;
+      height: 75vh;
     }
     .Prestext {
       color: white;
@@ -132,10 +133,10 @@
     }
     .Prestext-title {
       font-weight: bold;
-      font-size: 2.6vw;
+      font-size: 3.3vh;
     }
     .Prestext-text {
-      font-size: 1.3vw;
+      font-size: 1.8vh;
     }
     .pres-button {
       font-weight: bold;
@@ -144,7 +145,7 @@
       border: none;
       border-radius: 20px; /* Para darle la forma redondeada */
       padding: 5px 15px;
-      font-size: 1.4vw;
+      font-size: 2.3vw;
       cursor: pointer;
       transition: background-color 0.3s ease-in-out;
   
@@ -161,13 +162,11 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 24vw;
-    height: 24vw;
+    width: 35vw;
+    height: 26vh;
     border-radius: 50%;
   }
 }
-
-
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 899px) {
@@ -187,10 +186,10 @@
     }
     .Prestext-title {
       font-weight: bold;
-      font-size: 2.6vw;
+      font-size: 5vw;
     }
     .Prestext-text {
-      font-size: 1.3vw;
+      font-size: 2.5vw;
     }
     .pres-button {
       font-weight: bold;
@@ -199,7 +198,7 @@
       border: none;
       border-radius: 20px; /* Para darle la forma redondeada */
       padding: 5px 15px;
-      font-size: 1.4vw;
+      font-size: 2.6vw;
       cursor: pointer;
       transition: background-color 0.3s ease-in-out;
   
@@ -216,22 +215,21 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 24vw;
-    height: 24vw;
+    width: 38vw;
+    height: 38vw;
     border-radius: 50%;
   }
 }
-
 
 /* Dimensiones del Tablet 6 */
 @media (min-width: 768px) and (max-width: 799px){
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 82vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 80vh;
   }
   .Prestext {
     margin-top: 3vh;
@@ -241,10 +239,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
   .Prestext-text {
-    font-size: 1.2vw;
+    font-size: 2.1vw;
   }
   .pres-button {
     font-weight: bold;
@@ -253,7 +251,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size:  1.3vw;
+    font-size:  2.2vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
@@ -269,8 +267,8 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 24vw;
-    height: 24vw;
+    width: 38vw;
+    height: 38vw;
     border-radius: 50%;
   }
 }
@@ -281,9 +279,9 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 82vh;
+    background-size: 100vw 80vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 80vh;
   }
   .Prestext {
     margin-top: 3vh;
@@ -293,10 +291,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.8vw;
+    font-size: 4vw;
   }
   .Prestext-text {
-    font-size: 1.8vw;
+    font-size: 2.2vw;
   }
   .pres-button {
     font-weight: bold;
@@ -305,7 +303,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size:  1.6vw;
+    font-size:  2.3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -322,8 +320,8 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 28vw;
-    height: 28vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
 }
@@ -332,11 +330,11 @@
 @media (min-width: 720px) and (max-width: 729px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 82vh;
+    background-size: 100vw 80vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 80vh;
   }
   .Prestext {
     margin-top: 3vh;
@@ -346,7 +344,7 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
   .Prestext-text {
     font-size: 1.5vw;
@@ -381,7 +379,7 @@
   }
 }
 
-/* Dimensiones del Samsung Galaxy Tab S4 */
+/* Dimensiones del Samsung Galaxy Tab S4  Funciona*/
 @media (min-width: 712px) and  (max-width: 719px){
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
@@ -399,10 +397,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.3vw;
+    font-size: 5vw;
   }
   .Prestext-text {
-    font-size: 1.3vw;
+    font-size: 2.5vw;
   }
   .pres-button {
     font-weight: bold;
@@ -411,10 +409,10 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.4vw;
+    font-size: 2.6vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
+    margin-top: 1vw;
     color: #fff;
   }
 
@@ -428,8 +426,8 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 30vw;
-    height: 30vw;
+    width: 38vw;
+    height: 38vw;
     border-radius: 50%;
   }
 }
@@ -452,10 +450,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.2vw;
+    font-size: 3vw;
   }
   .Prestext-text {
-    font-size: 1.2vw;
+    font-size: 1.8vw;
   }
   .pres-button {
     font-weight: bold;
@@ -464,7 +462,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.4vw;
+    font-size: 1.8vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -505,10 +503,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2.1vw;
+    font-size: 3vw;
   }
   .Prestext-text {
-    font-size: 1.1vh;
+    font-size: 1.8vw;
   }
   .pres-button {
     font-weight: bold;
@@ -517,7 +515,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -558,10 +556,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .Prestext-text {
-    font-size: 1vw;
+    font-size: 1.8vw;
   }
   .pres-button {
     font-weight: bold;
@@ -570,7 +568,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -698,7 +696,7 @@
   }
 }
 
-/* Dimensiones del Blackberry Playbook */
+/* Dimensiones del Blackberry Playbook FUNCIONA */
 @media (min-width: 600px) and (max-width: 619px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
@@ -821,10 +819,10 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2vw
+    font-size: 4vw
   }
   .Prestext-text {
-    font-size: 1vw;
+    font-size: 2.3vw;
   }
 
   .pres-button {
@@ -834,7 +832,7 @@
     border: none;
     border-radius: 20px;
     padding: 5px 15px;
-    font-size: 1vw;
+    font-size: 2.2vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 

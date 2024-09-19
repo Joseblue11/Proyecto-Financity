@@ -1,3 +1,73 @@
 footer {
-    background-color: #0099FF;
+  background-color: #0099ff;
+  font-family: "Pally", sans-serif;
+  color: white;
+}
+.content-footer {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+}
+.Part-footer {
+  font-weight: bold;
+  padding: 3vw;
+  width: 60vw;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.tittle-footer {
+  font-weight: 700;
+  font-size: 3vw;
+}
+.links-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.link:hover {
+    /* Estilo al pasar el mouse por encima */
+    color: #ffcc00;
+  }
+
+  .link.active {
+    /* Estilo cuando el botón está presionado */
+    color: #ffcc00;
+  }
+
+
+.text-footer {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ffa500; /* Color amarillo claro */
+  width: 30vw;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.Redes{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.text-finnancity{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.Copy {
+  background-color: #0066cc;
+  text-align: center;
 }

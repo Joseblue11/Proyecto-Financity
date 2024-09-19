@@ -4,10 +4,10 @@ import "../../styles/aboutUs.css";
 export const AboutUs = () => {
   return (
     <div className="AboutUs" id="Conocenos">
-      <h2 className="title-About p-5">¡Conoce la Ciudad!</h2>
+      <h2 className="title-About">¡Conoce la Ciudad!</h2>
       <div className="About-Content">
         <div className="text-about">
-          <p className="text-about1 p-1">
+          <p className="text-about1">
             ¡Somos la primera ciudad financiera para niños, niñas y
             adolescentes!
           </p>
