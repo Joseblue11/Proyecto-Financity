@@ -12,7 +12,8 @@
   justify-items: center;
 }
 .Tittle-Members{
-  margin-top: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
   color: #0066CC;
   font-size: 2.6vw;
   font-weight: bold;
@@ -29,8 +30,12 @@
 }
 .Group-members {
   height: 80vh;
-  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 15px;
 }
+
 .Group-members::-webkit-scrollbar {
   width: 10px; /* Ancho de la barra */
 }
@@ -55,8 +60,8 @@
   margin: 2vw;
 }
 .members-image1 {
-  width: 30vw;
-  height: 30vw;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
 }
 
@@ -88,7 +93,7 @@
 }
 
 .Members-part2 {
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 
 .members {
@@ -110,8 +115,9 @@
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
-    background-repeat: no-repeat;
-    background-size: 100vw 95vh;
+    /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
+    background-repeat:no-repeat;
+    background-size: 100vw 120vh;
     width: 100%; /* Ancho del cuerpo */
     height: 130vh;
   }
@@ -121,10 +127,11 @@
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
+    /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100vw 110vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 120vh;
+    height: 125vh;
   }
 }
 
@@ -133,11 +140,12 @@
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
+    /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
     background-repeat: no-repeat;
     background-size: 100vw 95vh;
-    width: 100%; /* Ancho del cuerpo */
+    width: 100%;
     height: 130vh;
-  }
+}
 }
 
 /* Dimensiones del Móvil Mediano */

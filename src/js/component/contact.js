@@ -35,7 +35,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact pt-5" id="Contactos">
+    <div className="contact" id="Contactos">
       <form
         ref={form}
         // action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
@@ -46,7 +46,7 @@ export const Contact = () => {
         <div className="d-flex justify-content-center">
           <div
             className="card-contact mb-3 justify-content-center"
-            style={{ width: "30rem", height: "30rem" }}
+            style={{ width: "30vw", height: "35vw" }}
           >
             <div className="card-header mb-3">
               <h3 className="tittle-contact"> ¿Quieres conversar con el Alcalde? </h3>
@@ -61,11 +61,11 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="name-lastname"
-                  style={{ width: "25rem", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
+                  style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC"}}>
-                  Nombre y Apellido
+                  Nombre y apellido
                 </label>
               </div>
               <div className="form-floating mb-3">
@@ -75,11 +75,11 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="phone"
-                  style={{ width: "25rem", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
+                  style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>
-                  Telefono
+                  Teléfono
                 </label>
               </div>
               <div className="form-floating mb-3">
@@ -89,11 +89,11 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="email"
-                 style={{ width: "25rem", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
+                 style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>
-                  Correo electronico
+                  Correo electrónico
                 </label>
               </div>
               <div className="form-floating mb-3 input-contact">
@@ -103,7 +103,7 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="message"
-                  style={{ width: "25rem", height: "10vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px"}}
+                  style={{ width: "35vw", height: "10vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px"}}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>

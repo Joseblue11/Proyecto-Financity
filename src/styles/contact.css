@@ -19,9 +19,9 @@
   .contact {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895457/Ordenador_de_escritorio_medio_3_gl8vcl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
+    background-size: 100vw 115vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 115vh;
     display: flex;
     justify-content: center;
     align-items: center;
