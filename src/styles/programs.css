@@ -8,63 +8,7 @@
   width: 100%;
 
 }
-.tittle-Programs{
-  font-weight: bold;
-  font-size: 2.5vw;
-  color:  #ffcc00;
-  padding: 8vh;
-}
-.Programs-Content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
 
-.Programs-Part{
-  width: 40vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: nowrap;
-  flex-direction: column;
-
-}
-
-.Programs-image{
- width: 26vw;
- height: 20vw;
- border-radius: 32px;
-}
-
-.Programs-title {
-  font-weight: bold;
-  font-size: 1.8vw;
-  color: white;
-  background-color: #FFD700; /* Color amarillo claro */
-  width: 22vw;
-  border-radius: 15px;
-  padding: 7px;
-  margin-top: 3px;
-  margin-bottom:3px;
-}
-.Programs-text{
-  display: flex;
-  text-align: justify;
-  font-size: 1.2vw;
-  color: white;
-  width: 28vw;
-  height: 12vw;
-  border-radius: 15px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: column;
-
-}
 
 /* Dimensiones del Ordenador de Escritorio*/
 @media (min-width: 1441px) and (max-width: 3840px) {
@@ -76,6 +20,63 @@
     width: 100%; /* Ancho del cuerpo */
     height: 95vh;
   }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 2.5vw;
+    color:  #ffcc00;
+    margin: 3vw;
+  }
+  .Programs-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .Programs-Part{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  
+  .Programs-image{
+   width: 26vw;
+   height: 20vw;
+   border-radius: 32px;
+  }
+  
+  .Programs-title {
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: white;
+    background-color: #FFD700; /* Color amarillo claro */
+    width: 22vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom:3px;
+  }
+  .Programs-text{
+    display: flex;
+    text-align: justify;
+    font-size: 1.2vw;
+    color: white;
+    width: 28vw;
+    height: 12vw;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
 }
 /* Dimensiones del Ordenador portátil medio */
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -83,9 +84,66 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 108vh;
+    background-size: 100vw 60vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 108vh;
+    height: 55vw;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 2.5vw;
+    color:  #ffcc00;
+    margin-bottom: 3vw;
+  }
+  .Programs-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .Programs-Part{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  
+  .Programs-image{
+    width: 26vw;
+    height: 18vw;
+    border-radius: 32px;
+  }
+  
+  .Programs-title {
+    font-weight: bold;
+    font-size: 1.6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 22vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .Programs-text{
+    display: flex;
+    text-align: justify;
+    font-size: 1.2vw;
+    color: white;
+    width: 26vw;
+    height: 18vw;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
   }
 }
 

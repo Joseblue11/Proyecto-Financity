@@ -23,7 +23,10 @@ nav {
   font-weight: bold;
 
 } 
-
+.Titulo-Nav{
+  display: flex; /* Use flexbox to arrange elements horizontally */
+  align-items: center; /* Vertically center the elements */
+}
 .Titulo-Navbar {
   font-size: 1.5rem;
   font-weight: bold;

@@ -106,12 +106,12 @@
   .AboutUs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 138vh;
+    background-size: 100vw 55vw;
     width: 100%;
-    height: 135vh;
+    height: 55vw;
   }
   .title-About {
-    margin: 5vw;
+    margin: 3vw;
     font-weight: bold;
     font-size: 2.6vw;
     color: #ffa500;
@@ -132,23 +132,23 @@
     flex-direction: column;
   }
   .text-about1 {
-    margin: 2vw;
+    margin: 1.2vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
     font-weight: bold;
   }
   .text-about2 {
     margin-left: 2.8vw;
-    margin-bottom: 2vh;
+    margin-bottom: 1.5vh;
     text-align: justify;
     color: #ffa500;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
   }
 
   .about-image {
-    width: 30vw;
-    height: 24vw;
+    width: 32vw;
+    height: 26vw;
     border-radius: 35px;
   }
 }

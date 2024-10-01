@@ -1,14 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faRocket,
-  faHandshake,
-  faScaleBalanced,
-  faChartLine,
-  faGraduationCap,
-  faGlobe,
-} from "@fortawesome/free-solid-svg-icons";
-import { faGem, faLightbulb } from "@fortawesome/free-regular-svg-icons";
 import "../../styles/identity.css";
 
 export const Identity = () => {
@@ -88,7 +78,17 @@ export const Identity = () => {
             className="Identity-image img-fluid pt-2"
             alt="..."
           />
-          <h3 className="Identity-text">Futuro</h3>
+          <h3 className="Identity-text">Reconocimiento del otro y del entorno</h3>
+        </div>
+        <div className="Icons">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/12162/12162253.png"
+            className="Identity-image img-fluid pt-2"
+            alt="..."
+          />
+          <h3 className="Identity-text">Empoderamiento ciudadano</h3>
+        </div>
+        <div className="Icons">
         </div>
         <div className="Icons">
           <img
@@ -98,6 +98,9 @@ export const Identity = () => {
           />
           <h3 className="Identity-text">Pensamiento crítico</h3>
         </div>
+        <div className="Icons">
+        </div>
+        
       </div>
     </div>
   );
