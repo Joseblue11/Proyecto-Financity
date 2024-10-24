@@ -24,7 +24,7 @@ export const Footer = () => (
             </li>
             <li className="link btn btn-link">
               <a className="link" href="#Programas">
-                Nuestros Programas
+                Programas
               </a>
             </li>
             <li className="link btn btn-link">

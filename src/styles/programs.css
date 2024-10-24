@@ -63,6 +63,7 @@
     margin-top: 3px;
     margin-bottom:3px;
   }
+
   .Programs-text{
     display: flex;
     text-align: justify;
@@ -337,37 +338,258 @@
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
-@media (min-width: 384px) and (max-width: 389px) {
+@media (min-width: 384px) and (max-width: 390px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 630vw;
+    width: 100%;
+    height: auto;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffcc00;
+    margin: 9vw;
+  }
+  .Programs-image{
+    width: 80vw;
+    height: 60vw;
+    border-radius: 32px;
+  }
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8vw;
+    color: white;
+    background-color: #FFD700;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text{
+    padding: 7vh;
+    text-align: justify;
+    font-size: 6vw;
+    color: white;
+    border-radius: 15px;
+  }
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
-@media (min-width: 375px) and (max-width: 383px) {
+@media (min-width: 374px) and (max-width: 384px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 630vw;
+    width: 100%;
+    height: auto;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffcc00;
+    margin: 9vw;
+  }
+  .Programs-image{
+    width: 80vw;
+    height: 60vw;
+    border-radius: 32px;
+  }
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8vw;
+    color: white;
+    background-color: #FFD700;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text{
+    padding: 7vh;
+    text-align: justify;
+    font-size: 6vw;
+    color: white;
+    border-radius: 15px;
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
 @media (min-width: 360px) and (max-width: 374px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 630vw;
+    width: 100%;
+    height: auto;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffcc00;
+    margin: 9vw;
+  }
+  .Programs-image{
+    width: 80vw;
+    height: 60vw;
+    border-radius: 32px;
+  }
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8vw;
+    color: white;
+    background-color: #FFD700;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text{
+    padding: 7vh;
+    text-align: justify;
+    font-size: 6vw;
+    color: white;
+    border-radius: 15px;
+  }
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
-@media (min-width: 344px) and (max-width: 359px) {
+@media (min-width: 344px) and (max-width: 360px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 630vw;
+    width: 100%;
+    height: auto;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffcc00;
+    margin: 9vw;
+  }
+  .Programs-image{
+    width: 80vw;
+    height: 60vw;
+    border-radius: 32px;
+  }
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8vw;
+    color: white;
+    background-color: #FFD700;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text{
+    padding: 7vh;
+    text-align: justify;
+    font-size: 6vw;
+    color: white;
+    border-radius: 15px;
+  }
 }
 
 /* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 343px) {
+@media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 485vh;
+    width: 100%;
+    height: auto;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffcc00;
+    margin: 9vw;
+  }
+  .Programs-image{
+    width: 80vw;
+    height: 60vw;
+    border-radius: 32px;
+  }
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8vw;
+    color: white;
+    background-color: #FFD700;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text{
+    padding: 7vh;
+    text-align: justify;
+    font-size: 6vw;
+    color: white;
+    border-radius: 15px;
+  }
 }
 
 /* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
 @media (min-width: 240px) and (max-width: 319px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 485vh;
+    width: 100%;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffcc00;
+    margin: 9vw;
+  }
+  .Programs-image{
+    width: 80vw;
+    height: 60vw;
+    border-radius: 32px;
+  }
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8vw;
+    color: white;
+    background-color: #FFD700;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text{
+    padding: 7vh;
+    text-align: justify;
+    font-size: 6vw;
+    color: white;
+    border-radius: 15px;
+  }
 }

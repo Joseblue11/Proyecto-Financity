@@ -46,7 +46,7 @@ export const Contact = () => {
         <div className="d-flex justify-content-center">
           <div
             className="card-contact mb-3 justify-content-center"
-            style={{ width: "30vw", height: "35vw" }}
+            // style={{ width: "30vw", height: "35vw" }}
           >
             <div className="card-header mb-3">
               <h3 className="tittle-contact"> ¿Quieres conversar con el Alcalde? </h3>
@@ -75,7 +75,7 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="phone"
-                  style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
+                  // style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>
@@ -100,7 +100,7 @@ export const Contact = () => {
                 <textarea
                   type="message"
                   name="message"
-                  className="form-control"
+                  className="form-control" 
                   id="floatingInput"
                   placeholder="message"
                   style={{ width: "35vw", height: "10vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px"}}

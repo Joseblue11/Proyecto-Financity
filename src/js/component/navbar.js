@@ -16,36 +16,6 @@ export const Navbar = () => {
                   class="letra"
                   style={{ color: "#0066CC", fontWeight: "bold" }}
                 >
-                  ¡S
-                </span>
-                <span
-                  class="letra"
-                  style={{ color: "#0099FF", fontWeight: "bold" }}
-                >
-                  o
-                </span>
-                <span
-                  class="letra"
-                  style={{ color: "#FFCC00", fontWeight: "bold" }}
-                >
-                  m
-                </span>
-                <span
-                  class="letra"
-                  style={{ color: "#FF9933", fontWeight: "bold" }}
-                >
-                  os
-                </span>
-                <span
-                  class="letra"
-                  style={{ color: "#0066CC", fontWeight: "bold" }}
-                >
-                  {" "}
-                </span>{" "}
-                <span
-                  class="letra"
-                  style={{ color: "#0066CC", fontWeight: "bold" }}
-                >
                   Fi
                 </span>
                 <span
@@ -70,7 +40,7 @@ export const Navbar = () => {
                   class="letra"
                   style={{ color: "#0066CC", fontWeight: "bold" }}
                 >
-                  ncity!
+                  ncity
                 </span>
               </h2>
             </div>
@@ -103,6 +73,11 @@ export const Navbar = () => {
                   Programas
                 </a>
               </li>
+              <li className="nav-item p-1">
+                <a className="nav-link" href="#Ciudadanos">
+                  Ciudadanos                </a>
+              </li>
+
               <li className="nav-item p-1">
                 <a className="nav-link" href="#Contactos">
                   Contacta a Don Cashlo

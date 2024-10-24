@@ -382,26 +382,210 @@
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
-@media (min-width: 375px) and (max-width: 383px) {
+@media (min-width: 374px) and (max-width: 383px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 680vw;
+  }
+   .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    padding-top: 10vh;
+    font-size: 8vw;
+  }
+
+
+  .Text1 {
+    padding: 2vh;
+    font-size: 6vw;
+    text-align: justify;
+  }
+  .Identity-image {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Icons {
+    padding: 4vh;
+  }
+
+  .Identity-image1 {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Identity-text {
+    margin-top: 3px;
+    font-size: 6vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
 @media (min-width: 360px) and (max-width: 374px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 680vw;
+  }
+   .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    padding-top: 10vh;
+    font-size: 8vw;
+  }
+
+
+  .Text1 {
+    padding: 2vh;
+    font-size: 6vw;
+    text-align: justify;
+  }
+  .Identity-image {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Icons {
+    padding: 4vh;
+  }
+
+  .Identity-image1 {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Identity-text {
+    margin-top: 3px;
+    font-size: 6vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
-@media (min-width: 344px) and (max-width: 359px) {
+@media (min-width: 344px) and (max-width: 360px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 680vw;
+  }
+   .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    padding-top: 10vh;
+    font-size: 8vw;
+  }
+
+
+  .Text1 {
+    padding: 2vh;
+    font-size: 6vw;
+    text-align: justify;
+  }
+  .Identity-image {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Icons {
+    padding: 4vh;
+  }
+
+  .Identity-image1 {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Identity-text {
+    margin-top: 3px;
+    font-size: 6vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 343px) {
+@media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 680vw;
+  }
+   .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    padding-top: 10vh;
+    font-size: 8vw;
+  }
+
+
+  .Text1 {
+    padding: 2vh;
+    font-size: 6vw;
+    text-align: justify;
+  }
+  .Identity-image {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Icons {
+    padding: 4vh;
+  }
+
+  .Identity-image1 {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Identity-text {
+    margin-top: 3px;
+    font-size: 6vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
 @media (min-width: 240px) and (max-width: 319px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+  }
+   .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    padding-top: 10vh;
+    font-size: 8vw;
+  }
+
+
+  .Text1 {
+    padding: 2vh;
+    font-size: 6vw;
+    text-align: justify;
+  }
+  .Identity-image {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Icons {
+    padding: 4vh;
+  }
+
+  .Identity-image1 {
+    width: 30vw;
+    height: 30vw;
+  }
+  .Identity-text {
+    margin-top: 3px;
+    font-size: 6vw;
+    font-weight: bold;
+  }
 }

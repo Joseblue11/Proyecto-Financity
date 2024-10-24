@@ -335,29 +335,331 @@
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
 @media (min-width: 375px) and (max-width: 383px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+    width: 100%;
+    height: 360vw;
+    align-content: baseline;
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066CC;
+    font-size: 10vw;
+    font-weight: bold;
+  }
+  .Content {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
   
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066CC;
+    font-size: 7vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066CC;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin-right: 1.2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066CC;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-text {
+    color: #0066CC;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
 @media (min-width: 360px) and (max-width: 374px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+    width: 100%;
+    height: 380vw;
+    align-content: baseline;
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066CC;
+    font-size: 10vw;
+    font-weight: bold;
+  }
+  .Content {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
   
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066CC;
+    font-size: 7vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066CC;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin-right: 1.2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066CC;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-text {
+    color: #0066CC;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
-@media (min-width: 344px) and (max-width: 359px) {
+@media (min-width: 344px) and (max-width: 360px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+.Members {
+  background-color: #ffcc00;
+  background-repeat: no-repeat;
+  background-size: 100vw 200vh;
+  width: 100%;
+  height: 380vw;
+  align-content: baseline;
+}
+.Tittle-Members {
+  margin-top: 12vw;
+  margin-bottom: 2vw;
+  color: #0066CC;
+  font-size: 10vw;
+  font-weight: bold;
+}
+.Content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Group-members {
+  height: 180vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+.members-image1 {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+}
+.Members-title1 {
+  color: #0066CC;
+  font-size: 7vw;
+  font-weight: 900;
+}
+.Members-text1 {
+  color: #0066CC;
+  font-size: 6vw;
+  font-weight: 900;
+}
+
+.members-image {
+  width: 40vw;
+  height: 40vw;
+  margin-right: 1.2vw;
+  border-radius: 50%;
+}
+.Members-title {
+  color: #0066CC;
+  font-size: 6vw;
+  font-weight: 900;
+}
+.Members-text {
+  color: #0066CC;
+  font-size: 5.5vw;
+  font-weight: 900;
+}
 }
 
 /* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 343px) {
+@media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Members {
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+    width: 100%;
+    height: 390vw;
+    align-content: baseline;
+}
+.Tittle-Members {
+  margin-top: 12vw;
+  margin-bottom: 2vw;
+  color: #0066CC;
+  font-size: 10vw;
+  font-weight: bold;
+}
+.Content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Group-members {
+  height: 180vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+}
+.members-image1 {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+}
+.Members-title1 {
+  color: #0066CC;
+  font-size: 7vw;
+  font-weight: 900;
+}
+.Members-text1 {
+  color: #0066CC;
+  font-size: 6vw;
+  font-weight: 900;
+}
+
+.members-image {
+  width: 40vw;
+  height: 40vw;
+  margin-right: 1.2vw;
+  border-radius: 50%;
+}
+.Members-title {
+  color: #0066CC;
+  font-size: 6vw;
+  font-weight: 900;
+}
+.Members-text {
+  color: #0066CC;
+  font-size: 5.5vw;
+  font-weight: 900;
+}
 }
 
 /* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
 @media (min-width: 240px) and (max-width: 319px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Members {
+    font-family: "Pally", sans-serif;
+    background-color: #ffcc00;
+    background-repeat: no-repeat;
+    background-size: 100vw 95vh;
+    width: 100%;
+    height: 310vh;
+    align-content: baseline;
+}
+.Tittle-Members {
+  margin-top: 12vw;
+  margin-bottom: 2vw;
+  color: #0066CC;
+  font-size: 10vw;
+  font-weight: bold;
+}
+.Content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Group-members {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+
+.members-image1 {
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+}
+.Members-title1 {
+  color: #0066CC;
+  font-size: 7vw;
+  font-weight: 900;
+}
+.Members-text1 {
+  color: #0066CC;
+  font-size: 6vw;
+  font-weight: 900;
+}
+
+.members-image {
+  width: 40vw;
+  height: 40vw;
+  margin-right: 1.2vw;
+  border-radius: 50%;
+}
+.Members-title {
+  color: #0066CC;
+  font-size: 6vw;
+  font-weight: 900;
+}
+.Members-text {
+  color: #0066CC;
+  font-size: 5.5vw;
+  font-weight: 900;
+}
 }
