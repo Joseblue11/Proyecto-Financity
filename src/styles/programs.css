@@ -268,73 +268,553 @@
 /* Dimensiones del Blackberry Playbook */
 @media (min-width: 600px) and (max-width: 620px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones Grande   2*/
 @media (min-width: 560px) and (max-width: 600px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones  Grande  1*/
 @media (min-width: 530px) and (max-width: 560px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
- 
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones  Mediano-grande 2 */
 @media (min-width: 510px) and (max-width: 530px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Móvil Mediano-grande 1 */
 @media (min-width: 496px) and (max-width: 510px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Móvil Nokia N9 */
 @media (min-width: 480px) and (max-width: 496px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Móvil Mediano  */
 @media (min-width: 430px)  and (max-width: 480px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Móvil Mediano */
 @media (min-width: 426px) and (max-width: 430px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
 @media (min-width: 414px) and (max-width: 426px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
 @media (min-width: 410px) and (max-width: 414px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Pixel 3XL FUNCIONA BIEN */
 @media (min-width: 392px) and (max-width: 410px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+} 
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
 @media (min-width: 390px) and (max-width: 392px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 7vw;
+    color: #ffcc00;
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6vw;
+    color: white;
+    background-color: #FFD700;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 4.5vw;
+    color: white;
+    border-radius: 15px;
+}
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
@@ -343,41 +823,44 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 630vw;
+    background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-  }
-  .tittle-Programs{
+}
+.tittle-Programs {
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 7vw;
     color: #ffcc00;
-    margin: 9vw;
-  }
-  .Programs-image{
-    width: 80vw;
-    height: 60vw;
-    border-radius: 32px;
-  }
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 6vw;
     color: white;
     background-color: #FFD700;
-    width: 80vw;
+    width: 50vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .Programs-text{
-    padding: 7vh;
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
     text-align: justify;
-    font-size: 6vw;
+    font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-  }
+}
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
@@ -386,41 +869,44 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 630vw;
+    background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-  }
-  .tittle-Programs{
+}
+.tittle-Programs {
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 7vw;
     color: #ffcc00;
-    margin: 9vw;
-  }
-  .Programs-image{
-    width: 80vw;
-    height: 60vw;
-    border-radius: 32px;
-  }
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 6vw;
     color: white;
     background-color: #FFD700;
-    width: 80vw;
+    width: 50vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .Programs-text{
-    padding: 7vh;
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
     text-align: justify;
-    font-size: 6vw;
+    font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-  }
+}
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
@@ -429,41 +915,44 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 630vw;
+    background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-  }
-  .tittle-Programs{
+}
+.tittle-Programs {
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 7vw;
     color: #ffcc00;
-    margin: 9vw;
-  }
-  .Programs-image{
-    width: 80vw;
-    height: 60vw;
-    border-radius: 32px;
-  }
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 6vw;
     color: white;
     background-color: #FFD700;
-    width: 80vw;
+    width: 50vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .Programs-text{
-    padding: 7vh;
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
     text-align: justify;
-    font-size: 6vw;
+    font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-  }
+}
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
@@ -472,54 +961,57 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 630vw;
+    background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-  }
-  .tittle-Programs{
+}
+.tittle-Programs {
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 7vw;
     color: #ffcc00;
-    margin: 9vw;
-  }
-  .Programs-image{
-    width: 80vw;
-    height: 60vw;
-    border-radius: 32px;
-  }
+    margin: 5vw;
+}
+.Programs-image {
+  width: 70vw;
+  height: 50vw;
+  border-radius: 32px;
+}
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 6vw;
     color: white;
     background-color: #FFD700;
-    width: 80vw;
+    width: 50vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
     margin-bottom: 3px;
   }
 
-  .Programs-text{
-    padding: 7vh;
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
     text-align: justify;
-    font-size: 6vw;
+    font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-  }
+}
 }
 
 /* Dimensiones del Móvil FUNCIONA BIEN */
 @media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-  .Programs {
+.Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-  }
-  .tittle-Programs {
+}
+.tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;

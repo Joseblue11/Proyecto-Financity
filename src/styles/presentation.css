@@ -700,25 +700,26 @@
 @media (min-width: 600px) and (max-width: 620px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 82vh;
+    background-size: 100vw 111vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 82vh;
+    height: 111vw;
   }
+ 
   .Prestext {
-    margin-bottom: 2.5rem;
     color: white;
-    width: 50vw;
-    height: 15vh;
+    width: 75vw;
+    height: 40vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2vw;
-  }
+    font-size: 5vw;
+}
   .Prestext-text {
-    font-size: 1vw;
-  }
+    font-size: 3vw;
+}
+
   .pres-button {
     font-weight: bold;
     background-color: #ffa500; /* Naranja */
@@ -726,7 +727,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.2vw;
+    font-size: 3.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -742,44 +743,48 @@
     /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
+
   .PresImg {
-    width: 30vw;
-    height: 30vw;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
-  }
+}
 }
 
 /* Dimensiones Grande   2*/
 @media (min-width: 560px) and (max-width: 600px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
-    width: 100%;
+    width: 100%; /* Ancho del cuerpo */
     height: 90vh;
+  }
+  .leftSide{
+    height: 100vw;
   }
   .Prestext {
     color: white;
-    width: 40vw;
-    height: 20vh;
+    width: 75vw;
+    height: 38vh;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 4vh;
   }
   .Prestext-text {
-    font-size: 1vw;
+    font-size: 2.5vh;
   }
 
   .pres-button {
     font-weight: bold;
-    background-color: #ffa500;
+    background-color: #ffa500; /* Naranja */
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.2vw;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -787,17 +792,18 @@
   }
 
   .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
     background-color: #ffcc00;
   }
 
   .pres-button.active {
+    /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
+
   .PresImg {
-    max-width: 45vw;
-    max-height: 35vw;
-    min-width: 30vw;
-    min-height: 30vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
@@ -806,33 +812,36 @@
 @media (min-width: 530px) and (max-width: 560px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
-    width: 100%;
+    width: 100%; /* Ancho del cuerpo */
     height: 90vh;
+  }
+  .leftSide{
+    height: 100vw;
   }
   .Prestext {
     color: white;
-    width: 40vw;
-    height: 20vh;
+    width: 75vw;
+    height: 38vh;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vw
+    font-size: 4vh;
   }
   .Prestext-text {
-    font-size: 2.3vw;
+    font-size: 2.5vh;
   }
 
   .pres-button {
     font-weight: bold;
-    background-color: #ffa500;
+    background-color: #ffa500; /* Naranja */
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 2.2vw;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -840,52 +849,55 @@
   }
 
   .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
     background-color: #ffcc00;
   }
 
   .pres-button.active {
+    /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
+
   .PresImg {
-    max-width: 45vw;
-    max-height: 35vw;
-    min-width: 30vw;
-    min-height: 30vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
-
 /* Dimensiones  Mediano-grande 2 */
 @media (min-width: 510px) and (max-width: 530px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
-    width: 100%;
+    width: 100%; /* Ancho del cuerpo */
     height: 90vh;
+  }
+  .leftSide{
+    height: 100vw;
   }
   .Prestext {
     color: white;
-    width: 40vw;
-    height: 20vh;
+    width: 75vw;
+    height: 38vh;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 4vh;
   }
   .Prestext-text {
-    font-size: 2.4vw;
+    font-size: 2.5vh;
   }
 
   .pres-button {
     font-weight: bold;
-    background-color: #ffa500;
+    background-color: #ffa500; /* Naranja */
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 2vw;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -893,17 +905,18 @@
   }
 
   .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
     background-color: #ffcc00;
   }
 
   .pres-button.active {
+    /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
+
   .PresImg {
-    max-width: 45vw;
-    max-height: 35vw;
-    min-width: 30vw;
-    min-height: 30vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
@@ -912,33 +925,36 @@
 @media (min-width: 496px) and (max-width: 510px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895476/M%C3%B3vil_grande_o_tablet_qteizl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
-    width: 100%;
+    width: 100%; /* Ancho del cuerpo */
     height: 90vh;
+  }
+  .leftSide{
+    height: 100vw;
   }
   .Prestext {
     color: white;
-    width: 40vw;
-    height: 20vh;
+    width: 75vw;
+    height: 38vh;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 3.5vh;
+    font-size: 4vh;
   }
   .Prestext-text {
-    font-size: 2vh;
+    font-size: 2.5vh;
   }
 
   .pres-button {
     font-weight: bold;
-    background-color: #ffa500;
+    background-color: #ffa500; /* Naranja */
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 18px;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -946,17 +962,18 @@
   }
 
   .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
     background-color: #ffcc00;
   }
 
   .pres-button.active {
+    /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
+
   .PresImg {
-    max-width: 45vw;
-    max-height: 35vw;
-    min-width: 30vw;
-    min-height: 30vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
@@ -1013,6 +1030,7 @@
     height: 50vw;
     border-radius: 50%;
   }
+
 }
 
 /* Dimensiones del Móvil Mediano  */
@@ -1025,118 +1043,12 @@
     width: 100%; /* Ancho del cuerpo */
     height: 90vh;
   }
-  .Prestext {
-    margin-top: 3vh;
-    color: white;
-    width: 70vw;
-    height: 42vh;
-  }
-  .Prestext-title {
-    font-weight: bold;
-    font-size: 4vh;
-  }
-  .Prestext-text {
-    font-size: 2.5vh;
-  }
-  .pres-button {
-    font-weight: bold;
-    background-color: #ffa500; /* Naranja */
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Para darle la forma redondeada */
-    padding: 5px 15px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-
-    color: #fff;
-  }
-
-  .pres-button:hover {
-    /* Estilo al pasar el mouse por encima */
-    background-color: #ffcc00;
-  }
-
-  .pres-button.active {
-    /* Estilo cuando el botón está presionado */
-    background-color: #ffcc00;
-  }
-  .PresImg {
-    margin-top: 2vh;
-    width: 60vw;
-    height: 60vw;
-    border-radius: 50%;
-  }
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 430px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
+  .leftSide{
+    height: 100vw;
   }
   .Prestext {
-    margin-top: 3vh;
     color: white;
-    width: 65vw;
-    height: 34vh;
-  }
-  .Prestext-title {
-    font-weight: bold;
-    font-size: 4vh;
-  }
-  .Prestext-text {
-    font-size: 2.5vh;
-  }
-  .pres-button {
-    font-weight: bold;
-    background-color: #ffa500; /* Naranja */
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Para darle la forma redondeada */
-    padding: 5px 15px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-
-    color: #fff;
-  }
-
-  .pres-button:hover {
-    /* Estilo al pasar el mouse por encima */
-    background-color: #ffcc00;
-  }
-
-  .pres-button.active {
-    /* Estilo cuando el botón está presionado */
-    background-color: #ffcc00;
-  }
-  .PresImg {
-    margin-top: 2vh;
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
-  }
-}
-
-/* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
-@media (min-width: 414px) and (max-width: 426px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-
-  .Prestext {
-    color: white;
-    width: 80vw;
+    width: 75vw;
     height: 38vh;
   }
   .Prestext-title {
@@ -1154,7 +1066,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 20px;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -1172,8 +1084,122 @@
   }
 
   .PresImg {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+}
+
+/* Dimensiones del Móvil Mediano */
+@media (min-width: 426px) and (max-width: 430px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 90vh;
+  }
+  .leftSide{
+    height: 100vw;
+  }
+  .Prestext {
+    color: white;
+    width: 75vw;
+    height: 38vh;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 4vh;
+  }
+  .Prestext-text {
+    font-size: 2.5vh;
+  }
+
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    color: #fff;
+  }
+
+  .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
+    background-color: #ffcc00;
+  }
+
+  .pres-button.active {
+    /* Estilo cuando el botón está presionado */
+    background-color: #ffcc00;
+  }
+
+  .PresImg {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+}
+
+/* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
+@media (min-width: 414px) and (max-width: 426px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    width: 100%; /* Ancho del cuerpo */
+    height: 90vh;
+  }
+  .leftSide{
+    height: 100vw;
+  }
+  .Prestext {
+    color: white;
+    width: 75vw;
+    height: 38vh;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 4vh;
+  }
+  .Prestext-text {
+    font-size: 2.5vh;
+  }
+
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    color: #fff;
+  }
+
+  .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
+    background-color: #ffcc00;
+  }
+
+  .pres-button.active {
+    /* Estilo cuando el botón está presionado */
+    background-color: #ffcc00;
+  }
+
+  .PresImg {
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
@@ -1209,7 +1235,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 15px;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -1237,25 +1263,26 @@
 @media (min-width: 392px) and (max-width: 410px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
+    background-size: 100vw 185vw;
+    width: 100%;
+    height: 185vw;
+}
 
   .Prestext {
     color: white;
-    width: 75vw;
-    height: 38vh;
+    width: 85vw;
+    height: 85vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 8vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
-  }
+    font-size: 5vw;
+    margin: 5vw;
+}
 
   .pres-button {
     font-weight: bold;
@@ -1264,7 +1291,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 15px;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -1282,35 +1309,92 @@
   }
 
   .PresImg {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
-  }
+  }  
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
 @media (min-width: 390px) and (max-width: 392px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
+    background-size: 100vw 185vw;
+    width: 100%;
+    height: 185vw;
+}
 
   .Prestext {
     color: white;
-    width: 75vw;
-    height: 44vh;
+    width: 85vw;
+    height: 85vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 8vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
+    font-size: 5vw;
+    margin: 5vw;
+}
+
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    color: #fff;
   }
+
+  .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
+    background-color: #ffcc00;
+  }
+
+  .pres-button.active {
+    /* Estilo cuando el botón está presionado */
+    background-color: #ffcc00;
+  }
+
+  .PresImg {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }  
+}
+
+/* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
+@media (min-width: 384px) and (max-width: 390px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .presentation {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 185vw;
+    width: 100%;
+    height: 185vw;
+}
+
+  .Prestext {
+    color: white;
+    width: 85vw;
+    height: 85vw;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 8vw;
+  }
+  .Prestext-text {
+    font-size: 5vw;
+    margin: 5vw;
+}
 
   .pres-button {
     font-weight: bold;
@@ -1337,35 +1421,91 @@
   }
 
   .PresImg {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
-  }
+  }  
 }
 
-/* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
-@media (min-width: 384px) and (max-width: 390px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
+/* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
+@media (min-width: 374px) and (max-width: 384px) {
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
+    background-size: 100vw 185vw;
+    width: 100%;
+    height: 185vw;
+}
 
   .Prestext {
     color: white;
-    width: 75vw;
-    height: 38vh;
+    width: 85vw;
+    height: 85vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 8vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
+    font-size: 5vw;
+    margin: 5vw;
+}
+
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    color: #fff;
   }
+
+  .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
+    background-color: #ffcc00;
+  }
+
+  .pres-button.active {
+    /* Estilo cuando el botón está presionado */
+    background-color: #ffcc00;
+  }
+
+  .PresImg {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }  
+}
+
+/* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
+@media (min-width: 360px) and (max-width: 374px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .presentation {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 185vw;
+    width: 100%;
+    height: 185vw;
+}
+
+  .Prestext {
+    color: white;
+    width: 85vw;
+    height: 85vw;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 8vw;
+  }
+  .Prestext-text {
+    font-size: 5vw;
+    margin: 5vw;
+}
 
   .pres-button {
     font-weight: bold;
@@ -1398,139 +1538,30 @@
   }
 }
 
-/* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
-@media (min-width: 374px) and (max-width: 384px) {
-  .presentation {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 110vh;
-    width: 100%;
-    height: 110vh;
-}
-
-  .Prestext {
-    color: white;
-    width: 85vw;
-    height: 40vh;
-  }
-  .Prestext-title {
-    font-weight: bold;
-    font-size: 4vh;
-  }
-  .Prestext-text {
-    font-size: 2.5vh;
-  }
-
-  .pres-button {
-    font-weight: bold;
-    background-color: #ffa500; /* Naranja */
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Para darle la forma redondeada */
-    padding: 5px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-
-    color: #fff;
-  }
-
-  .pres-button:hover {
-    /* Estilo al pasar el mouse por encima */
-    background-color: #ffcc00;
-  }
-
-  .pres-button.active {
-    /* Estilo cuando el botón está presionado */
-    background-color: #ffcc00;
-  }
-
-  .PresImg {
-    width: 60vw;
-    height: 60vw;
-    border-radius: 50%;
-  }
-  
-}
-
-/* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
-@media (min-width: 360px) and (max-width: 374px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .presentation {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 110vh;
-    width: 100%;
-    height: 110vh;
-}
-
-  .Prestext {
-    color: white;
-    width: 85vw;
-    height: 40vh;
-  }
-  .Prestext-title {
-    font-weight: bold;
-    font-size: 4vh;
-  }
-  .Prestext-text {
-    font-size: 2.5vh;
-  }
-
-  .pres-button {
-    font-weight: bold;
-    background-color: #ffa500; /* Naranja */
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Para darle la forma redondeada */
-    padding: 5px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-
-    color: #fff;
-  }
-
-  .pres-button:hover {
-    /* Estilo al pasar el mouse por encima */
-    background-color: #ffcc00;
-  }
-
-  .pres-button.active {
-    /* Estilo cuando el botón está presionado */
-    background-color: #ffcc00;
-  }
-
-  .PresImg {
-    width: 60vw;
-    height: 60vw;
-    border-radius: 50%;
-  }
-}
-
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
 @media (min-width: 344px) and (max-width: 360px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .presentation {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 110vh;
+    background-size: 100vw 150vw;
     width: 100%;
-    height: 110vh;
+    height: 150vw;
 }
 
   .Prestext {
     color: white;
     width: 85vw;
-    height: 40vh;
+    height: 85vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 8vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
-  }
+    font-size: 5vw;
+    margin: 5vw;
+}
 
   .pres-button {
     font-weight: bold;
@@ -1539,7 +1570,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -1557,8 +1588,8 @@
   }
 
   .PresImg {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
