@@ -1,117 +1,15 @@
 .Members{
   font-family: "Pally", sans-serif;
   display: grid;
-  background-color: #ffcc00;
-  background-repeat: no-repeat;
-  background-size: 100vw 95vh;
-  width: 100%;
-  height: 130vh;
   align-content: center;
   justify-content: center;
   align-items: center;
   justify-items: center;
 }
-.Tittle-Members{
-  margin-top: 1vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 2.6vw;
-  font-weight: bold;
-}
-.Content {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.Members-part1 {
-  margin: 5vw;
-}
-.Group-members {
-  height: 80vh;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  gap: 15px;
-}
-
-.Group-members::-webkit-scrollbar {
-  width: 10px; /* Ancho de la barra */
-}
-
-.Group-members::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color del fondo de la pista */
-}
-
-.Group-members::-webkit-scrollbar-thumb {
-  background: #0066CC; /* Color de la barra */
-  border-radius: 10px; /* Borde redondeado de la barra */
-}
-
-.Group-members::-webkit-scrollbar-thumb:hover {
-  background:#0099FF /* Color de la barra al pasar el ratón */
-}
-
-.tittle-members{
-  color: #0099FF;
-  font-size: 2vw;
-  font-weight: bold;
-  margin: 2vw;
-}
-.members-image1 {
-  width: 20vw;
-  height: 20vw;
-  border-radius: 50%;
-}
-
-.members-image {
-  width: 10vw;
-  height: 10vw;
-  margin-right: 1vw;
-  border-radius: 50%;
-}
-.Members-title1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 1.6vw;
-  font-weight: 900;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 1.4vw;
-  font-weight: 900
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 1.6vw;
-  font-weight: 900
-}
-
-.Members-part2 {
-  margin-left: 5vw;
-}
-
-.members {
-  display: flex;
-  margin: 1vw;
-}
-.card-menber{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-}
 
 
 /* Dimensiones del Ordenador de Escritorio*/
-@media (min-width: 1441px) and (max-width: 3840px) {
+@media (min-width: 1440px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
@@ -121,9 +19,90 @@
     width: 100%; /* Ancho del cuerpo */
     height: 130vh;
   }
+  .Tittle-Members{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066CC;
+    font-size: 2.6vw;
+    font-weight: bold;
+  }
+  .Content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Members-part1 {
+    margin: 5vw;
+  }
+  .Group-members {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 15px;
+  }
+
+  .tittle-members{
+    color: #0099FF;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+  }
+  .members-image1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
+  
+  .members-image {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+  }
+  .Members-title1{
+    color: #0066CC;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
+  .Members-title {
+    color: #0066CC;
+    font-size: 1.6vw;
+    font-weight: 900;
+  }
+  .Members-text {
+    color: #0066CC;
+    font-size: 1.4vw;
+    font-weight: 900
+  }
+  .Members-text1{
+    color: #0066CC;
+    font-size: 1.6vw;
+    font-weight: 900
+  }
+  
+  .Members-part2 {
+    margin-left: 5vw;
+  }
+  
+  .members {
+    display: flex;
+    margin: 1vw;
+  }
+  .card-menber{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  
 }
 /* Dimensiones del Ordenador portátil medio */
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
@@ -133,6 +112,87 @@
     width: 100%; /* Ancho del cuerpo */
     height: 125vh;
   }
+  .Tittle-Members{
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066CC;
+    font-size: 2.6vw;
+    font-weight: bold;
+  }
+  .Content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Members-part1 {
+    margin: 5vw;
+  }
+  .Group-members {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 15px;
+  }
+
+  .tittle-members{
+    color: #0099FF;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+  }
+  .members-image1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
+  
+  .members-image {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+  }
+  .Members-title1{
+    color: #0066CC;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
+  .Members-title {
+    color: #0066CC;
+    font-size: 1.6vw;
+    font-weight: 900;
+  }
+  .Members-text {
+    color: #0066CC;
+    font-size: 1.4vw;
+    font-weight: 900
+  }
+  .Members-text1{
+    color: #0066CC;
+    font-size: 1.6vw;
+    font-weight: 900
+  }
+  
+  .Members-part2 {
+    margin-left: 5vw;
+  }
+  
+  .members {
+    display: flex;
+    margin: 1vw;
+  }
+  .card-menber{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  
 }
 
 /* Dimensiones del Móvil Grande o Tablet */
@@ -149,7 +209,7 @@
 }
 
 /* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 767px) {
+@media (min-width: 426px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
@@ -160,29 +220,16 @@
   }
 }
 
-/* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 425px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .Members {
-    background-color: #ffcc00;
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-
 /* DIMENCIONES PARA COMPUTADORAS*/
 
 /* Dimensiones del Ordenador de Escritorio FUNCIONA */
-@media (min-width: 1441px) and (max-width: 3840px) {
+@media (min-width: 1440px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
   
 }
 
 /* Dimensiones del Ordenador portátil medio FUNCIONA */
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   /* Estilos para pantallas de portátiles medianos */
   
 }
@@ -195,50 +242,50 @@
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
-@media (min-width: 800px) and (max-width: 899px) {
+@media (min-width: 800px) and (max-width: 900px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
     /* Estilos para pantallas de portátiles medianos */
     
 }
 
 /* Dimensiones del Tablet 6 */
-@media (min-width: 768px) and (max-width: 799px){
+@media (min-width: 768px) and (max-width: 800px){
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 767px) {
+@media (min-width: 730px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Tablet 4*/
-@media (min-width: 720px) and (max-width: 729px) {
+@media (min-width: 720px) and (max-width: 730px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
-@media (min-width: 712px) and  (max-width: 719px){
+@media (min-width: 712px) and  (max-width: 720px){
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 711px) {
+@media (min-width: 700px) and (max-width: 712px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del table  2 */
-@media (min-width: 681px) and (max-width: 699px) {
+@media (min-width: 680px) and (max-width: 700px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del table  1 */
-@media (min-width: 651px) and (max-width: 680px) {
+@media (min-width: 650px) and (max-width: 680px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
@@ -249,31 +296,31 @@
   
 }
 /* Dimensiones del Blackberry Playbook */
-@media (min-width: 620px) and (max-width: 639px)  {
+@media (min-width: 620px) and (max-width: 640px)  {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Blackberry Playbook */
-@media (min-width: 600px) and (max-width: 619px) {
+@media (min-width: 600px) and (max-width: 620px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones Grande   2*/
-@media (min-width: 560px) and (max-width: 599px) {
+@media (min-width: 560px) and (max-width: 600px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones  Grande  1*/
-@media (min-width: 530px) and (max-width: 559px) {
+@media (min-width: 530px) and (max-width: 560px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
  
 }
 
 /* Dimensiones  Mediano-grande 2 */
-@media (min-width: 511px) and (max-width: 529px) {
+@media (min-width: 510px) and (max-width: 530px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
@@ -285,37 +332,37 @@
 }
 
 /* Dimensiones del Móvil Nokia N9 */
-@media (min-width: 480px) and (max-width: 495px) {
+@media (min-width: 480px) and (max-width: 496px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Móvil Mediano  */
-@media (min-width: 430px)  and (max-width: 479px) {
+@media (min-width: 430px)  and (max-width: 480px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 429px) {
+@media (min-width: 426px) and (max-width: 430px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   
 }
 
 /* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
-@media (min-width: 414px) and (max-width: 425px) {
+@media (min-width: 414px) and (max-width: 426px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   
 }
 
 /* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
-@media (min-width: 410px) and (max-width: 413px) {
+@media (min-width: 410px) and (max-width: 414px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   
 }
 
 /* Dimensiones del Pixel 3XL FUNCIONA BIEN */
-@media (min-width: 393px) and (max-width: 409px) {
+@media (min-width: 392px) and (max-width: 410px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   
 }
@@ -327,13 +374,13 @@
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
-@media (min-width: 384px) and (max-width: 389px) {
+@media (min-width: 384px) and (max-width: 390px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
-@media (min-width: 375px) and (max-width: 383px) {
+@media (min-width: 375px) and (max-width: 384px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .Members {
     background-color: #ffcc00;
@@ -535,17 +582,15 @@
   /* Estilos para dispositivos móviles con estas dimensiones */
   .Members {
     background-color: #ffcc00;
-    background-repeat: no-repeat;
-    background-size: 100vw 200vh;
     width: 100%;
-    height: 390vw;
+    height: 515vw;
     align-content: baseline;
 }
 .Tittle-Members {
   margin-top: 12vw;
   margin-bottom: 2vw;
   color: #0066CC;
-  font-size: 10vw;
+  font-size: 7vw;
   font-weight: bold;
 }
 .Content {
@@ -560,34 +605,44 @@
   height: 180vh;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 25px;
 }
+
 .members-image1 {
   width: 50vw;
   height: 50vw;
   border-radius: 50%;
 }
-.Members-title1 {
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: 900;
-}
 .Members-text1 {
   color: #0066CC;
-  font-size: 6vw;
+  font-size: 5.5vw;
   font-weight: 900;
 }
-
+.members-image1 {
+  width: 45vw;
+  height: 45vw;
+  border-radius: 50%;
+}
 .members-image {
   width: 40vw;
   height: 40vw;
-  margin-right: 1.2vw;
+  margin: 2vw;
   border-radius: 50%;
 }
 .Members-title {
   color: #0066CC;
   font-size: 6vw;
   font-weight: 900;
+}
+.Members-title1{
+  margin: 2.5vw;
+  color: #0066CC;
+  font-size: 6.5vw;
+  font-weight: 900;
+}
+.Members-text1{
+  color: #0066CC;
+  font-size: 5vw;
+  font-weight: bold;
 }
 .Members-text {
   color: #0066CC;
@@ -597,7 +652,7 @@
 }
 
 /* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
-@media (min-width: 240px) and (max-width: 319px) {
+@media (min-width: 240px) and (max-width: 320px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .Members {
     font-family: "Pally", sans-serif;

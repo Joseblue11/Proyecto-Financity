@@ -71,3 +71,227 @@ footer {
   background-color: #0066cc;
   text-align: center;
 }
+
+/* DIMENCIONES PARA COMPUTADORAS*/
+
+/* Dimensiones del Ordenador de Escritorio FUNCIONA */
+@media (min-width: 1440px) and (max-width: 3840px) {
+  /* Estilos para pantallas de portátiles medianos */
+
+}
+
+/* Dimensiones del Ordenador portátil medio FUNCIONA */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Estilos para pantallas de portátiles medianos */
+
+}
+
+/* Dimensiones Ordenador PequeñoFUNCIONA*/
+@media (min-width: 900px) and (max-width: 1025px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+    /* Estilos para pantallas de portátiles medianos */
+
+}
+
+/* Dimensiones del Kindle Fire HDX FUNCIONA*/
+@media (min-width: 800px) and (max-width: 900px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+    /* Estilos para pantallas de portátiles medianos */
+
+}
+
+/* Dimensiones del Tablet 6 */
+@media (min-width: 768px) and (max-width: 800px){
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Tablet 5*/
+@media (min-width: 730px) and (max-width: 768px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Tablet 4*/
+@media (min-width: 720px) and (max-width: 730px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Samsung Galaxy Tab S4  Funciona*/
+@media (min-width: 712px) and  (max-width: 720px){
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del table  3 */
+@media (min-width: 700px) and (max-width: 712px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del table  2 */
+@media (min-width: 680px) and (max-width: 700px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del table  1 */
+@media (min-width: 650px) and (max-width: 680px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del table Microsoft Lumia 550 */
+@media (min-width: 640px) and  (max-width: 650px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+/* Dimensiones del Blackberry Playbook */
+@media (min-width: 620px) and (max-width: 640px)  {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Blackberry Playbook FUNCIONA */
+@media (min-width: 600px) and (max-width: 620px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones Grande   2*/
+@media (min-width: 560px) and (max-width: 600px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+
+}
+
+/* Dimensiones  Grande  1*/
+@media (min-width: 530px) and (max-width: 560px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones  Mediano-grande 2 */
+@media (min-width: 510px) and (max-width: 530px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Móvil Mediano-grande 1 */
+@media (min-width: 496px) and (max-width: 510px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Móvil Nokia N9 */
+@media (min-width: 480px) and (max-width: 496px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Móvil Mediano  */
+@media (min-width: 430px)  and (max-width: 480px) {
+
+}
+
+/* Dimensiones del Móvil Mediano */
+@media (min-width: 426px) and (max-width: 430px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+
+}
+
+/* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
+@media (min-width: 414px) and (max-width: 426px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+
+}
+
+/* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
+@media (min-width: 410px) and (max-width: 414px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+
+}
+
+/* Dimensiones del Pixel 3XL FUNCIONA BIEN */
+@media (min-width: 392px) and (max-width: 410px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+
+}
+
+/* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
+@media (min-width: 390px) and (max-width: 392px) {
+
+}
+
+/* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
+@media (min-width: 384px) and (max-width: 390px) {
+
+}
+
+/* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
+@media (min-width: 374px) and (max-width: 384px) {
+
+}
+
+/* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
+@media (min-width: 360px) and (max-width: 374px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+}
+
+/* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
+@media (min-width: 344px) and (max-width: 360px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+
+}
+
+/* Dimensiones del Móvil FUNCIONA BIEN */
+@media (min-width: 320px) and (max-width: 344px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .content-footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    height: 130vw;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Part-footer {
+  font-weight: bold;
+  padding: 3vw;
+  width: 92vw;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.tittle-footer {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-weight: bold;
+  font-size: 8vw;
+}
+
+
+.text-footer {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #ffa500;
+  width: 80vw;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 4.5vw;
+}
+.Copy {
+  background-color: #0066cc;
+  text-align: center;
+}
+
+}
+
+/* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
+@media (min-width: 240px) and (max-width: 320px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+
+}

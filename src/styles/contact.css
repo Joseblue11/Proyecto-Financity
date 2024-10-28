@@ -65,12 +65,6 @@
   .card-contact{
 
   }
-  .form-floating{
-
-  }
-  .floatingInput input {
-    
-  }
 
   .button-contact {
     font-weight: bold;
@@ -286,6 +280,84 @@
 /* Dimensiones del Móvil FUNCIONA BIEN */
 @media (min-width: 320px) and (max-width: 343px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 206vw;
+    width: 100%;
+    height: 206vw;
+  }
+.card-contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+ .tittle-contact{
+  margin-right: 10vw;
+  margin-left: 10vw;
+  font-weight: bold;
+  font-size: 6vw;
+  margin-top: 5vw;
+  color: #ffa500;
+ }
+ .text-contact{
+  margin-bottom: 8vw;
+  margin-top: 8vw;
+  margin-right: 11vw;
+  margin-left: 11vw;
+  text-align: justify;
+  color: #0066cc;
+  font-size: 4vw;
+  font-weight: bold;
+ }
+
+ input[type="name"] {
+  width: 85vw; /* Adjust the width as needed */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type="phone"] {
+  width: 85vw; /* Adjust the width as needed */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+ input[type="email"] {
+  width: 85vw; /* Adjust the width as needed */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+textarea[type="message"] {
+  width: 83vw; /* Adjust the width as needed */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.button-contact {
+  margin-top: 5vw;
+  font-weight: bold;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  font-size: 4.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  color: #fff;
+}
+
 }
 
 /* Dimensiones del Jio Phone 2 FUNCIONA BIEN */

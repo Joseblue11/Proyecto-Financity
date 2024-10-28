@@ -61,7 +61,7 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="name-lastname"
-                  style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
+            
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC"}}>
@@ -75,7 +75,6 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="phone"
-                  // style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>
@@ -89,7 +88,6 @@ export const Contact = () => {
                   className="form-control"
                   id="floatingInput"
                   placeholder="email"
-                 style={{ width: "35vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px" }}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>
@@ -103,7 +101,7 @@ export const Contact = () => {
                   className="form-control" 
                   id="floatingInput"
                   placeholder="message"
-                  style={{ width: "35vw", height: "10vw", color: " #0066CC", border:"1px solid #0099FF", borderRadius:"15px"}}
+                  style={{height:"40vw"}}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>

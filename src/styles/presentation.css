@@ -1191,7 +1191,7 @@
 
   .Prestext {
     color: white;
-    width: 80vw;
+    width: 75vw;
     height: 38vh;
   }
   .Prestext-title {
@@ -1209,7 +1209,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -1227,8 +1227,8 @@
   }
 
   .PresImg {
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
@@ -1289,7 +1289,7 @@
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
-@media (min-width: 370px) and (max-width: 392px) {
+@media (min-width: 390px) and (max-width: 392px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
@@ -1344,9 +1344,8 @@
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
-@media (min-width: 384px) and (max-width: 370px) {
+@media (min-width: 384px) and (max-width: 390px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-   /* Estilos para dispositivos móviles con estas dimensiones */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
@@ -1570,9 +1569,9 @@
   .presentation {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 110vh;
+    background-size: 100vw 92vh;
     width: 100%;
-    height: 110vh;
+    height: 92vh;
 }
 
   .Prestext {
@@ -1582,11 +1581,12 @@
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 8vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
-  }
+    font-size: 5vw;
+    margin: 5vw;
+}
 
   .pres-button {
     font-weight: bold;
@@ -1613,8 +1613,8 @@
   }
 
   .PresImg {
-    width: 55vw;
-    height: 55vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 }
@@ -1638,7 +1638,8 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 7vh;
-  }
+    margin-top: 8vw;
+}
   .Prestext-text {
     font-size: 4vh;
   }
