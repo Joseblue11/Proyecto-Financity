@@ -906,14 +906,14 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 160vw;
     width: 100%;
-    height: 185vw;
+    height: 160vw;
   }
   .Prestext {
     color: white;
     width: 85vw;
-    height: 60vw;
+    height: 50vw;
   }
   .Prestext-title {
     font-weight: bold;
@@ -962,14 +962,14 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 160vw;
     width: 100%;
-    height: 185vw;
+    height: 160vw;
   }
   .Prestext {
     color: white;
     width: 85vw;
-    height: 60vw;
+    height: 50vw;
   }
   .Prestext-title {
     font-weight: bold;
@@ -1016,9 +1016,9 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 170vw;
     width: 100%;
-    height: 185vw;
+    height: 170vw;
   }
   .Prestext {
     color: white;
@@ -1070,9 +1070,9 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 175vw;
     width: 100%;
-    height: 185vw;
+    height: 175vw;
   }
   .Prestext {
     color: white;
@@ -1124,9 +1124,9 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 175vw;
     width: 100%;
-    height: 185vw;
+    height: 175vw;
   }
   .Prestext {
     color: white;
@@ -1178,9 +1178,10 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 175vw;
     width: 100%;
-    height: 185vw;
+    height: 175vw;
+
   }
 
   .Prestext {

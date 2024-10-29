@@ -619,7 +619,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
+    height: 100vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -662,50 +662,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
-    width: 100%;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .Part-footer {
-    font-weight: bold;
-    padding: 3vw;
-    width: 92vw;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-  }
-  .tittle-footer {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    font-weight: bold;
-    font-size: 8vw;
-  }
-
-  .text-footer {
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #ffa500;
-    width: 80vw;
-    border-radius: 15px;
-    padding: 10px;
-    text-align: center;
-    font-size: 4.5vw;
-  }
-  .Copy {
-    background-color: #0066cc;
-    text-align: center;
-  }
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 430px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .content-footer {
-    padding-left: 4vw;
-    padding-right: 4vw;
-    display: flex;
-    height: 110vw;
+    height: 100vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -747,7 +704,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
+    height: 105vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1131,7 +1088,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 130vw;
+    height: 125vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;

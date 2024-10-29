@@ -1306,9 +1306,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 182vw;
+    background-size: 100vw 190vw;
     width: 100%;
-    height: 182vw;
+    height: 190vw;
   }
 .card-contact{
     display: flex;
@@ -1388,9 +1388,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 180vw;
+    background-size: 100vw 190vw;
     width: 100%;
-    height: 180vw;
+    height: 190vw;
   }
 .card-contact{
     display: flex;
@@ -1470,9 +1470,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 180vw;
+    background-size: 100vw 190vw;
     width: 100%;
-    height: 180vw;
+    height: 190vw;
   }
 .card-contact{
     display: flex;
@@ -1552,9 +1552,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 180vw;
+    background-size: 100vw 200vw;
     width: 100%;
-    height: 180vw;
+    height: 200vw;
   }
 .card-contact{
     display: flex;
@@ -1634,9 +1634,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 190vw;
+    background-size: 100vw 200vw;
     width: 100%;
-    height: 190vw;
+    height: 200vw;
   }
 .card-contact{
     display: flex;
@@ -1716,9 +1716,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 190vw;
+    background-size: 100vw 200vw;
     width: 100%;
-    height: 190vw;
+    height: 200vw;
   }
 .card-contact{
     display: flex;
@@ -1793,14 +1793,14 @@ textarea[type="message"] {
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
-@media (min-width: 384px) and (max-width: 389px) {
+@media (min-width: 384px) and (max-width: 390px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 190vw;
+    background-size: 100vw 200vw;
     width: 100%;
-    height: 190vw;
+    height: 200vw;
   }
 .card-contact{
     display: flex;
@@ -1880,9 +1880,9 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 195vw;
+    background-size: 100vw 200vw;
     width: 100%;
-    height: 195vw;
+    height: 200vw;
   }
 .card-contact{
     display: flex;
@@ -2022,7 +2022,6 @@ textarea[type="message"] {
   font-size: 16px;
   resize: vertical; /* Allow vertical resizing */
 }
-
 .button-contact {
   margin-top: 5vw;
   font-weight: bold;
