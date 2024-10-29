@@ -207,62 +207,504 @@
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
     /* Estilos para pantallas de portátiles medianos */
     
 }
 
+/* Dimensiones de Tablet general*/
+
 /* Dimensiones del Tablet 6 */
 @media (min-width: 768px) and (max-width: 800px){
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del Tablet 5*/
 @media (min-width: 730px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del Tablet 4*/
 @media (min-width: 720px) and (max-width: 730px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
 @media (min-width: 712px) and  (max-width: 720px){
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del table  3 */
 @media (min-width: 700px) and (max-width: 712px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del table  2 */
 @media (min-width: 680px) and (max-width: 700px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del table  1 */
 @media (min-width: 650px) and (max-width: 680px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+ 
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
 @media (min-width: 640px) and  (max-width: 650px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 /* Dimensiones del Blackberry Playbook */
 @media (min-width: 620px) and (max-width: 640px)  {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 452vw;
+    width: 100%;
+    height: auto;
+}
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.tittle-Programs {
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffcc00;
+    margin: 4vw;
+}
+.Programs-image {
+  width: 50vw;
+  height: 30vw;
+  border-radius: 32px;
+}
+  .Programs-title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3.4vw;
+    color: white;
+    background-color: #FFD700;
+    width: 40vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: justify;
+    font-size: 2.5vw;
+    color: white;
+    border-radius: 15px;
+} 
+
 }
 
 /* Dimensiones del Blackberry Playbook */
@@ -275,24 +717,32 @@
     width: 100%;
     height: auto;
 }
+.Programs-Part{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 .tittle-Programs {
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffcc00;
-    margin: 5vw;
+    margin: 4vw;
 }
 .Programs-image {
-  width: 70vw;
-  height: 50vw;
+  width: 50vw;
+  height: 30vw;
   border-radius: 32px;
 }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 3.4vw;
     color: white;
     background-color: #FFD700;
-    width: 50vw;
+    width: 40vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
@@ -301,11 +751,11 @@
 
   .Programs-text {
     padding-bottom: 5vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-right: 10vw;
     padding-left: 10vw;
     text-align: justify;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     color: white;
     border-radius: 15px;
 } 

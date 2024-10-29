@@ -38,7 +38,7 @@ export const Contact = () => {
     <div className="contact" id="Contactos">
       <form
         ref={form}
-        // action="https://formsubmit.co/josea.tovarp.blue7@gmail.com"
+        // action="https://formsubmit.co/finnancity@gmail.com"
         // method="POST"
         className="forms pt-4"
         onSubmit={(e) => sendEmail(e)}

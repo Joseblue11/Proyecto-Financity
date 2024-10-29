@@ -268,95 +268,436 @@
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   /* Estilos para pantallas de portátiles medianos */
 }
+
+/* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
 @media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del Tablet 4*/
-@media (min-width: 720px) and (max-width: 730px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del Samsung Galaxy Tab S4 */
-@media (min-width: 712px) and (max-width: 720px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table  2 */
-@media (min-width: 681px) and (max-width: 700px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table  1 */
-@media (min-width: 650px) and (max-width: 680px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table Microsoft Lumia 550 */
-@media (min-width: 640px) and (max-width: 650px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-/* Dimensiones del Blackberry Playbook */
-@media (min-width: 620px) and (max-width: 640px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del Blackberry Playbook */
-@media (min-width: 600px) and (max-width: 620px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 300vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
 
   .Identity-tittle {
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-weight: bold;
-    margin: 4vw;
-  }
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
 
   .Text1 {
-    padding: 2vh;
-    font-size: 4.5vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
     text-align: justify;
-  }
+}
   .Identity-image {
-    width: 20vw;
-    height: 20vw;
+    width: 13vw;
+    height: 13vw;
   }
   .Icons {
     padding: 1.5vw;
   }
 
   .Identity-image1 {
-    width: 20vw;
-    height: 20vw;
-    padding: 2vw;
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del Tablet 5*/
+@media (min-width: 730px) and (max-width: 768px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
   }
-  .Identity-text {
-    margin: 4vw;
-    font-size: 5vw;
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
     font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
   }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del Tablet 4*/
+@media (min-width: 720px) and (max-width: 730px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del Samsung Galaxy Tab S4 */
+@media (min-width: 712px) and (max-width: 720px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del table  3 */
+@media (min-width: 700px) and (max-width: 712px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del table  2 */
+@media (min-width: 681px) and (max-width: 700px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del table  1 */
+@media (min-width: 650px) and (max-width: 680px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+.Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 230vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+  .Identity-Icons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+  }
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del table Microsoft Lumia 550 */
+@media (min-width: 640px) and (max-width: 650px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+}
+
+/* Dimensiones del Blackberry Playbook */
+@media (min-width: 600px) and (max-width: 640px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%; /* Ancho del cuerpo */
+    height: 300vw;
+  }
+  .Identity-part1 {
+    padding-top: 10vw;
+  }
+
+  .Identity-tittle {
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+  .Text1 {
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+  .Identity-image {
+    width: 13vw;
+    height: 13vw;
+  }
+  .Icons {
+    padding: 1.5vw;
+  }
+
+  .Identity-image1 {
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+.Identity-text {
+  margin: 3vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
 }
 
 /* Dimensiones Grande   2*/
@@ -451,12 +792,17 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -494,12 +840,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -537,12 +887,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -580,12 +934,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -623,12 +981,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -666,12 +1028,17 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
 
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -709,12 +1076,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -752,12 +1123,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -795,12 +1170,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -838,12 +1217,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -881,12 +1264,16 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
-
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -924,11 +1311,17 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
+
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
 
   .Identity-tittle {
     font-size: 5vw;
@@ -966,11 +1359,17 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
+
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
 
   .Identity-tittle {
     font-size: 5vw;
@@ -1009,12 +1408,17 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 400vw;
   }
   .Identity-part1 {
     padding-top: 10vw;
   }
 
+  .Identity-Icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;

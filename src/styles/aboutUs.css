@@ -260,210 +260,23 @@
     border-radius: 35px;
   }
 }
+/* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
 @media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .AboutUs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 125vh;
-    width: 100%;
-    height: 125vh;
-  }
-  .title-About {
-    margin: 5vw;
-    font-weight: bold;
-    font-size: 4.2vw;
-    color: #ffa500;
-  }
-  .About-Content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .text-about {
-    width: 75vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .text-about1 {
-    margin: 3.5vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 3.5vw;
-    font-weight: bold;
-  }
-  .text-about2 {
-    margin-left: 2.8vw;
-    margin-bottom: 2vh;
-    text-align: justify;
-    color: #ffa500;
-    font-size: 3vw;
-  }
-
-  .about-image {
-    width: 58vw;
-    height: 38vw;
-    border-radius: 35px;
-  }
-}
-
-/* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .AboutUs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 120vh;
-    width: 100%;
-    height: 120vh;
-  }
-  .title-About {
-    margin: 5vw;
-    font-weight: bold;
-    font-size: 4.2vw;
-    color: #ffa500;
-  }
-  .About-Content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .text-about {
-    width: 75vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .text-about1 {
-    margin: 3.5vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 3.5vw;
-    font-weight: bold;
-  }
-  .text-about2 {
-    margin-left: 2.8vw;
-    margin-bottom: 2vh;
-    text-align: justify;
-    color: #ffa500;
-    font-size: 3vw;
-  }
-
-  .about-image {
-    width: 58vw;
-    height: 38vw;
-    border-radius: 35px;
-  }
-}
-
-/* Dimensiones del Tablet 4*/
-@media (min-width: 720px) and (max-width: 730px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .AboutUs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 120vh;
-    width: 100%;
-    height: 120vh;
-  }
-  .title-About {
-    margin: 5vw;
-    font-weight: bold;
-    font-size: 4.2vw;
-    color: #ffa500;
-  }
-  .About-Content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .text-about {
-    width: 75vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .text-about1 {
-    margin: 3.5vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 3.5vw;
-    font-weight: bold;
-  }
-  .text-about2 {
-    margin-left: 2.8vw;
-    margin-bottom: 2vh;
-    text-align: justify;
-    color: #ffa500;
-    font-size: 3vw;
-  }
-
-  .about-image {
-    width: 58vw;
-    height: 38vw;
-    border-radius: 35px;
-  }
-}
-
-/* Dimensiones del Samsung Galaxy Tab S4 */
-@media (min-width: 712px) and (max-width: 720px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table  2 */
-@media (min-width: 680px) and (max-width: 700px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table  1 */
-@media (min-width: 650px) and (max-width: 680px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del table Microsoft Lumia 550 */
-@media (min-width: 640px) and (max-width: 650px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-/* Dimensiones del Blackberry Playbook */
-@media (min-width: 620px) and (max-width: 640px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-}
-
-/* Dimensiones del Blackberry Playbook */
-@media (min-width: 600px) and (max-width: 620px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 190vw;
+    background-size: 100vw 155vw;
     width: 100%;
-    height: 190vw;
+    height: 150vw;
   }
   .title-About {
     padding-top: 3vh;
     margin: 3vw;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 4vw;
     color: #ffa500;
   }
   .About-Content {
@@ -483,18 +296,418 @@
     margin: 3vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
   .text-about2 {
     text-align: justify;
     color: #ffa500;
-    font-size: 3vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
   .about-image {
-    width: 60vw;
-    height: 50vw;
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del Tablet 5*/
+@media (min-width: 730px) and (max-width: 768px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+/* Dimensiones del Tablet 4*/
+@media (min-width: 720px) and (max-width: 730px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del Samsung Galaxy Tab S4 */
+@media (min-width: 712px) and (max-width: 720px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del table  3 */
+@media (min-width: 700px) and (max-width: 712px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del table  2 */
+@media (min-width: 680px) and (max-width: 700px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del table  1 */
+@media (min-width: 650px) and (max-width: 680px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del table Microsoft Lumia 550 */
+@media (min-width: 640px) and (max-width: 650px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
+    border-radius: 35px;
+  }
+}
+
+
+/* Dimensiones del Blackberry Playbook */
+@media (min-width: 600px) and (max-width: 640px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .AboutUs {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 155vw;
+    width: 100%;
+    height: 150vw;
+  }
+  .title-About {
+    padding-top: 3vh;
+    margin: 3vw;
+    font-weight: bold;
+    font-size: 4vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 3vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 2.5vw;
+    margin: 2vw;
+  }
+  .about-image {
+    width: 50vw;
+    height: 40vw;
     border-radius: 35px;
   }
 }
@@ -1055,9 +1268,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 336vw;
     width: 100%;
-    height: 333vw;
+    height: 324vw;
   }
   .title-About {
     padding-top: 3vh;
@@ -1105,9 +1318,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 336vw;
     width: 100%;
-    height: 333vw;
+    height: 324vw;
   }
   .title-About {
     padding-top: 3vh;
@@ -1155,9 +1368,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 336vw;
     width: 100%;
-    height: 333vw;
+    height: 324vw;
   }
   .title-About {
     padding-top: 3vh;
@@ -1205,9 +1418,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 336vw;
     width: 100%;
-    height: 333vw;
+    height: 324vw;
   }
   .title-About {
     padding-top: 3vh;
@@ -1255,9 +1468,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 165vh;
+    background-size: 100vw 340vw;
     width: 100%;
-    height: 160vh;
+    height: 328vw;
   }
   .title-About {
     padding-top: 3vh;
