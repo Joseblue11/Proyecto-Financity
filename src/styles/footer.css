@@ -1124,7 +1124,7 @@ footer {
   }
 }
 
-/* Dimensiones del Móvil FUNCIONA BIEN */
+/* Dimensiones del Móvil LISTO */
 @media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .content-footer {
@@ -1167,7 +1167,45 @@ footer {
   }
 }
 
-/* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
+/* Dimensiones del Jio Phone 2 LISTO*/
 @media (min-width: 240px) and (max-width: 320px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
+  .content-footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    height: 160vw;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .Part-footer {
+    font-weight: bold;
+    padding: 3vw;
+    width: 92vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .tittle-footer {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-weight: bold;
+    font-size: 8vw;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffa500;
+    width: 80vw;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 4.5vw;
+  }
+  .Copy {
+    background-color: #0066cc;
+    text-align: center;
+  }
 }

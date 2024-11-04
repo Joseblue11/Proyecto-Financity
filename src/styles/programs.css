@@ -1451,7 +1451,7 @@
 }
 }
 
-/* Dimensiones del Móvil FUNCIONA BIEN */
+/* Dimensiones del Móvil LISTO */
 @media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
 .Programs {
@@ -1497,7 +1497,7 @@
 }
 }
 
-/* Dimensiones del Jio Phone 2 FUNCIONA BIEN */
+/* Dimensiones del Jio Phone 2 LISTO*/
 @media (min-width: 240px) and (max-width: 320px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .Programs {
