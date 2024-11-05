@@ -1,4 +1,4 @@
-.Members{
+.Members {
   font-family: "Pally", sans-serif;
   display: grid;
   align-content: center;
@@ -7,6 +7,7 @@
   justify-items: center;
 }
 
+/* DIMENCIONES PARA COMPUTADORAS*/
 
 /* Dimensiones del Ordenador de Escritorio*/
 @media (min-width: 1440px) and (max-width: 3840px) {
@@ -14,15 +15,15 @@
   .Members {
     background-color: #ffcc00;
     /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
-    background-repeat:no-repeat;
-    background-size: 100vw 120vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 50vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 130vh;
+    height: 65vw;
   }
-  .Tittle-Members{
+  .Tittle-Members {
     margin-top: 1vw;
     margin-bottom: 2vw;
-    color: #0066CC;
+    color: #0066cc;
     font-size: 2.6vw;
     font-weight: bold;
   }
@@ -34,18 +35,19 @@
     flex-direction: row;
   }
   .Members-part1 {
-    margin: 5vw;
+    margin: 4vw;
   }
   .Group-members {
-    height: 80vh;
+    height: 50vw;
+    width: 55vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    gap: 15px;
+    gap: 1vw;
   }
 
-  .tittle-members{
-    color: #0099FF;
+  .tittle-members {
+    color: #0099ff;
     font-size: 2vw;
     font-weight: bold;
     margin: 2vw;
@@ -55,67 +57,66 @@
     height: 20vw;
     border-radius: 50%;
   }
-  
+
   .members-image {
     width: 10vw;
     height: 10vw;
     margin-right: 1vw;
     border-radius: 50%;
   }
-  .Members-title1{
-    color: #0066CC;
+  .Members-title1 {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
     font-size: 2.5vw;
-    font-weight: 900;
+    font-weight: bold;
   }
   .Members-title {
-    color: #0066CC;
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding-top: 3vw;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 1.4vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
   }
-  .Members-text {
-    color: #0066CC;
-    font-size: 1.4vw;
-    font-weight: 900
-  }
-  .Members-text1{
-    color: #0066CC;
-    font-size: 1.6vw;
-    font-weight: 900
-  }
-  
+
   .Members-part2 {
     margin-left: 5vw;
   }
-  
+
   .members {
     display: flex;
     margin: 1vw;
   }
-  .card-menber{
+  .card-menber {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: nowrap;
+    align-items: center;
   }
-  
 }
 /* Dimensiones del Ordenador portátil medio */
 @media (min-width: 1024px) and (max-width: 1440px) {
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
-    /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
-    background-repeat: no-repeat;
-    background-size: 100vw 110vh;
     width: 100%; /* Ancho del cuerpo */
-    height: 125vh;
+    height: 65vw;
   }
-  .Tittle-Members{
+  .Tittle-Members {
     margin-top: 1vw;
     margin-bottom: 2vw;
-    color: #0066CC;
+    color: #0066cc;
     font-size: 2.6vw;
     font-weight: bold;
   }
@@ -127,18 +128,19 @@
     flex-direction: row;
   }
   .Members-part1 {
-    margin: 5vw;
+    margin: 4vw;
   }
   .Group-members {
-    height: 80vh;
+    height: 50vw;
+    width: 55vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    gap: 15px;
+    gap: 1vw;
   }
 
-  .tittle-members{
-    color: #0099FF;
+  .tittle-members {
+    color: #0099ff;
     font-size: 2vw;
     font-weight: bold;
     margin: 2vw;
@@ -148,253 +150,422 @@
     height: 20vw;
     border-radius: 50%;
   }
-  
+
   .members-image {
     width: 10vw;
     height: 10vw;
     margin-right: 1vw;
     border-radius: 50%;
   }
-  .Members-title1{
-    color: #0066CC;
+  .Members-title1 {
+    color: #0066cc;
     font-size: 2.5vw;
     font-weight: 900;
   }
   .Members-title {
-    color: #0066CC;
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding-top: 3vw;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 1.4vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
   }
-  .Members-text {
-    color: #0066CC;
-    font-size: 1.4vw;
-    font-weight: 900
-  }
-  .Members-text1{
-    color: #0066CC;
-    font-size: 1.6vw;
-    font-weight: 900
-  }
-  
+
   .Members-part2 {
     margin-left: 5vw;
   }
-  
+
   .members {
     display: flex;
     margin: 1vw;
   }
-  .card-menber{
+  .card-menber {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    align-items: flex-start;
     flex-wrap: nowrap;
+    align-items: center;
   }
-  
-}
-
-/* Dimensiones del Móvil Grande o Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Members {
-    background-color: #ffcc00;
-    /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
-    background-repeat: no-repeat;
-    background-size: 100vw 95vh;
-    width: 100%;
-    height: 130vh;
-}
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 768px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Members {
-    background-color: #ffcc00;
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* DIMENCIONES PARA COMPUTADORAS*/
-
-/* Dimensiones del Ordenador de Escritorio FUNCIONA */
-@media (min-width: 1440px) and (max-width: 3840px) {
-  /* Estilos para pantallas de portátiles medianos */
-  
-}
-
-/* Dimensiones del Ordenador portátil medio FUNCIONA */
-@media (min-width: 1024px) and (max-width: 1440px) {
-  /* Estilos para pantallas de portátiles medianos */
-  
 }
 
 /* Dimensiones Ordenador PequeñoFUNCIONA*/
 @media (min-width: 900px) and (max-width: 1024px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-    /* Estilos para pantallas de portátiles medianos */
-    
+  /* Estilos para pantallas de portátiles medianos */
+  .Members {
+    background-color: #ffcc00;
+    width: 100%; /* Ancho del cuerpo */
+    height: 65vw;
+  }
+  .Tittle-Members {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 2.6vw;
+    font-weight: bold;
+  }
+  .Content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Members-part1 {
+    margin: 4vw;
+  }
+  .Group-members {
+    height: 50vw;
+    width: 55vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1vw;
+  }
+
+  .tittle-members {
+    color: #0099ff;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+  }
+  .members-image1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
+
+  .members-image {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding-top: 3vw;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 1.4vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+  }
+
+  .Members-part2 {
+    margin-left: 5vw;
+  }
+
+  .members {
+    display: flex;
+    margin: 1vw;
+  }
+  .card-menber {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .Members {
+    background-color: #ffcc00;
+    width: 100%; /* Ancho del cuerpo */
+    height: 68vw;
+  }
+  .Tittle-Members {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 2.6vw;
+    font-weight: bold;
+  }
+  .Content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Members-part1 {
+    margin: 4vw;
+  }
+  .Group-members {
+    height: 50vw;
+    width: 55vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1vw;
+  }
 
-    /* Estilos para pantallas de portátiles medianos */
-    
+  .tittle-members {
+    color: #0099ff;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+  }
+  .members-image1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
+
+  .members-image {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding-top: 3vw;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 1.4vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+  }
+
+  .Members-part2 {
+    margin-left: 5vw;
+  }
+
+  .members {
+    display: flex;
+    margin: 1vw;
+  }
+  .card-menber {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 }
-
 
 /* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
-@media (min-width: 768px) and (max-width: 800px){
+@media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
-    width: 100%;
-    height: 300vw;
-    align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+    width: 100%; /* Ancho del cuerpo */
+    height: 70vw;
+  }
+  .Tittle-Members {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 2.6vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Members-part1 {
+    margin: 4vw;
+  }
+  .Group-members {
+    height: 50vw;
+    width: 55vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1vw;
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .tittle-members {
+    color: #0099ff;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+  }
+  .members-image1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding-top: 3vw;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 1.4vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+  }
+
+  .Members-part2 {
+    margin-left: 5vw;
+  }
+
+  .members {
+    display: flex;
+    margin: 1vw;
+  }
+  .card-menber {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
-    width: 100%;
-    height: 300vw;
-    align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+    width: 100%; /* Ancho del cuerpo */
+    height: 75vw;
+  }
+  .Tittle-Members {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 2.6vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Members-part1 {
+    margin: 4vw;
+  }
+  .Group-members {
+    height: 50vw;
+    width: 55vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1vw;
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .tittle-members {
+    color: #0099ff;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+  }
+  .members-image1 {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image {
+    width: 10vw;
+    height: 10vw;
+    margin-right: 1vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding-top: 3vw;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 1.4vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 1.6vw;
+    font-weight: 900;
+  }
+
+  .Members-part2 {
+    margin-left: 5vw;
+  }
+
+  .members {
+    display: flex;
+    margin: 1vw;
+  }
+  .card-menber {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 }
 
 /* Dimensiones del Tablet 4*/
@@ -403,217 +574,220 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 300vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}   
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
-@media (min-width: 712px) and  (max-width: 720px){
+@media (min-width: 712px) and (max-width: 720px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 300vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
+@media (min-width: 700px) and (max-width: 711px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 300vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}   
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del table  2 */
@@ -622,71 +796,72 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 300vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del table  1 */
@@ -695,145 +870,146 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 160vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5vw;
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
-@media (min-width: 640px) and  (max-width: 650px) {
+@media (min-width: 640px) and (max-width: 650px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 300vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Blackberry Playbook */
@@ -842,71 +1018,72 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 300vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 4vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 3.8vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 22vw;
-  height: 22vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 3vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 3.6vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 2.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones Grande   2*/
@@ -915,72 +1092,72 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones  Grande  1*/
@@ -989,72 +1166,72 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones  Mediano-grande 2 */
@@ -1063,66 +1240,72 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}  
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
+
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Mediano-grande 1 */
@@ -1131,72 +1314,72 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 245vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 3.8vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 22vw;
+    height: 22vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 2.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Nokia N9 */
@@ -1205,146 +1388,146 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 675vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}  
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Mediano  */
-@media (min-width: 430px)  and (max-width: 480px) {
+@media (min-width: 430px) and (max-width: 480px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 676vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-} 
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Mediano */
@@ -1355,70 +1538,70 @@
     width: 100%;
     height: 505vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-} 
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
@@ -1429,70 +1612,70 @@
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-} 
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
@@ -1503,70 +1686,70 @@
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-} 
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Pixel 3XL FUNCIONA BIEN */
@@ -1577,70 +1760,70 @@
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
@@ -1651,144 +1834,144 @@
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
 @media (min-width: 384px) and (max-width: 390px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-.Members {
+  .Members {
     background-color: #ffcc00;
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
@@ -1799,70 +1982,70 @@
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
@@ -1873,70 +2056,70 @@
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
@@ -1947,144 +2130,143 @@
     width: 100%;
     height: 510vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Móvil LISTO */
 @media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-.Members {
+  .Members {
     background-color: #ffcc00;
     width: 100%;
     height: 515vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
+  .Group-members {
+    height: 180vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.Group-members {
-  height: 180vh;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
-.members-image1 {
-  width: 45vw;
-  height: 45vw;
-  border-radius: 50%;
-}
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin: 2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-title1{
-  margin: 2.5vw;
-  color: #0066CC;
-  font-size: 6.5vw;
-  font-weight: 900;
-}
-.Members-text1{
-  color: #0066CC;
-  font-size: 5vw;
-  font-weight: bold;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  .members-image1 {
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+  }
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-title1 {
+    margin: 2.5vw;
+    color: #0066cc;
+    font-size: 6.5vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }
 
 /* Dimensiones del Jio Phone 2 LISTO*/
@@ -2093,62 +2275,60 @@
   .Members {
     font-family: "Pally", sans-serif;
     background-color: #ffcc00;
-    background-repeat: no-repeat;
-    background-size: 100vw 95vh;
     width: 100%;
     height: 510vw;
     align-content: baseline;
-}
-.Tittle-Members {
-  margin-top: 12vw;
-  margin-bottom: 2vw;
-  color: #0066CC;
-  font-size: 10vw;
-  font-weight: bold;
-}
-.Content {
+  }
+  .Tittle-Members {
+    margin-top: 12vw;
+    margin-bottom: 2vw;
+    color: #0066cc;
+    font-size: 10vw;
+    font-weight: bold;
+  }
+  .Content {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.Group-members {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
+  .Group-members {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.members-image1 {
-  width: 50vw;
-  height: 50vw;
-  border-radius: 50%;
-}
-.Members-title1 {
-  color: #0066CC;
-  font-size: 7vw;
-  font-weight: 900;
-}
-.Members-text1 {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
+  .members-image1 {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+  }
+  .Members-title1 {
+    color: #0066cc;
+    font-size: 7vw;
+    font-weight: 900;
+  }
+  .Members-text1 {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
 
-.members-image {
-  width: 40vw;
-  height: 40vw;
-  margin-right: 1.2vw;
-  border-radius: 50%;
-}
-.Members-title {
-  color: #0066CC;
-  font-size: 6vw;
-  font-weight: 900;
-}
-.Members-text {
-  color: #0066CC;
-  font-size: 5.5vw;
-  font-weight: 900;
-}
+  .members-image {
+    width: 40vw;
+    height: 40vw;
+    margin-right: 1.2vw;
+    border-radius: 50%;
+  }
+  .Members-title {
+    color: #0066cc;
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .Members-text {
+    color: #0066cc;
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
 }

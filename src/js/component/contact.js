@@ -98,10 +98,9 @@ export const Contact = () => {
                 <textarea
                   type="message"
                   name="message"
-                  className="form-control" 
+                  className="form-control text-message" 
                   id="floatingInput"
                   placeholder="message"
-                  style={{height:"40vw"}}
                   required
                 />
                 <label htmlFor="floatingInput" style={{ color: " #0066CC" }}>

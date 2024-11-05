@@ -11,7 +11,6 @@ footer {
   align-content: center;
   flex-direction: row;
   align-items: center;
-  height: 35vh;
   width: 100%;
 }
 .Part-footer {
@@ -76,22 +75,180 @@ footer {
 /* Dimensiones del Ordenador de Escritorio FUNCIONA */
 @media (min-width: 1440px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
+  .content-footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .Part-footer {
+    font-weight: bold;
+    padding: 3vw;
+    width: 92vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .tittle-footer {
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffa500;
+    width: 33vw;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+  }
+  .Copy {
+    background-color: #0066cc;
+    text-align: center;
+  }
 }
 
 /* Dimensiones del Ordenador portátil medio FUNCIONA */
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   /* Estilos para pantallas de portátiles medianos */
+  .content-footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .Part-footer {
+    font-weight: bold;
+    padding: 3vw;
+    width: 92vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .tittle-footer {
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffa500;
+    width: 33vw;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+  }
+  .Copy {
+    background-color: #0066cc;
+    text-align: center;
+  }
 }
 
 /* Dimensiones Ordenador PequeñoFUNCIONA*/
-@media (min-width: 900px) and (max-width: 1025px) {
+@media (min-width: 900px) and (max-width: 1024px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   /* Estilos para pantallas de portátiles medianos */
+  .content-footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .Part-footer {
+    font-weight: bold;
+    padding: 3vw;
+    width: 92vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .tittle-footer {
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffa500;
+    width: 33vw;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+  }
+  .Copy {
+    background-color: #0066cc;
+    text-align: center;
+  }
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
   /* Estilos para pantallas de portátiles medianos */
+  .content-footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .Part-footer {
+    font-weight: bold;
+    padding: 1vw;
+    width: 29vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .tittle-footer {
+    margin-bottom: 1vw;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffa500;
+    width: 33vw;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+  }
+  .link {
+    text-align: start;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .Copy {
+    background-color: #0066cc;
+    text-align: center;
+  }
 }
 
 /* Dimensiones de Tablet general*/
@@ -103,35 +260,41 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
-    align-items: flex-start;
-    flex-direction: column;
   }
   .Part-footer {
     font-weight: bold;
-    padding: 3vw;
-    width: 92vw;
+    padding: 1vw;
+    width: 29vw;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
   }
   .tittle-footer {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 3vw;
   }
 
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 30vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 2vw;
+  }
+  .link {
+    text-align: start;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
   }
   .Copy {
     background-color: #0066cc;
@@ -140,41 +303,47 @@ footer {
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .content-footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
-    align-items: flex-start;
-    flex-direction: column;
   }
   .Part-footer {
     font-weight: bold;
-    padding: 3vw;
-    width: 92vw;
+    padding: 1vw;
+    width: 29vw;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
   }
   .tittle-footer {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
     font-weight: bold;
-    font-size: 8vw;
+    font-size: 3vw;
   }
 
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 28vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 2vw;
+  }
+  .link {
+    text-align: start;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
   }
   .Copy {
     background-color: #0066cc;
@@ -189,7 +358,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -208,16 +377,25 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.8vw;
+  }
+  .link{
+    font-size: 2.8vw;
+  }
+  /* .img-footer{
+    font-size: 2vw;
+  } */
+  
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -232,7 +410,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -251,16 +429,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -269,13 +452,13 @@ footer {
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
+@media (min-width: 700px) and (max-width: 711px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .content-footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -294,16 +477,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -318,7 +506,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -337,16 +525,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -361,7 +554,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -380,16 +573,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -404,7 +602,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -423,16 +621,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -447,7 +650,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 96vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -466,16 +669,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -490,7 +698,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
+    height: 80vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -509,16 +717,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -533,7 +746,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
+    height: 88vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -552,16 +765,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -576,7 +794,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 100vw;
+    height: 88vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -595,16 +813,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -619,7 +842,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 100vw;
+    height: 88vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -638,16 +861,21 @@ footer {
     font-weight: bold;
     font-size: 8vw;
   }
-
+  .txt-1{
+    font-size: 2.5vw;
+  }
+  .link{
+    font-size: 2.5vw;
+  }
   .text-footer {
     color: #ffffff;
     font-weight: bold;
     background-color: #ffa500;
-    width: 80vw;
+    width: 51vw;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .Copy {
     background-color: #0066cc;
@@ -699,7 +927,7 @@ footer {
 }
 
 /* Dimensiones del Móvil Mediano  */
-@media (min-width: 430px) and (max-width: 480px) {
+@media (min-width: 430px) and (max-width: 499px) {
   .content-footer {
     padding-left: 4vw;
     padding-right: 4vw;
@@ -1174,7 +1402,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 160vw;
+    height: 130vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;

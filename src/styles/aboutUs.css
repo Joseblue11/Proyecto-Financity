@@ -2,49 +2,6 @@
   font-family: "Pally", sans-serif;
 }
 
-/* @media (min-width: 1025px) and (max-width: 1440px) {
-    .AboutUs {
-      background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg"); 
-      background-repeat: no-repeat;
-      background-size: 100vw 125vh;
-      width: 100%;
-      height: 125vh;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 1024px)  {
-    .AboutUs {
-      background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
-      background-repeat: no-repeat;
-      background-size: 100vw 95vh;
-      width: 100%; 
-      height: 95vh;
-    }
-  }
-  
-  @media (min-width: 426px) and (max-width: 767px)  {
-    .AboutUs {
-      background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895468/M%C3%B3vil_grande_o_tablet_1_wkltpd.jpg");
-      background-repeat: no-repeat;
-      background-size: 100vw 90vh;
-      width: 100%; 
-      height: 90vh;
-    }
-
-  }
-  
-
-  @media (min-width: 320px) and (max-width: 425px)  {
-    .AboutUs{
-      background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg");
-      background-repeat: no-repeat;
-      background-size: 100vw 90vh;
-      width: 100%; 
-      height: 90vh;
-    }
-    
-  }
-   */
-
 /* DIMENCIONES PARA COMPUTADORAS*/
 
 /* Dimensiones del Ordenador de Escritorio FUNCIONA */
@@ -53,12 +10,12 @@
   .AboutUs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 125vh;
+    background-size: 100vw 60vw;
     width: 100%;
-    height: 125vh;
+    height: 58vw;
   }
   .title-About {
-    margin: 5vw;
+    margin: 2vw;
     font-weight: bold;
     font-size: 2.6vw;
     color: #ffa500;
@@ -106,12 +63,12 @@
   .AboutUs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 55vw;
+    background-size: 100vw 60vw;
     width: 100%;
-    height: 55vw;
+    height: 58vw;
   }
   .title-About {
-    margin: 3vw;
+    margin: 2vw;
     font-weight: bold;
     font-size: 2.6vw;
     color: #ffa500;
@@ -132,23 +89,23 @@
     flex-direction: column;
   }
   .text-about1 {
-    margin: 1.2vw;
+    margin: 2vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 1.6vw;
+    font-size: 1.7vw;
     font-weight: bold;
   }
   .text-about2 {
     margin-left: 2.8vw;
-    margin-bottom: 1.5vh;
+    margin-bottom: 2vh;
     text-align: justify;
     color: #ffa500;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 
   .about-image {
-    width: 32vw;
-    height: 26vw;
+    width: 30vw;
+    height: 24vw;
     border-radius: 35px;
   }
 }
@@ -160,14 +117,14 @@
   .AboutUs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 125vh;
+    background-size: 100vw 60vw;
     width: 100%;
-    height: 125vh;
+    height: 58vw;
   }
   .title-About {
-    margin: 5vw;
+    margin: 2vw;
     font-weight: bold;
-    font-size: 4.2vw;
+    font-size: 2.6vw;
     color: #ffa500;
   }
   .About-Content {
@@ -179,17 +136,17 @@
     justify-content: space-around;
   }
   .text-about {
-    width: 75vw;
+    width: 45vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .text-about1 {
-    margin: 3.5vw;
+    margin: 2vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 3.5vw;
+    font-size: 1.7vw;
     font-weight: bold;
   }
   .text-about2 {
@@ -197,12 +154,12 @@
     margin-bottom: 2vh;
     text-align: justify;
     color: #ffa500;
-    font-size: 3vw;
+    font-size: 1.5vw;
   }
 
   .about-image {
-    width: 58vw;
-    height: 38vw;
+    width: 30vw;
+    height: 24vw;
     border-radius: 35px;
   }
 }
@@ -214,14 +171,14 @@
   .AboutUs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 110vh;
+    background-size: 100vw 64vw;
     width: 100%;
-    height: 110vh;
+    height: 62vw;
   }
   .title-About {
-    margin: 5vw;
+    margin: 2vw;
     font-weight: bold;
-    font-size: 4.2vw;
+    font-size: 2.6vw;
     color: #ffa500;
   }
   .About-Content {
@@ -233,17 +190,17 @@
     justify-content: space-around;
   }
   .text-about {
-    width: 75vw;
+    width: 45vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .text-about1 {
-    margin: 3.5vw;
+    margin: 2vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 3.5vw;
+    font-size: 1.7vw;
     font-weight: bold;
   }
   .text-about2 {
@@ -251,12 +208,12 @@
     margin-bottom: 2vh;
     text-align: justify;
     color: #ffa500;
-    font-size: 3vw;
+    font-size: 1.5vw;
   }
 
   .about-image {
-    width: 58vw;
-    height: 38vw;
+    width: 30vw;
+    height: 24vw;
     border-radius: 35px;
   }
 }
@@ -266,98 +223,104 @@
 @media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .AboutUs {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 155vw;
+    background-size: 100vw 64vw;
     width: 100%;
-    height: 150vw;
+    height: 62vw;
   }
   .title-About {
-    padding-top: 3vh;
-    margin: 3vw;
+    margin: 2vw;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 2.6vw;
     color: #ffa500;
   }
   .About-Content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    justify-content: space-around;
   }
   .text-about {
-    width: 80vw;
+    width: 45vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .text-about1 {
-    margin: 3vw;
+    margin: 2vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 3.5vw;
+    font-size: 1.7vw;
     font-weight: bold;
   }
   .text-about2 {
+    margin-left: 2.8vw;
+    margin-bottom: 2vh;
     text-align: justify;
     color: #ffa500;
-    font-size: 2.5vw;
-    margin: 2vw;
+    font-size: 1.5vw;
   }
+
   .about-image {
-    width: 50vw;
-    height: 40vw;
+    width: 30vw;
+    height: 24vw;
     border-radius: 35px;
   }
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .AboutUs {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895472/Ordenador_de_escritorio_medio_1_csqjev.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 155vw;
+    background-size: 100vw 64vw;
     width: 100%;
-    height: 150vw;
+    height: 62vw;
   }
   .title-About {
-    padding-top: 3vh;
-    margin: 3vw;
+    margin: 2vw;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 2.6vw;
     color: #ffa500;
   }
   .About-Content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    justify-content: space-around;
   }
   .text-about {
-    width: 80vw;
+    width: 45vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   .text-about1 {
-    margin: 3vw;
+    margin: 2vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 3.5vw;
+    font-size: 1.7vw;
     font-weight: bold;
   }
   .text-about2 {
+    margin-left: 2.8vw;
+    margin-bottom: 2vh;
     text-align: justify;
     color: #ffa500;
-    font-size: 2.5vw;
-    margin: 2vw;
+    font-size: 1.5vw;
   }
+
   .about-image {
-    width: 50vw;
-    height: 40vw;
+    width: 30vw;
+    height: 24vw;
     border-radius: 35px;
   }
 }
@@ -462,7 +425,7 @@
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
+@media (min-width: 700px) and (max-width: 711px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
@@ -661,7 +624,6 @@
   }
 }
 
-
 /* Dimensiones del Blackberry Playbook */
 @media (min-width: 600px) and (max-width: 640px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
@@ -718,15 +680,15 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 155vw;
     width: 100%;
-    height: 333vw;
+    height: 150vw;
   }
   .title-About {
     padding-top: 3vh;
     margin: 3vw;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffa500;
   }
   .About-Content {
@@ -746,18 +708,18 @@
     margin: 3vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 5.2vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
   .text-about2 {
     text-align: justify;
     color: #ffa500;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
   .about-image {
-    width: 70vw;
-    height: 60vw;
+    width: 50vw;
+    height: 40vw;
     border-radius: 35px;
   }
 }
@@ -768,15 +730,15 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 155vw;
     width: 100%;
-    height: 333vw;
+    height: 150vw;
   }
   .title-About {
     padding-top: 3vh;
     margin: 3vw;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffa500;
   }
   .About-Content {
@@ -796,18 +758,18 @@
     margin: 3vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 5.2vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
   .text-about2 {
     text-align: justify;
     color: #ffa500;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
   .about-image {
-    width: 70vw;
-    height: 60vw;
+    width: 50vw;
+    height: 40vw;
     border-radius: 35px;
   }
 }
@@ -818,15 +780,15 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 155vw;
     width: 100%;
-    height: 333vw;
+    height: 150vw;
   }
   .title-About {
     padding-top: 3vh;
     margin: 3vw;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffa500;
   }
   .About-Content {
@@ -846,18 +808,18 @@
     margin: 3vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 5.2vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
   .text-about2 {
     text-align: justify;
     color: #ffa500;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
   .about-image {
-    width: 70vw;
-    height: 60vw;
+    width: 50vw;
+    height: 40vw;
     border-radius: 35px;
   }
 }
@@ -868,15 +830,15 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 343vw;
+    background-size: 100vw 155vw;
     width: 100%;
-    height: 333vw;
+    height: 150vw;
   }
   .title-About {
     padding-top: 3vh;
     margin: 3vw;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffa500;
   }
   .About-Content {
@@ -896,18 +858,18 @@
     margin: 3vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 5.2vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
   .text-about2 {
     text-align: justify;
     color: #ffa500;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     margin: 2vw;
   }
   .about-image {
-    width: 70vw;
-    height: 60vw;
+    width: 50vw;
+    height: 40vw;
     border-radius: 35px;
   }
 }
@@ -968,9 +930,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-        background-size: 100vw 336vw;
-        width: 100%;
-        height: 323vw;
+    background-size: 100vw 343vw;
+    width: 100%;
+    height: 333vw;
   }
   .title-About {
     padding-top: 3vh;
@@ -1018,9 +980,9 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 340vw;
+    background-size: 100vw 343vw;
     width: 100%;
-    height: 328vw;
+    height: 333vw;
   }
   .title-About {
     padding-top: 3vh;
@@ -1468,66 +1430,14 @@
   .AboutUs {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 340vw;
+    background-size: 100vw 470vw;
     width: 100%;
-    height: 328vw;
+    height: 455vw;
   }
   .title-About {
-    padding-top: 3vh;
-    margin: 3vw;
-    font-weight: bold;
-    font-size: 7vw;
-    color: #ffa500;
-  }
-  .About-Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .text-about {
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .text-about1 {
-    margin: 3vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 5.2vw;
-    font-weight: bold;
-  }
-  .text-about2 {
-    text-align: justify;
-    color: #ffa500;
-    font-size: 4.5vw;
-    margin: 2vw;
-  }
-  .about-image {
-    width: 70vw;
-    height: 60vw;
-    border-radius: 35px;
-  }
-}
-
-/* Dimensiones del Jio Phone 2 LISTO */
-@media (min-width: 240px) and (max-width: 320px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .AboutUs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 310vh;
-    width: 100%;
-    height: 300vh;
-  }
-
-  .title-About {
-    padding-top: 8vh;
     margin: 5vw;
     font-weight: bold;
-    font-size: 6vh;
+    font-size: 8vw;
     color: #ffa500;
   }
   .About-Content {
@@ -1547,14 +1457,65 @@
     margin: 6vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 4.5vh;
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  .text-about2 {
+    text-align: justify;
+    color: #ffa500;
+    font-size: 4vw;
+    margin: 4vw;
+  }
+  .about-image {
+    width: 70vw;
+    height: 60vw;
+    border-radius: 35px;
+  }
+}
+
+/* Dimensiones del Jio Phone 2 LISTO */
+@media (min-width: 240px) and (max-width: 320px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .AboutUs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895466/M%C3%B3vil_peque%C3%B1o_1_sejp9q.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 435vw;
+    width: 100%;
+    height: 420vw;
+  }
+
+  .title-About {
+    padding-top: 5vw;
+    margin: 5vw;
+    font-weight: bold;
+    font-size: 8vw;
+    color: #ffa500;
+  }
+  .About-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .text-about {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text-about1 {
+    margin: 6vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 6.5vw;
     font-weight: bold;
   }
   .text-about2 {
     text-align: justify;
     color: #ffa500;
     font-size: 5vw;
-    margin: 2vh;
+    margin: 4vw;
   }
 
   .about-image {

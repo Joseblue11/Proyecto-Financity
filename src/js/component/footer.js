@@ -8,10 +8,10 @@ export const Footer = () => (
       <div className="content-footer">
         <div className="Part-footer">
           <h2 className="tittle-footer">Finnancity</h2>
-          <p className="mb-2">
+          <p className="txt-1 mb-2">
             <i className="fa fa-map-marker-alt me-3"></i>Caracas, Venezuela
           </p>
-          <p className="mb-2">
+          <p className="txt-1 mb-2">
             <i className="fa fa-envelope me-3"></i>finnancity@gmail.com
           </p>
         </div>
@@ -47,6 +47,7 @@ export const Footer = () => (
               href="https://www.facebook.com/profile.php?id=61562882021706"
             >
               <img
+                className="img-footer"
                 src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366507/facebook_t7thht.png"
                 alt="Instagram"
                 style={{ width: "30px", height: "30px" }}
@@ -54,12 +55,13 @@ export const Footer = () => (
             </a>
             <a className="btn" href="https://www.instagram.com/finnancity/">
               <img
+                className="img-footer"
                 src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366509/instagram_1_onjkwa.png"
                 alt="Instagram"
                 style={{ width: "30px", height: "30px" }}
               />
             </a>
-            <p className="text-finnancity">@finnancity</p>
+            <p className="txt-1">@finnancity</p>
           </div>
         </div>
       </div>

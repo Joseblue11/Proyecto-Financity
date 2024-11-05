@@ -6,26 +6,96 @@
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-
 }
 
+/* DIMENCIONES PARA COMPUTADORAS*/
 
 /* Dimensiones del Ordenador de Escritorio*/
-@media (min-width: 1441px) and (max-width: 3840px) {
+@media (min-width: 1440px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    background-size: 100vw 50vw;
+    width: 100%;
+    height: 50vw;
+  }
+  .tittle-Programs {
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #ffcc00;
+    margin-bottom: 2vw;
+  }
+
+  .Programs-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .Programs-Part {
+    width: 30.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .Programs-image {
+    width: 26vw;
+    height: 20vw;
+    border-radius: 32px;
+  }
+
+  .Programs-title {
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: white;
+    background-color: #ffd700; /* Color amarillo claro */
+    width: 22vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .Programs-text {
+    display: flex;
+    display: flex;
+    text-align: justify;
+    font-size: 1.2vw;
+    color: white;
+    width: 25vw;
+    height: 16vw;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
+/* Dimensiones del Ordenador portátil medio */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 50vw;
+    width: 100%;
+    height: 50vw;
   }
   .tittle-Programs{
     font-weight: bold;
     font-size: 2.5vw;
-    color:  #ffcc00;
-    margin: 3vw;
+    color: #ffcc00;
+    margin-bottom: 2vw;
   }
+
   .Programs-Content{
     display: flex;
     justify-content: center;
@@ -36,7 +106,7 @@
   }
   
   .Programs-Part{
-    width: 40vw;
+    width: 30.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,35 +136,40 @@
 
   .Programs-text{
     display: flex;
+    display: flex;
     text-align: justify;
     font-size: 1.2vw;
     color: white;
-    width: 28vw;
-    height: 12vw;
+    width: 25vw;
+    height: 16vw;
     border-radius: 15px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-  
   }
 }
-/* Dimensiones del Ordenador portátil medio */
-@media (min-width: 1025px) and (max-width: 1440px) {
+
+
+
+/* Dimensiones Ordenador PequeñoFUNCIONA*/
+@media (min-width: 900px) and (max-width: 1024px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   /* Estilos para pantallas de portátiles medianos */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 60vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 55vw;
+    background-size: 100vw 50vw;
+    width: 100%;
+    height: 50vw;
   }
   .tittle-Programs{
     font-weight: bold;
     font-size: 2.5vw;
-    color:  #ffcc00;
-    margin-bottom: 3vw;
+    color: #ffcc00;
+    margin-bottom: 2vw;
   }
+
   .Programs-Content{
     display: flex;
     justify-content: center;
@@ -105,7 +180,7 @@
   }
   
   .Programs-Part{
-    width: 40vw;
+    width: 30.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,211 +191,252 @@
   }
   
   .Programs-image{
-    width: 26vw;
-    height: 18vw;
-    border-radius: 32px;
+   width: 26vw;
+   height: 20vw;
+   border-radius: 32px;
   }
   
   .Programs-title {
     font-weight: bold;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #FFD700; /* Color amarillo claro */
     width: 22vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
-    margin-bottom: 3px;
+    margin-bottom:3px;
   }
+
   .Programs-text{
+    display: flex;
     display: flex;
     text-align: justify;
     font-size: 1.2vw;
     color: white;
-    width: 26vw;
-    height: 18vw;
+    width: 25vw;
+    height: 16vw;
     border-radius: 15px;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
-  
   }
-}
-
-/* Dimensiones del Móvil Grande o Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Programs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895462/Ordenador_port%C3%A1til_medio_2_f50qlc.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 110vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 110vh;
-  }
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 767px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Programs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895461/M%C3%B3vil_grande_o_tablet_2_d1abmt.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 425px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .Programs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* DIMENCIONES PARA COMPUTADORAS*/
-
-/* Dimensiones del Ordenador de Escritorio FUNCIONA */
-@media (min-width: 1440px) and (max-width: 3840px) {
-  /* Estilos para pantallas de portátiles medianos */
-  
-}
-
-/* Dimensiones del Ordenador portátil medio FUNCIONA */
-@media (min-width: 1024px) and (max-width: 1440px) {
-  /* Estilos para pantallas de portátiles medianos */
-  
-}
-
-/* Dimensiones Ordenador PequeñoFUNCIONA*/
-@media (min-width: 900px) and (max-width: 1024px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-    /* Estilos para pantallas de portátiles medianos */
-    
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
-    /* Estilos para pantallas de portátiles medianos */
-    
+  /* Estilos para pantallas de portátiles medianos */
+  .Programs {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 50vw;
+    width: 100%;
+    height: 50vw;
+  }
+  .tittle-Programs{
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #ffcc00;
+    margin-bottom: 2vw;
+  }
+
+  .Programs-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .Programs-Part{
+    width: 30.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  
+  .Programs-image{
+   width: 26vw;
+   height: 20vw;
+   border-radius: 32px;
+  }
+  
+  .Programs-title {
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: white;
+    background-color: #FFD700; /* Color amarillo claro */
+    width: 22vw;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom:3px;
+  }
+
+  .Programs-text{
+    display: flex;
+    display: flex;
+    text-align: justify;
+    font-size: 1.2vw;
+    color: white;
+    width: 25vw;
+    height: 16vw;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 }
 
 /* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
-@media (min-width: 768px) and (max-width: 800px){
+@media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 50vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 50vw;
+  }
+  .tittle-Programs{
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 2.5vw;
     color: #ffcc00;
-    margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+    margin-bottom: 2vw;
+  }
+
+  .Programs-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .Programs-Part{
+    width: 30.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  
+  .Programs-image{
+   width: 26vw;
+   height: 20vw;
+   border-radius: 32px;
+  }
+  
   .Programs-title {
-    display: inline-block;
     font-weight: bold;
-    font-size: 3.4vw;
+    font-size: 1.8vw;
     color: white;
-    background-color: #FFD700;
-    width: 40vw;
+    background-color: #FFD700; /* Color amarillo claro */
+    width: 22vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
-    margin-bottom: 3px;
+    margin-bottom:3px;
   }
 
-  .Programs-text {
-    padding-bottom: 5vw;
-    padding-top: 5vw;
-    padding-right: 10vw;
-    padding-left: 10vw;
+  .Programs-text{
+    display: flex;
+    display: flex;
     text-align: justify;
-    font-size: 2.5vw;
+    font-size: 1.2vw;
     color: white;
+    width: 25vw;
+    height: 16vw;
     border-radius: 15px;
-} 
-
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895464/Ordenador_de_escritorio_medio_2_onvbk3.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 50vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 50vw;
+  }
+  .tittle-Programs{
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 2.5vw;
     color: #ffcc00;
-    margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+    margin-bottom: 2vw;
+  }
+
+  .Programs-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .Programs-Part{
+    width: 30.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+  }
+  
+  .Programs-image{
+   width: 26vw;
+   height: 20vw;
+   border-radius: 32px;
+  }
+  
   .Programs-title {
-    display: inline-block;
     font-weight: bold;
-    font-size: 3.4vw;
+    font-size: 1.8vw;
     color: white;
-    background-color: #FFD700;
-    width: 40vw;
+    background-color: #FFD700; /* Color amarillo claro */
+    width: 22vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
-    margin-bottom: 3px;
+    margin-bottom:3px;
   }
 
-  .Programs-text {
-    padding-bottom: 5vw;
-    padding-top: 5vw;
-    padding-right: 10vw;
-    padding-left: 10vw;
+  .Programs-text{
+    display: flex;
+    display: flex;
     text-align: justify;
-    font-size: 2.5vw;
+    font-size: 1.2vw;
     color: white;
+    width: 25vw;
+    height: 16vw;
     border-radius: 15px;
-} 
-
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 }
 
 /* Dimensiones del Tablet 4*/
@@ -329,35 +445,35 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -374,45 +490,44 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
-
+  }
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
-@media (min-width: 712px) and  (max-width: 720px){
+@media (min-width: 712px) and (max-width: 720px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -429,45 +544,44 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
-
+  }
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
+@media (min-width: 700px) and (max-width: 711px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -484,8 +598,7 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
-
+  }
 }
 
 /* Dimensiones del table  2 */
@@ -494,35 +607,35 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -539,8 +652,7 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
-
+  }
 }
 
 /* Dimensiones del table  1 */
@@ -549,35 +661,35 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -594,45 +706,44 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
- 
+  }
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
-@media (min-width: 640px) and  (max-width: 650px) {
+@media (min-width: 640px) and (max-width: 650px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -649,44 +760,43 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
-
+  }
 }
 /* Dimensiones del Blackberry Playbook */
-@media (min-width: 620px) and (max-width: 640px)  {
+@media (min-width: 620px) and (max-width: 640px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -703,8 +813,7 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
-
+  }
 }
 
 /* Dimensiones del Blackberry Playbook */
@@ -713,35 +822,35 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.Programs-Part{
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 4vw;
     color: #ffcc00;
     margin: 4vw;
-}
-.Programs-image {
-  width: 50vw;
-  height: 30vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 40vw;
     border-radius: 15px;
     padding: 7px;
@@ -758,7 +867,7 @@
     font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones Grande   2*/
@@ -767,28 +876,36 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffcc00;
-    margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+    margin: 4vw;
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
-    width: 50vw;
+    background-color: #ffd700;
+    width: 40vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
@@ -797,14 +914,14 @@
 
   .Programs-text {
     padding-bottom: 5vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-right: 10vw;
     padding-left: 10vw;
     text-align: justify;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones  Grande  1*/
@@ -813,28 +930,36 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffcc00;
-    margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+    margin: 4vw;
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
-    width: 50vw;
+    background-color: #ffd700;
+    width: 40vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
@@ -843,14 +968,14 @@
 
   .Programs-text {
     padding-bottom: 5vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-right: 10vw;
     padding-left: 10vw;
     text-align: justify;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones  Mediano-grande 2 */
@@ -859,28 +984,36 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffcc00;
-    margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+    margin: 4vw;
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
-    width: 50vw;
+    background-color: #ffd700;
+    width: 40vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
@@ -889,14 +1022,14 @@
 
   .Programs-text {
     padding-bottom: 5vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-right: 10vw;
     padding-left: 10vw;
     text-align: justify;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Móvil Mediano-grande 1 */
@@ -905,28 +1038,36 @@
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 452vw;
+    background-size: 100vw 213vw;
     width: 100%;
-    height: auto;
-}
-.tittle-Programs {
+    height: 213vw;
+  }
+  .Programs-Part {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .tittle-Programs {
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 4vw;
     color: #ffcc00;
-    margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+    margin: 4vw;
+  }
+  .Programs-image {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 3.4vw;
     color: white;
-    background-color: #FFD700;
-    width: 50vw;
+    background-color: #ffd700;
+    width: 40vw;
     border-radius: 15px;
     padding: 7px;
     margin-top: 3px;
@@ -935,14 +1076,14 @@
 
   .Programs-text {
     padding-bottom: 5vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-right: 10vw;
     padding-left: 10vw;
     text-align: justify;
-    font-size: 4.5vw;
+    font-size: 2.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Móvil Nokia N9 */
@@ -954,24 +1095,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -988,11 +1129,11 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Móvil Mediano  */
-@media (min-width: 430px)  and (max-width: 480px) {
+@media (min-width: 430px) and (max-width: 480px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
@@ -1000,24 +1141,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1034,7 +1175,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Móvil Mediano */
@@ -1046,24 +1187,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1080,7 +1221,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
@@ -1092,24 +1233,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1126,7 +1267,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
@@ -1138,24 +1279,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1172,7 +1313,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Pixel 3XL FUNCIONA BIEN */
@@ -1184,24 +1325,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1218,7 +1359,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-} 
+  }
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
@@ -1230,24 +1371,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1264,7 +1405,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-}
+  }
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
@@ -1276,24 +1417,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1310,7 +1451,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-}
+  }
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
@@ -1322,24 +1463,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1356,7 +1497,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-}
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
@@ -1368,24 +1509,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1402,7 +1543,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-}
+  }
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
@@ -1414,24 +1555,24 @@
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1448,36 +1589,36 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-}
+  }
 }
 
 /* Dimensiones del Móvil LISTO */
 @media (min-width: 320px) and (max-width: 344px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
-.Programs {
+  .Programs {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895459/M%C3%B3vil_peque%C3%B1o_2_mtxfgv.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 452vw;
     width: 100%;
     height: auto;
-}
-.tittle-Programs {
+  }
+  .tittle-Programs {
     font-weight: bold;
     font-size: 7vw;
     color: #ffcc00;
     margin: 5vw;
-}
-.Programs-image {
-  width: 70vw;
-  height: 50vw;
-  border-radius: 32px;
-}
+  }
+  .Programs-image {
+    width: 70vw;
+    height: 50vw;
+    border-radius: 32px;
+  }
   .Programs-title {
     display: inline-block;
     font-weight: bold;
     font-size: 6vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 50vw;
     border-radius: 15px;
     padding: 7px;
@@ -1494,7 +1635,7 @@
     font-size: 4.5vw;
     color: white;
     border-radius: 15px;
-}
+  }
 }
 
 /* Dimensiones del Jio Phone 2 LISTO*/
@@ -1506,13 +1647,13 @@
     background-size: 100vw 485vh;
     width: 100%;
   }
-  .tittle-Programs{
+  .tittle-Programs {
     font-weight: bold;
     font-size: 10vw;
     color: #ffcc00;
     margin: 9vw;
   }
-  .Programs-image{
+  .Programs-image {
     width: 80vw;
     height: 60vw;
     border-radius: 32px;
@@ -1522,7 +1663,7 @@
     font-weight: bold;
     font-size: 8vw;
     color: white;
-    background-color: #FFD700;
+    background-color: #ffd700;
     width: 80vw;
     border-radius: 15px;
     padding: 7px;
@@ -1530,7 +1671,7 @@
     margin-bottom: 3px;
   }
 
-  .Programs-text{
+  .Programs-text {
     padding: 7vh;
     text-align: justify;
     font-size: 6vw;

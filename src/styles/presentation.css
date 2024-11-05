@@ -16,21 +16,24 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
+    background-size: 100vw 45vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 45vw;
   }
   .Prestext {
     color: white;
-    width: 48vw;
-    height: 20vh;
+    width: 45vw;
+    height: 12vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   .Prestext-text {
-    font-size: 1.5vw;
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: 1.4vw;
   }
   .pres-button {
     font-weight: bold;
@@ -39,10 +42,9 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
     color: #fff;
   }
 
@@ -56,8 +58,8 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 28vw;
-    height: 28vw;
+    width: 22vw;
+    height: 22vw;
     border-radius: 50%;
   }
 }
@@ -68,21 +70,23 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
+    background-size: 100vw 45vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    height: 45vw;
   }
   .Prestext {
     color: white;
     width: 45vw;
-    height: 15vh;
-    margin-bottom: 3vw;
+    height: 12vw;
   }
   .Prestext-title {
     font-weight: bold;
     font-size: 2.5vw;
   }
   .Prestext-text {
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
     font-size: 1.4vw;
   }
   .pres-button {
@@ -92,10 +96,9 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size:1.5vw;
+    font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
     color: #fff;
   }
 
@@ -109,8 +112,8 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 23vw;
-    height: 23vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
   }
 }
@@ -118,38 +121,40 @@
 /* Dimensiones Ordenador PequeñoFUNCIONA*/
 @media (min-width: 900px) and (max-width: 1025px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-    /* Estilos para pantallas de portátiles medianos */
-    .presentation {
-      background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
-      background-repeat: no-repeat;
-      background-size: 100vw 75vh;
-      width: 100%; /* Ancho del cuerpo */
-      height: 75vh;
-    }
-    .Prestext {
-      color: white;
-      width: 45vw;
-      height: 20vh;
-    }
-    .Prestext-title {
-      font-weight: bold;
-      font-size: 3.3vh;
-    }
-    .Prestext-text {
-      font-size: 1.8vh;
-    }
-    .pres-button {
-      font-weight: bold;
-      background-color: #ffa500; /* Naranja */
-      color: #fff;
-      border: none;
-      border-radius: 20px; /* Para darle la forma redondeada */
-      padding: 5px 15px;
-      font-size: 2.3vw;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
-  
-      color: #fff;
+  /* Estilos para pantallas de portátiles medianos */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 45vw;
+    width: 100%; /* Ancho del cuerpo */
+    height: 45vw;
+  }
+  .Prestext {
+    color: white;
+    width: 45vw;
+    height: 12vw;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+  .Prestext-text {
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: 1.4vw;
+  }
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
   }
 
   .pres-button:hover {
@@ -162,46 +167,48 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 35vw;
-    height: 26vh;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
   }
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
-    /* Estilos para pantallas de portátiles medianos */
-    .presentation {
-      background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
-      background-repeat: no-repeat;
-      background-size: 100vw 95vh;
-      width: 100%; /* Ancho del cuerpo */
-      height: 95vh;
-    }
-    .Prestext {
-      color: white;
-      width: 45vw;
-      height: 20vh;
-    }
-    .Prestext-title {
-      font-weight: bold;
-      font-size: 5vw;
-    }
-    .Prestext-text {
-      font-size: 2.5vw;
-    }
-    .pres-button {
-      font-weight: bold;
-      background-color: #ffa500; /* Naranja */
-      color: #fff;
-      border: none;
-      border-radius: 20px; /* Para darle la forma redondeada */
-      padding: 5px 15px;
-      font-size: 2.6vw;
-      cursor: pointer;
-      transition: background-color 0.3s ease-in-out;
-  
-      color: #fff;
+  /* Estilos para pantallas de portátiles medianos */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 45vw;
+    width: 100%; /* Ancho del cuerpo */
+    height: 45vw;
+  }
+  .Prestext {
+    color: white;
+    width: 45vw;
+    height: 12vw;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+  .Prestext-text {
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: 1.4vw;
+  }
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
   }
 
   .pres-button:hover {
@@ -214,41 +221,39 @@
     background-color: #ffcc00;
   }
   .PresImg {
-    width: 38vw;
-    height: 38vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
   }
 }
-
 
 /* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
-@media (min-width: 768px) and (max-width: 800px){
+@media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
+    background-size: 100vw 45vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    height: 45vw;
   }
- 
   .Prestext {
     color: white;
-    width: 73vw;
-    height: 35vw;
+    width: 45vw;
+    height: 12vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
-
+    font-size: 2.5vw;
+  }
+  .Prestext-text {
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: 1.4vw;
+  }
   .pres-button {
     font-weight: bold;
     background-color: #ffa500; /* Naranja */
@@ -256,10 +261,9 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 3vw;
+    font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
     color: #fff;
   }
 
@@ -272,40 +276,38 @@
     /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
-
   .PresImg {
-    width: 35vw;
-    height: 35vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895480/Ordenador_de_escritorio_medio_e5igxw.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
+    background-size: 100vw 45vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    height: 45vw;
   }
- 
   .Prestext {
     color: white;
-    width: 73vw;
-    height: 35vw;
+    width: 45vw;
+    height: 12vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
-
+    font-size: 2.5vw;
+  }
+  .Prestext-text {
+    padding-bottom: 1vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    font-size: 1.4vw;
+  }
   .pres-button {
     font-weight: bold;
     background-color: #ffa500; /* Naranja */
@@ -313,10 +315,9 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 3vw;
+    font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
     color: #fff;
   }
 
@@ -329,12 +330,11 @@
     /* Estilo cuando el botón está presionado */
     background-color: #ffcc00;
   }
-
   .PresImg {
-    width: 35vw;
-    height: 35vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del Tablet 4*/
@@ -343,11 +343,11 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -356,12 +356,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -391,20 +391,20 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4  Funciona*/
-@media (min-width: 712px) and  (max-width: 720px){
+@media (min-width: 712px) and (max-width: 720px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -413,12 +413,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -448,20 +448,20 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
+@media (min-width: 700px) and (max-width: 711px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -470,12 +470,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -505,7 +505,7 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del table  2 */
@@ -514,11 +514,11 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -527,12 +527,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -562,7 +562,7 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del table  1 */
@@ -571,11 +571,11 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -584,12 +584,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -619,20 +619,20 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
-@media (min-width: 640px) and  (max-width: 650px) {
+@media (min-width: 640px) and (max-width: 650px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -641,12 +641,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -676,7 +676,7 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones del Blackberry Playbook FUNCIONA */
@@ -685,11 +685,11 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 111vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 111vw;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
- 
+
   .Prestext {
     color: white;
     width: 73vw;
@@ -698,12 +698,12 @@
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
-}
-.Prestext-text {
-  font-size: 3vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
-}
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
 
   .pres-button {
     font-weight: bold;
@@ -733,7 +733,7 @@
     width: 35vw;
     height: 35vw;
     border-radius: 50%;
-}
+  }
 }
 
 /* Dimensiones Grande   2*/
@@ -742,24 +742,24 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
   }
-  .leftSide{
-    height: 100vw;
-  }
+
   .Prestext {
     color: white;
-    width: 75vw;
-    height: 38vh;
+    width: 73vw;
+    height: 35vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 4vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
   .pres-button {
@@ -769,7 +769,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 5vw;
+    font-size: 3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -787,8 +787,8 @@
   }
 
   .PresImg {
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
   }
 }
@@ -799,74 +799,24 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 185vw;
+    background-size: 100vw 95vw;
     width: 100%;
-    height: 185vw;
+    height: 95vw;
   }
+
   .Prestext {
     color: white;
-    width: 85vw;
-    height: 60vw;
-  }
-  .Prestext-title {
-    font-weight: bold;
-    font-size: 4vh;
-  }
-  .Prestext-text {
-    font-size: 2.5vh;
-  }
-
-  .pres-button {
-    font-weight: bold;
-    background-color: #ffa500; /* Naranja */
-    color: #fff;
-    border: none;
-    border-radius: 20px; /* Para darle la forma redondeada */
-    padding: 5px 15px;
-    font-size: 5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-
-    color: #fff;
-  }
-
-  .pres-button:hover {
-    /* Estilo al pasar el mouse por encima */
-    background-color: #ffcc00;
-  }
-
-  .pres-button.active {
-    /* Estilo cuando el botón está presionado */
-    background-color: #ffcc00;
-  }
-
-  .PresImg {
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
-  }
-}
-/* Dimensiones  Mediano-grande 2 */
-@media (min-width: 510px) and (max-width: 530px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .presentation {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 160vw;
-    width: 100%;
-    height: 160vw;
-  }
-  .Prestext {
-    color: white;
-    width: 85vw;
-    height: 50vw;
+    width: 73vw;
+    height: 35vw;
   }
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
   }
   .Prestext-text {
-    font-size: 3vw
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
   .pres-button {
@@ -879,6 +829,7 @@
     font-size: 3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+
     color: #fff;
   }
 
@@ -893,8 +844,64 @@
   }
 
   .PresImg {
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+  }
+}
+/* Dimensiones  Mediano-grande 2 */
+@media (min-width: 510px) and (max-width: 530px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .presentation {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 95vw;
+    width: 100%;
+    height: 95vw;
+  }
+
+  .Prestext {
+    color: white;
+    width: 73vw;
+    height: 35vw;
+  }
+  .Prestext-title {
+    font-weight: bold;
+    font-size: 4vw;
+  }
+  .Prestext-text {
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+
+  .pres-button {
+    font-weight: bold;
+    background-color: #ffa500; /* Naranja */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Para darle la forma redondeada */
+    padding: 5px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    color: #fff;
+  }
+
+  .pres-button:hover {
+    /* Estilo al pasar el mouse por encima */
+    background-color: #ffcc00;
+  }
+
+  .pres-button.active {
+    /* Estilo cuando el botón está presionado */
+    background-color: #ffcc00;
+  }
+
+  .PresImg {
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
   }
 }
@@ -905,21 +912,24 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 160vw;
+    background-size: 100vw 95vw;
     width: 100%;
-    height: 160vw;
+    height: 95vw;
   }
+
   .Prestext {
     color: white;
-    width: 85vw;
-    height: 50vw;
+    width: 73vw;
+    height: 35vw;
   }
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
   }
   .Prestext-text {
-    font-size: 3vw
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
   .pres-button {
@@ -932,6 +942,7 @@
     font-size: 3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+
     color: #fff;
   }
 
@@ -946,8 +957,8 @@
   }
 
   .PresImg {
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
   }
 }
@@ -960,21 +971,24 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 160vw;
+    background-size: 100vw 95vw;
     width: 100%;
-    height: 160vw;
+    height: 95vw;
   }
+
   .Prestext {
     color: white;
-    width: 85vw;
-    height: 50vw;
+    width: 73vw;
+    height: 35vw;
   }
   .Prestext-title {
     font-weight: bold;
     font-size: 4vw;
   }
   .Prestext-text {
-    font-size: 3vw
+    font-size: 3vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
   .pres-button {
@@ -987,6 +1001,7 @@
     font-size: 3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+
     color: #fff;
   }
 
@@ -1001,33 +1016,36 @@
   }
 
   .PresImg {
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
   }
 }
 
 /* Dimensiones del Móvil Mediano  */
-@media (min-width: 430px)  and (max-width: 480px) {
+@media (min-width: 431px) and (max-width: 479px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 170vw;
+    background-size: 100vw 125vw;
     width: 100%;
-    height: 170vw;
+    height: 125vw;
   }
+
   .Prestext {
     color: white;
-    width: 85vw;
-    height: 60vw;
+    width: 80vw;
+    height: 65vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 4vh;
+    font-size: 7vw;
   }
   .Prestext-text {
-    font-size: 2.5vh;
+    font-size: 4vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
   }
 
   .pres-button {
@@ -1037,10 +1055,9 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 5vw;
+    font-size: 4vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-
     color: #fff;
   }
 
@@ -1055,8 +1072,8 @@
   }
 
   .PresImg {
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
   }
 }
@@ -1116,7 +1133,7 @@
 }
 
 /* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
-@media (min-width: 414px) and (max-width: 426px) {
+@media (min-width: 414px) and (max-width: 425px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
@@ -1178,7 +1195,6 @@
     background-size: 100vw 175vw;
     width: 100%;
     height: 175vw;
-
   }
 
   .Prestext {
@@ -1234,7 +1250,7 @@
     background-size: 100vw 185vw;
     width: 100%;
     height: 185vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1248,7 +1264,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1278,7 +1294,7 @@
     width: 50vw;
     height: 50vw;
     border-radius: 50%;
-  }  
+  }
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
@@ -1290,7 +1306,7 @@
     background-size: 100vw 185vw;
     width: 100%;
     height: 185vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1304,7 +1320,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1334,7 +1350,7 @@
     width: 50vw;
     height: 50vw;
     border-radius: 50%;
-  }  
+  }
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
@@ -1346,7 +1362,7 @@
     background-size: 100vw 185vw;
     width: 100%;
     height: 185vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1360,7 +1376,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1390,7 +1406,7 @@
     width: 50vw;
     height: 50vw;
     border-radius: 50%;
-  }  
+  }
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
@@ -1401,7 +1417,7 @@
     background-size: 100vw 185vw;
     width: 100%;
     height: 185vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1415,7 +1431,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1445,7 +1461,7 @@
     width: 50vw;
     height: 50vw;
     border-radius: 50%;
-  }  
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
@@ -1457,7 +1473,7 @@
     background-size: 100vw 185vw;
     width: 100%;
     height: 185vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1471,7 +1487,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1513,7 +1529,7 @@
     background-size: 100vw 150vw;
     width: 100%;
     height: 150vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1527,7 +1543,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1569,7 +1585,7 @@
     background-size: 100vw 190vw;
     width: 100%;
     height: 190vw;
-}
+  }
 
   .Prestext {
     color: white;
@@ -1583,7 +1599,7 @@
   .Prestext-text {
     font-size: 5vw;
     margin: 5vw;
-}
+  }
 
   .pres-button {
     font-weight: bold;
@@ -1622,23 +1638,23 @@
   .presentation {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895473/M%C3%B3vil_peque%C3%B1o_ss3szl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 150vh;
+    background-size: 100vw 190vw;
     width: 100%; /* Ancho del cuerpo */
-    height: 150;
+    height: 190vw;
   }
 
   .Prestext {
     color: white;
     width: 75vw;
-    height: 86vh;
+    height: 95vw;
   }
   .Prestext-title {
     font-weight: bold;
-    font-size: 7vh;
-    margin-top: 8vw;
-}
+    font-size: 8vw;
+    margin-top: 1vw;
+  }
   .Prestext-text {
-    font-size: 4vh;
+    font-size: 5.5vw;
   }
 
   .pres-button {
@@ -1648,7 +1664,7 @@
     border: none;
     border-radius: 20px; /* Para darle la forma redondeada */
     padding: 5px 15px;
-    font-size: 15px;
+    font-size: 5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 
@@ -1666,9 +1682,9 @@
   }
 
   .PresImg {
-    width: 60vw;
-    height: 60vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    margin-bottom: 2vw;
   }
 }

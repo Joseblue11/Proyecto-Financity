@@ -1,401 +1,582 @@
-.contact{
+.contact {
   font-family: "Pally", sans-serif;
 }
 
+/* DIMENCIONES PARA COMPUTADORAS*/
 /* Dimensiones del Ordenador de Escritorio*/
-@media (min-width: 1441px) and (max-width: 3840px) {
+@media (min-width: 1440px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
   .contact {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895457/Ordenador_de_escritorio_medio_3_gl8vcl.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 95vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
+    background-size: 100vw 47vw;
+    width: 100%;
+    height: 47vw;
   }
-}
-/* Dimensiones del Ordenador portátil medio */
-@media (min-width: 1025px) and (max-width: 1440px) {
-  /* Estilos para pantallas de portátiles medianos */
-  .contact {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895457/Ordenador_de_escritorio_medio_3_gl8vcl.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 115vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 115vh;
+  .card-contact {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-
- input {
-    width: 40vw; /* Ajusta el ancho */
-    height: 40px; /* Ajusta la altura */
-    border: 2px solid #00FF00; /* Cambia el color y el ancho del borde */
-    border-radius: 20px; /* Aumenta el redondeo de las esquinas */
-    background-color: #F0F0F0; /* Cambia el color de fondo */
-    font-size: 18px; /* Aumenta el tamaño de la fuente */
-    font-weight: bold; /* Hace la fuente más gruesa */
-    padding: 10px; /* Agrega espacio interno */
-  }
-
-  
-  .card-contact{
-    display: flex;
-    width: 30rem;
-    height: 30rem;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
+    justify-content: center;
     align-items: center;
   }
-  .tittle-contact{
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 2.5vw;
+    margin-top: 2vw;
     color: #ffa500;
   }
-  .text-contact{
+  .text-contact {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 50vw;
+    min-height: 16vw;
+    max-height: 50vw;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
   }
 
   .button-contact {
+    margin-top: 2vw;
     font-weight: bold;
-    background-color: #ffa500; /* Naranja */
+    background-color: #ffa500;
     color: #fff;
     border: none;
-    border-radius: 15px; /* Para darle la forma redondeada */
+    border-radius: 15px;
     padding: 10px 15px;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+  }
+}
+/* Dimensiones del Ordenador portátil medio */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  /* Estilos para pantallas de portátiles medianos */
+  .contact {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895457/Ordenador_de_escritorio_medio_3_gl8vcl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 47vw;
+    width: 100%;
+    height: 47vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
 
+  input[type="name"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 50vw;
+    min-height: 16vw;
+    max-height: 50vw;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .button-contact {
+    margin-top: 2vw;
+    font-weight: bold;
+    background-color: #ffa500;
     color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
   }
-
-  .button-contact:hover {
-    /* Estilo al pasar el mouse por encima */
-    background-color: #ffcc00;
-    color: #0066CC;
-  }
-
-  .button-contact.active {
-    /* Estilo cuando el botón está presionado */
-    background-color: #ffcc00;
-    color: #0066CC;
-  }
-}
-
-/* Dimensiones del Móvil Grande o Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .contact {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895456/Ordenador_port%C3%A1til_medio_3_tn31cy.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 95vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
-  }
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 767px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .contact {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895455/M%C3%B3vil_grande_o_tablet_3_tiuhgs.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 425px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* DIMENCIONES PARA COMPUTADORAS*/
-
-/* Dimensiones del Ordenador de Escritorio FUNCIONA */
-@media (min-width: 1441px) and (max-width: 3840px) {
-  /* Estilos para pantallas de portátiles medianos */
-}
-
-/* Dimensiones del Ordenador portátil medio FUNCIONA */
-@media (min-width: 1025px) and (max-width: 1440px) {
-  /* Estilos para pantallas de portátiles medianos */
 }
 
 /* Dimensiones Ordenador PequeñoFUNCIONA*/
 @media (min-width: 900px) and (max-width: 1024px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   /* Estilos para pantallas de portátiles medianos */
+  .contact {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895457/Ordenador_de_escritorio_medio_3_gl8vcl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 55vw;
+    width: 100%;
+    height: 55vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 50vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 50vw;
+    min-height: 16vw;
+    max-height: 50vw;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .button-contact {
+    margin-top: 2vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
-@media (min-width: 800px) and (max-width: 899px) {
+@media (min-width: 800px) and (max-width: 900px) {
   /* Estilos para pantallas de portátiles medianos */
-}
+  .contact {
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895456/Ordenador_port%C3%A1til_medio_3_tn31cy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 60vw;
+    width: 100%;
+    height: 60vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
 
+  input[type="name"] {
+    width: 45vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 45vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 45vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 45vw;
+    min-height: 16vw;
+    max-height: 50vw;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .button-contact {
+    margin-top: 2vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+}
 
 /* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
-@media (min-width: 768px) and (max-width: 799px) {
+@media (min-width: 768px) and (max-width: 800px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895456/Ordenador_port%C3%A1til_medio_3_tn31cy.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 65vw;
     width: 100%;
-    height: 135vw;
+    height: 65vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 40vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 40vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 40vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 40vw;
+    min-height: 16vw;
+    max-height: 50vw;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 2vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 767px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895456/Ordenador_port%C3%A1til_medio_3_tn31cy.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 70vw;
     width: 100%;
-    height: 135vw;
+    height: 70vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 40vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 40vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 40vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 40vw;
+    min-height: 16vw;
+    max-height: 50vw;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 2vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
 }
 
 /* Dimensiones del Tablet 4*/
-@media (min-width: 720px) and (max-width: 729px) {
+@media (min-width: 720px) and (max-width: 730px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
@@ -404,80 +585,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del table  3 */
@@ -486,244 +667,244 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del table  2 */
-@media (min-width: 681px) and (max-width: 699px) {
+@media (min-width: 680px) and (max-width: 700px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del table  1 */
-@media (min-width: 650px) and (max-width: 680px) {
+@media (min-width: 651px) and (max-width: 680px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
@@ -732,80 +913,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Blackberry Playbook */
@@ -814,80 +995,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 135vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 135vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 4vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 5vw;
-  margin-top: 5vw;
-  margin-right: 20vw;
-  margin-left: 20vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 3vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 65vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 3vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones Grande   2*/
@@ -896,80 +1077,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 182vw;
+    background-size: 100vw 100vw;
     width: 100%;
-    height: 182vw;
+    height: 100vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones  Grande  1*/
@@ -978,80 +1159,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 182vw;
+    background-size: 100vw 110vw;
     width: 100%;
-    height: 182vw;
+    height: 110vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones  Mediano-grande 2 */
@@ -1060,80 +1241,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 182vw;
+    background-size: 100vw 110vw;
     width: 100%;
-    height: 182vw;
+    height: 110vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Mediano-grande 1 */
@@ -1142,80 +1323,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 182vw;
+    background-size: 100vw 110vw;
     width: 100%;
-    height: 182vw;
+    height: 110vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Nokia N9 */
@@ -1224,80 +1405,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 182vw;
+    background-size: 100vw 150vw;
     width: 100%;
-    height: 182vw;
+    height: 150vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Mediano  */
@@ -1306,80 +1487,80 @@ textarea[type="message"] {
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 190vw;
+    background-size: 100vw 160vw;
     width: 100%;
-    height: 190vw;
+    height: 160vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Mediano */
@@ -1392,76 +1573,76 @@ textarea[type="message"] {
     width: 100%;
     height: 190vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
@@ -1474,76 +1655,76 @@ textarea[type="message"] {
     width: 100%;
     height: 190vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
@@ -1556,76 +1737,76 @@ textarea[type="message"] {
     width: 100%;
     height: 200vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Pixel 3XL FUNCIONA BIEN */
@@ -1638,76 +1819,76 @@ textarea[type="message"] {
     width: 100%;
     height: 200vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
@@ -1720,76 +1901,76 @@ textarea[type="message"] {
     width: 100%;
     height: 200vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
@@ -1802,76 +1983,76 @@ textarea[type="message"] {
     width: 100%;
     height: 200vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
@@ -1884,76 +2065,76 @@ textarea[type="message"] {
     width: 100%;
     height: 200vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
@@ -1966,75 +2147,75 @@ textarea[type="message"] {
     width: 100%;
     height: 195vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
@@ -2047,76 +2228,76 @@ textarea[type="message"] {
     width: 100%;
     height: 206vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Móvil LISTO */
@@ -2129,77 +2310,76 @@ textarea[type="message"] {
     width: 100%;
     height: 206vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
-}
-
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
 
 /* Dimensiones del Jio Phone 2 LISTO */
@@ -2212,77 +2392,74 @@ textarea[type="message"] {
     width: 100%;
     height: 230vw;
   }
-.card-contact{
+  .card-contact {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-}
- .tittle-contact{
-  margin-right: 10vw;
-  margin-left: 10vw;
-  font-weight: bold;
-  font-size: 6vw;
-  margin-top: 5vw;
-  color: #ffa500;
- }
- .text-contact{
-  margin-bottom: 8vw;
-  margin-top: 8vw;
-  margin-right: 11vw;
-  margin-left: 11vw;
-  text-align: justify;
-  color: #0066cc;
-  font-size: 4vw;
-  font-weight: bold;
- }
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 6vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 8vw;
+    margin-top: 8vw;
+    margin-right: 11vw;
+    margin-left: 11vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 4vw;
+    font-weight: bold;
+  }
 
- input[type="name"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-input[type="phone"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
- input[type="email"] {
-  width: 85vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-}
-textarea[type="message"] {
-  width: 83vw; /* Adjust the width as needed */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 16px;
-  resize: vertical; /* Allow vertical resizing */
-}
+  input[type="name"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 85vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 83vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
 
-.button-contact {
-  margin-top: 5vw;
-  font-weight: bold;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 4.5vw;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  color: #fff;
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 4.5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
 }
-
-}
-
-

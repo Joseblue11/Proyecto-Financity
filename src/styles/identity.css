@@ -9,15 +9,15 @@
   flex-direction: row;
 }
 
+/* DIMENCIONES PARA COMPUTADORAS*/
+
 /* Dimensiones del Ordenador de Escritorio*/
 @media (min-width: 1441px) and (max-width: 3840px) {
   /* Estilos para pantallas de portátiles medianos */
   .Identity {
     background-color: #ff9933;
-    background-repeat: no-repeat;
-    background-size: 100vw 110vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 110vh;
+    width: 100%;
+    height: 62vw;
   }
   .Identity-part1 {
     padding-top: 3vw;
@@ -33,10 +33,9 @@
   .Identity-mision {
     display: flex;
     width: 30vw;
-    height: 30vh;
+    height: 20vw;
     justify-content: flex-start;
     flex-direction: column;
-    align-content: center;
     text-align: justify;
   }
   .tittle-Mision {
@@ -47,9 +46,8 @@
   .Identity-vision {
     display: flex;
     width: 30vw;
-    height: 30vh;
+    height: 20vw;
     flex-direction: column;
-    align-content: center;
     text-align: justify;
   }
   .tittle-Vision {
@@ -58,7 +56,7 @@
     font-weight: bold;
   }
   .Text1 {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
   .Identity-img {
     display: flex;
@@ -73,8 +71,8 @@
     display: flex;
     justify-content: center;
     width: 90vw;
-    margin-top: 10vh;
-    font-size: 1.8vw;
+    margin: 2vw;
+    font-size: 2vw;
     font-weight: bold;
     align-items: center;
     align-content: center;
@@ -93,7 +91,7 @@
     width: 90%;
     display: grid; /* Set the container to use grid layout */
     grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
-    grid-gap: 20px; /* Optional: Add spacing between divs */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
 
   .Icons {
@@ -104,8 +102,10 @@
     align-items: center;
   }
   .Identity-text {
-    margin-top: 3px;
-    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
     font-weight: bold;
   }
 }
@@ -114,12 +114,9 @@
   /* Estilos para pantallas de portátiles medianos */
   .Identity {
     background-color: #ff9933;
-    background-repeat: no-repeat;
-    background-size: 100vw 665vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 65vw;
+    width: 100%;
+    height: 62vw;
   }
-
   .Identity-part1 {
     padding-top: 3vw;
     width: 90%;
@@ -134,10 +131,9 @@
   .Identity-mision {
     display: flex;
     width: 30vw;
-    height: 30vh;
+    height: 20vw;
     justify-content: flex-start;
     flex-direction: column;
-    align-content: center;
     text-align: justify;
   }
   .tittle-Mision {
@@ -148,9 +144,8 @@
   .Identity-vision {
     display: flex;
     width: 30vw;
-    height: 30vh;
+    height: 20vw;
     flex-direction: column;
-    align-content: center;
     text-align: justify;
   }
   .tittle-Vision {
@@ -159,7 +154,7 @@
     font-weight: bold;
   }
   .Text1 {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
   .Identity-img {
     display: flex;
@@ -174,8 +169,8 @@
     display: flex;
     justify-content: center;
     width: 90vw;
-    margin-top: 10vh;
-    font-size: 1.8vw;
+    margin: 2vw;
+    font-size: 2vw;
     font-weight: bold;
     align-items: center;
     align-content: center;
@@ -194,7 +189,7 @@
     width: 90%;
     display: grid; /* Set the container to use grid layout */
     grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
-    grid-gap: 20px; /* Optional: Add spacing between divs */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
 
   .Icons {
@@ -205,166 +200,410 @@
     align-items: center;
   }
   .Identity-text {
-    margin-top: 15px;
-    margin-left: 5px;
-    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
     font-weight: bold;
   }
-}
-
-/* Dimensiones del Móvil Grande o Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Identity {
-    background-color: #ff9933;
-    background-repeat: no-repeat;
-    background-size: 100vw 95vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 95vh;
-  }
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 767px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .Identity {
-    background-color: #ff9933;
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* Dimensiones del Móvil FUNCIONA BIEN */
-@media (min-width: 320px) and (max-width: 425px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .Identity {
-    background-color: #ff9933;
-    background-repeat: no-repeat;
-    background-size: 100vw 90vh;
-    width: 100%; /* Ancho del cuerpo */
-    height: 90vh;
-  }
-}
-
-/* DIMENCIONES PARA COMPUTADORAS*/
-
-/* Dimensiones del Ordenador de Escritorio FUNCIONA */
-@media (min-width: 144px) and (max-width: 3840px) {
-  /* Estilos para pantallas de portátiles medianos */
-}
-
-/* Dimensiones del Ordenador portátil medio FUNCIONA */
-@media (min-width: 1024px) and (max-width: 1440px) {
-  /* Estilos para pantallas de portátiles medianos */
 }
 
 /* Dimensiones Ordenador PequeñoFUNCIONA*/
 @media (min-width: 900px) and (max-width: 1024px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   /* Estilos para pantallas de portátiles medianos */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%;
+    height: 65vw;
+  }
+  .Identity-part1 {
+    padding-top: 3vw;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .Identity-mision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .tittle-Mision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .Identity-vision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .tittle-Vision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .Text1 {
+    font-size: 1.5vw;
+  }
+  .Identity-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Identity-tittle {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Identity-image1 {
+    width: 5vw;
+    height: 5vw;
+  }
+  .Identity-image {
+    width: 7vw;
+    height: 7vw;
+  }
+  .Identity-Icons {
+    width: 90%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
+  }
+
+  .Icons {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Identity-text {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
 @media (min-width: 800px) and (max-width: 900px) {
   /* Estilos para pantallas de portátiles medianos */
+  .Identity {
+    background-color: #ff9933;
+    width: 100%;
+    height: 68vw;
+  }
+  .Identity-part1 {
+    padding-top: 3vw;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+  .Identity-mision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .tittle-Mision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .Identity-vision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .tittle-Vision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .Text1 {
+    font-size: 1.5vw;
+  }
+  .Identity-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Identity-tittle {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Identity-image1 {
+    width: 5vw;
+    height: 5vw;
+  }
+  .Identity-image {
+    width: 7vw;
+    height: 7vw;
+  }
+  .Identity-Icons {
+    width: 90%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
+  }
+
+  .Icons {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Identity-text {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones de Tablet general*/
 
 /* Dimensiones del Tablet 6 */
 @media (min-width: 768px) and (max-width: 800px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Identity {
     background-color: #ff9933;
-    width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    width: 100%;
+    height: 68vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 3vw;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
   }
-
-  .Identity-tittle {
-    font-size: 3.5vw;
-    font-weight: bold;
-    margin: 5vw;
-    padding-left: 12vw;
-    padding-right: 12vw;
-}
-
-  .Text1 {
-    padding-right: 15vw;
-    padding-left: 15vw;
-    font-size: 2.5vw;
+  .Identity-mision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    justify-content: flex-start;
+    flex-direction: column;
     text-align: justify;
-}
-  .Identity-image {
-    width: 13vw;
-    height: 13vw;
   }
-  .Icons {
-    padding: 1.5vw;
+  .tittle-Mision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
   }
-
+  .Identity-vision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .tittle-Vision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .Text1 {
+    font-size: 1.5vw;
+  }
+  .Identity-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Identity-tittle {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .Identity-image1 {
-    margin: 1vw;
-    width: 13vw;
-    height: 13vw;
-}
+    width: 5vw;
+    height: 5vw;
+  }
+  .Identity-image {
+    width: 7vw;
+    height: 7vw;
+  }
+  .Identity-Icons {
+    width: 90%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Icons {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Identity-text {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Tablet 5*/
-@media (min-width: 730px) and (max-width: 768px) {
+@media (min-width: 731px) and (max-width: 768px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Identity {
     background-color: #ff9933;
-    width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    width: 100%;
+    height: 70vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 3vw;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
   }
-
-  .Identity-tittle {
-    font-size: 3.5vw;
-    font-weight: bold;
-    margin: 5vw;
-    padding-left: 12vw;
-    padding-right: 12vw;
-}
-
-  .Text1 {
-    padding-right: 15vw;
-    padding-left: 15vw;
-    font-size: 2.5vw;
+  .Identity-mision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    justify-content: flex-start;
+    flex-direction: column;
     text-align: justify;
-}
-  .Identity-image {
-    width: 13vw;
-    height: 13vw;
   }
-  .Icons {
-    padding: 1.5vw;
+  .tittle-Mision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
   }
-
+  .Identity-vision {
+    display: flex;
+    width: 30vw;
+    height: 20vw;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .tittle-Vision {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .Text1 {
+    font-size: 1.5vw;
+  }
+  .Identity-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .Identity-tittle {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .Identity-image1 {
-    margin: 1vw;
-    width: 13vw;
-    height: 13vw;
-}
+    width: 5vw;
+    height: 5vw;
+  }
+  .Identity-image {
+    width: 7vw;
+    height: 7vw;
+  }
+  .Identity-Icons {
+    width: 90%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Icons {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .Identity-text {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Tablet 4*/
@@ -373,10 +612,10 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
@@ -385,17 +624,23 @@
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -405,13 +650,13 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
@@ -420,10 +665,10 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
@@ -432,17 +677,23 @@
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -452,25 +703,25 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del table  3 */
-@media (min-width: 700px) and (max-width: 712px) {
+@media (min-width: 701px) and (max-width: 711px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
@@ -479,17 +730,23 @@
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -499,13 +756,13 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del table  2 */
@@ -514,10 +771,10 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
@@ -526,17 +783,23 @@
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -546,48 +809,50 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del table  1 */
 @media (min-width: 650px) and (max-width: 680px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-.Identity {
+  .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 230vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
-  .Identity-Icons{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2vw;
-  }
+
   .Identity-tittle {
     font-size: 3.5vw;
     font-weight: bold;
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -597,13 +862,13 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
@@ -612,10 +877,10 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
@@ -624,17 +889,23 @@
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -644,13 +915,13 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones del Blackberry Playbook */
@@ -659,10 +930,10 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 300vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
@@ -671,17 +942,23 @@
     margin: 5vw;
     padding-left: 12vw;
     padding-right: 12vw;
-}
+  }
 
   .Text1 {
     padding-right: 15vw;
     padding-left: 15vw;
     font-size: 2.5vw;
     text-align: justify;
-}
+  }
   .Identity-image {
     width: 13vw;
     height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
@@ -691,13 +968,13 @@
     margin: 1vw;
     width: 13vw;
     height: 13vw;
-}
+  }
 
-.Identity-text {
-  margin: 3vw;
-  font-size: 3.5vw;
-  font-weight: bold;
-}
+  .Identity-text {
+    margin: 3vw;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
 }
 
 /* Dimensiones Grande   2*/
@@ -706,39 +983,49 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-weight: bold;
-    margin: 4vw;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
   }
 
   .Text1 {
-    padding: 2vh;
-    font-size: 4.5vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
     text-align: justify;
   }
   .Identity-image {
-    width: 25vw;
-    height: 25vw;
+    width: 13vw;
+    height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
   }
 
   .Identity-image1 {
-    width: 25vw;
-    height: 25vw;
-    padding: 2vw;
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
   }
+
   .Identity-text {
-    margin: 4vw;
-    font-size: 5vw;
+    margin: 3vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
 }
@@ -749,39 +1036,49 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 500vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
 
   .Identity-tittle {
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-weight: bold;
-    margin: 4vw;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
   }
 
   .Text1 {
-    padding: 2vh;
-    font-size: 4.5vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
     text-align: justify;
   }
   .Identity-image {
-    width: 25vw;
-    height: 25vw;
+    width: 13vw;
+    height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
   }
 
   .Identity-image1 {
-    width: 25vw;
-    height: 25vw;
-    padding: 2vw;
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
   }
+
   .Identity-text {
-    margin: 4vw;
-    font-size: 5vw;
+    margin: 3vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
 }
@@ -792,44 +1089,49 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 400vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
-  
-  .Identity-Icons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2vw;
-}
+
   .Identity-tittle {
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-weight: bold;
-    margin: 4vw;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
   }
 
   .Text1 {
-    padding: 2vh;
-    font-size: 4.5vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
     text-align: justify;
   }
   .Identity-image {
-    width: 25vw;
-    height: 25vw;
+    width: 13vw;
+    height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
   }
 
   .Identity-image1 {
-    width: 25vw;
-    height: 25vw;
-    padding: 2vw;
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
   }
+
   .Identity-text {
-    margin: 4vw;
-    font-size: 5vw;
+    margin: 3vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
 }
@@ -840,43 +1142,49 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 400vw;
+    height: 220vw;
   }
   .Identity-part1 {
-    padding-top: 10vw;
+    padding-top: 5vw;
   }
-  .Identity-Icons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2vw;
-}
+
   .Identity-tittle {
-    font-size: 5vw;
+    font-size: 3.5vw;
     font-weight: bold;
-    margin: 4vw;
+    margin: 5vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
   }
 
   .Text1 {
-    padding: 2vh;
-    font-size: 4.5vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 2.5vw;
     text-align: justify;
   }
   .Identity-image {
-    width: 25vw;
-    height: 25vw;
+    width: 13vw;
+    height: 13vw;
+  }
+  .Identity-Icons {
+    width: 100%;
+    display: grid; /* Set the container to use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Define 3 columns of equal width */
+    grid-gap: 1vw; /* Optional: Add spacing between divs */
   }
   .Icons {
     padding: 1.5vw;
   }
 
   .Identity-image1 {
-    width: 25vw;
-    height: 25vw;
-    padding: 2vw;
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
   }
+
   .Identity-text {
-    margin: 4vw;
-    font-size: 5vw;
+    margin: 3vw;
+    font-size: 3.5vw;
     font-weight: bold;
   }
 }
@@ -896,7 +1204,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -943,7 +1251,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -990,7 +1298,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1038,7 +1346,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1085,7 +1393,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1132,7 +1440,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1179,7 +1487,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1226,7 +1534,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1273,7 +1581,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1321,7 +1629,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
 
   .Identity-tittle {
     font-size: 5vw;
@@ -1369,7 +1677,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
 
   .Identity-tittle {
     font-size: 5vw;
@@ -1408,17 +1716,17 @@
   .Identity {
     background-color: #ff9933;
     width: 100%; /* Ancho del cuerpo */
-    height: 400vw;
+    height: 600vw;
   }
-  .Identity-part1 {
+  /* .Identity-part1 {
     padding-top: 10vw;
-  }
+  } */
 
   .Identity-Icons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2vw;
-}
+  }
   .Identity-tittle {
     font-size: 5vw;
     font-weight: bold;
@@ -1462,12 +1770,14 @@
   }
 
   .Identity-tittle {
-    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-top: 10vw;
+    padding-right: 10vw;
     font-size: 8vw;
   }
 
   .Text1 {
-    padding: 2vh;
+    padding: 8vw;
     font-size: 6vw;
     text-align: justify;
   }
@@ -1476,7 +1786,7 @@
     height: 30vw;
   }
   .Icons {
-    padding: 4vh;
+    padding: 4vw;
   }
 
   .Identity-image1 {
