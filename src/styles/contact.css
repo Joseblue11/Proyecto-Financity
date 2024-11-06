@@ -2539,9 +2539,9 @@
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 190vw;
+    background-size: 100vw 225vw;
     width: 100%;
-    height: 190vw;
+    height: 225vw;
   }
   .card-contact {
     display: flex;
