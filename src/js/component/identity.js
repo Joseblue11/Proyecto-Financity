@@ -15,9 +15,10 @@ export const Identity = () => {
             <h3 className="tittle-Mision">Misión</h3>
           </div>
           <p className="Text1 pt-2 m-2">
-            Facilitar el desarrollo de habilidades financieras a través de la generación de espacios 
-            y programas lúdicos y didácticos que promuevan la democratización de los conocimientos 
-            financieros a temprana edad.
+            Facilitar el desarrollo de habilidades financieras a través de la
+            generación de espacios y programas lúdicos y didácticos que
+            promuevan la democratización de los conocimientos financieros a
+            temprana edad.
           </p>
         </div>
         <div className="Identity-vision">
@@ -30,15 +31,18 @@ export const Identity = () => {
             <h3 className="tittle-Vision">Visión</h3>
           </div>
           <p className="Text1 pt-2 m-2">
-            Maximizar el potencial de niños, niñas y adolescentes como ciudadanos capaces de adoptar 
-            hábitos económicos responsables que contribuyan con el desarrollo sostenible de sus 
-            comunidades.
+            Maximizar el potencial de niños, niñas y adolescentes como
+            ciudadanos capaces de adoptar hábitos económicos responsables que
+            contribuyan con el desarrollo sostenible de sus comunidades.
           </p>
         </div>
       </div>
-       <div>
-        <h2 className="Identity-tittle">"¡En Finnancity podrás fortalecer tus competencias ejecutivas y socioemocionales!"</h2>
-       </div>
+      <div>
+        <h2 className="Identity-tittle">
+          "¡En Finnancity podrás fortalecer tus competencias ejecutivas y
+          socioemocionales!"
+        </h2>
+      </div>
       <div className="Identity-Icons m-2">
         <div className="Icons">
           <img
@@ -78,7 +82,9 @@ export const Identity = () => {
             className="Identity-image img-fluid pt-2"
             alt="..."
           />
-          <h3 className="Identity-text">Reconocimiento del otro y del entorno</h3>
+          <h3 className="Identity-text">
+            Reconocimiento del otro y del entorno
+          </h3>
         </div>
         <div className="Icons">
           <img
@@ -88,19 +94,16 @@ export const Identity = () => {
           />
           <h3 className="Identity-text">Empoderamiento ciudadano</h3>
         </div>
-        <div className="Icons">
-        </div>
-        <div className="Icons">
+      </div>
+      <div className="Icons-1">
+        <div className="Icons1">
           <img
             src="https://res.cloudinary.com/dmyppqapj/image/upload/v1724366509/innovacion_gmppip.png"
             className="Identity-image img-fluid pt-2"
             alt="..."
           />
-          <h3 className="Identity-text">Pensamiento crítico</h3>
+          <h3 className="Identity-text1">Pensamiento crítico</h3>
         </div>
-        <div className="Icons">
-        </div>
-        
       </div>
     </div>
   );

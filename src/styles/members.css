@@ -14,11 +14,8 @@
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
-    /* background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1727767563/IMG-20241001-WA0001_nnbtkp.jpg"); */
-    background-repeat: no-repeat;
-    background-size: 100vw 50vw;
-    width: 100%; /* Ancho del cuerpo */
-    height: 65vw;
+    width: 100%;
+    height: 45vw;
   }
   .Tittle-Members {
     margin-top: 1vw;
@@ -38,10 +35,10 @@
     margin: 4vw;
   }
   .Group-members {
-    height: 50vw;
-    width: 55vw;
+    height: 30vw;
+    width: 93vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 1vw;
   }
@@ -65,17 +62,14 @@
     border-radius: 50%;
   }
   .Members-title1 {
-    margin-top: 1vw;
-    margin-bottom: 2vw;
     color: #0066cc;
     font-size: 2.5vw;
-    font-weight: bold;
+    font-weight: 900;
   }
   .Members-title {
     color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
-    padding-top: 3vw;
   }
   .Members-text {
     color: #0066cc;
@@ -110,8 +104,8 @@
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
-    width: 100%; /* Ancho del cuerpo */
-    height: 65vw;
+    width: 100%;
+    height: 45vw;
   }
   .Tittle-Members {
     margin-top: 1vw;
@@ -131,10 +125,10 @@
     margin: 4vw;
   }
   .Group-members {
-    height: 50vw;
-    width: 55vw;
+    height: 30vw;
+    width: 93vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 1vw;
   }
@@ -166,7 +160,6 @@
     color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
-    padding-top: 3vw;
   }
   .Members-text {
     color: #0066cc;
@@ -203,8 +196,8 @@
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
-    width: 100%; /* Ancho del cuerpo */
-    height: 65vw;
+    width: 100%;
+    height: 45vw;
   }
   .Tittle-Members {
     margin-top: 1vw;
@@ -224,10 +217,10 @@
     margin: 4vw;
   }
   .Group-members {
-    height: 50vw;
-    width: 55vw;
+    height: 30vw;
+    width: 93vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 1vw;
   }
@@ -259,7 +252,6 @@
     color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
-    padding-top: 3vw;
   }
   .Members-text {
     color: #0066cc;
@@ -295,8 +287,8 @@
   /* Estilos para pantallas de portátiles medianos */
   .Members {
     background-color: #ffcc00;
-    width: 100%; /* Ancho del cuerpo */
-    height: 68vw;
+    width: 100%;
+    height: 42vw;
   }
   .Tittle-Members {
     margin-top: 1vw;
@@ -316,10 +308,10 @@
     margin: 4vw;
   }
   .Group-members {
-    height: 50vw;
-    width: 55vw;
+    height: 30vw;
+    width: 93vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 1vw;
   }
@@ -351,7 +343,6 @@
     color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
-    padding-top: 3vw;
   }
   .Members-text {
     color: #0066cc;
@@ -389,8 +380,8 @@
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
-    width: 100%; /* Ancho del cuerpo */
-    height: 70vw;
+    width: 100%;
+    height: 42vw;
   }
   .Tittle-Members {
     margin-top: 1vw;
@@ -410,10 +401,10 @@
     margin: 4vw;
   }
   .Group-members {
-    height: 50vw;
-    width: 55vw;
+    height: 30vw;
+    width: 93vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 1vw;
   }
@@ -445,7 +436,6 @@
     color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
-    padding-top: 3vw;
   }
   .Members-text {
     color: #0066cc;
@@ -481,8 +471,8 @@
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
-    width: 100%; /* Ancho del cuerpo */
-    height: 75vw;
+    width: 100%;
+    height: 42vw;
   }
   .Tittle-Members {
     margin-top: 1vw;
@@ -502,10 +492,10 @@
     margin: 4vw;
   }
   .Group-members {
-    height: 50vw;
-    width: 55vw;
+    height: 30vw;
+    width: 93vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 1vw;
   }
@@ -537,7 +527,6 @@
     color: #0066cc;
     font-size: 1.6vw;
     font-weight: 900;
-    padding-top: 3vw;
   }
   .Members-text {
     color: #0066cc;
@@ -574,7 +563,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -593,9 +582,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -648,7 +638,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -667,9 +657,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -722,7 +713,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -741,9 +732,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -796,7 +788,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -815,9 +807,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -870,7 +863,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -889,9 +882,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -944,7 +938,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -963,9 +957,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1018,7 +1013,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -1037,9 +1032,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1092,7 +1088,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -1111,9 +1107,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1166,7 +1163,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -1185,9 +1182,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1240,7 +1238,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -1259,9 +1257,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1314,7 +1313,7 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 245vw;
+    height: 142vw;
     align-content: baseline;
   }
   .Tittle-Members {
@@ -1333,9 +1332,10 @@
   }
 
   .Group-members {
+    padding-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5vw;
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1382,20 +1382,24 @@
   }
 }
 
+
+
+/* CELULARES*/
+
 /* Dimensiones del Móvil Nokia N9 */
 @media (min-width: 480px) and (max-width: 496px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 675vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1407,9 +1411,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1419,39 +1424,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1462,14 +1467,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 676vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1481,9 +1486,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1493,39 +1499,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1536,14 +1542,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 505vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1555,9 +1561,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1567,39 +1574,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1610,14 +1617,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1629,9 +1636,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1641,39 +1649,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1684,14 +1692,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1703,9 +1711,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1715,39 +1724,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1758,14 +1767,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1777,9 +1786,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1789,39 +1799,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1832,14 +1842,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1851,9 +1861,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1863,39 +1874,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1906,14 +1917,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1925,9 +1936,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -1937,39 +1949,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -1980,14 +1992,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -1999,9 +2011,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -2011,39 +2024,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -2054,14 +2067,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -2073,9 +2086,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -2085,39 +2099,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -2128,14 +2142,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 510vw;
+    height: 155vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -2147,9 +2161,10 @@
   }
 
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -2159,39 +2174,39 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
@@ -2202,14 +2217,14 @@
   .Members {
     background-color: #ffcc00;
     width: 100%;
-    height: 515vw;
+    height: 160vw;
     align-content: baseline;
   }
   .Tittle-Members {
-    margin-top: 12vw;
+    margin-top: 5vw;
     margin-bottom: 2vw;
     color: #0066cc;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: bold;
   }
   .Content {
@@ -2219,10 +2234,12 @@
     justify-content: center;
     align-items: center;
   }
+
   .Group-members {
-    height: 180vh;
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10vw;
   }
 
   .members-image1 {
@@ -2232,51 +2249,51 @@
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3.8vw;
     font-weight: 900;
   }
   .members-image1 {
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
   }
   .members-image {
-    width: 40vw;
-    height: 40vw;
+    width: 22vw;
+    height: 22vw;
     margin: 2vw;
     border-radius: 50%;
   }
   .Members-title {
     color: #0066cc;
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: 900;
   }
   .Members-title1 {
     margin: 2.5vw;
     color: #0066cc;
-    font-size: 6.5vw;
+    font-size: 3.6vw;
     font-weight: 900;
   }
   .Members-text1 {
     color: #0066cc;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-weight: bold;
   }
   .Members-text {
     color: #0066cc;
-    font-size: 5.5vw;
+    font-size: 3vw;
     font-weight: 900;
   }
 }
 
 /* Dimensiones del Jio Phone 2 LISTO*/
-@media (min-width: 240px) and (max-width: 320px) {
+@media (min-width: 240px) and (max-width: 319px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .Members {
     font-family: "Pally", sans-serif;
     background-color: #ffcc00;
     width: 100%;
-    height: 510vw;
+    height: 460vw;
     align-content: baseline;
   }
   .Tittle-Members {

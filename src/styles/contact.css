@@ -83,7 +83,13 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
+
 /* Dimensiones del Ordenador portátil medio */
 @media (min-width: 1024px) and (max-width: 1440px) {
   /* Estilos para pantallas de portátiles medianos */
@@ -164,6 +170,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+}
 }
 
 /* Dimensiones Ordenador PequeñoFUNCIONA*/
@@ -247,6 +258,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones del Kindle Fire HDX FUNCIONA*/
@@ -255,9 +271,9 @@
   .contact {
     background-image: url("https://res.cloudinary.com/dmyppqapj/image/upload/v1724895456/Ordenador_port%C3%A1til_medio_3_tn31cy.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 60vw;
+    background-size: 100vw 62vw;
     width: 100%;
-    height: 60vw;
+    height: 62vw;
   }
   .card-contact {
     display: flex;
@@ -328,6 +344,11 @@
     font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -413,6 +434,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones del Tablet 5*/
@@ -494,6 +520,11 @@
     font-size: 1.5vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -577,6 +608,11 @@
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones del Samsung Galaxy Tab S4 */
@@ -658,6 +694,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -741,6 +782,11 @@
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones del table  2 */
@@ -822,6 +868,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -905,6 +956,11 @@
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones del table Microsoft Lumia 550 */
@@ -986,6 +1042,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -1069,6 +1130,11 @@
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones Grande   2*/
@@ -1077,9 +1143,9 @@
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 100vw;
+    background-size: 100vw 110vw;
     width: 100%;
-    height: 100vw;
+    height: 110vw;
   }
   .card-contact {
     display: flex;
@@ -1150,6 +1216,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -1233,6 +1304,11 @@
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
 
 /* Dimensiones  Mediano-grande 2 */
@@ -1314,6 +1390,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }  
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
@@ -1323,9 +1404,9 @@
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 110vw;
+    background-size: 100vw 120vw;
     width: 100%;
-    height: 110vw;
+    height: 120vw;
   }
   .card-contact {
     display: flex;
@@ -1397,7 +1478,16 @@
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
 }
+
+
+
+/* CELULARES*/
 
 /* Dimensiones del Móvil Nokia N9 */
 @media (min-width: 480px) and (max-width: 495px) {
@@ -1405,9 +1495,9 @@
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 150vw;
+    background-size: 100vw 120vw;
     width: 100%;
-    height: 150vw;
+    height: 120vw;
   }
   .card-contact {
     display: flex;
@@ -1421,44 +1511,44 @@
     margin-right: 10vw;
     margin-left: 10vw;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 4vw;
     margin-top: 5vw;
     color: #ffa500;
   }
   .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
   }
 
   input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
   }
   input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
   }
   input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
   }
   textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
@@ -1474,16 +1564,891 @@
     border: none;
     border-radius: 15px;
     padding: 10px 15px;
-    font-size: 4.5vw;
+    font-size: 3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }
 
 /* Dimensiones del Móvil Mediano  */
 @media (min-width: 430px) and (max-width: 480px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 128vw;
+    width: 100%;
+    height: 128vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil Mediano */
+@media (min-width: 426px) and (max-width: 430px) {
+  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 128vw;
+    width: 100%;
+    height: 128vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
+@media (min-width: 414px) and (max-width: 426px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 128vw;
+    width: 100%;
+    height: 128vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
+@media (min-width: 410px) and (max-width: 414px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 135vw;
+    width: 100%;
+    height: 135vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Pixel 3XL FUNCIONA BIEN */
+@media (min-width: 392px) and (max-width: 410px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 135vw;
+    width: 100%;
+    height: 135vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
+@media (min-width: 390px) and (max-width: 392px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 135vw;
+    width: 100%;
+    height: 135vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
+@media (min-width: 384px) and (max-width: 390px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 135vw;
+    width: 100%;
+    height: 135vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
+@media (min-width: 374px) and (max-width: 384px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 140vw;
+    width: 100%;
+    height: 140vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
+@media (min-width: 360px) and (max-width: 374px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 145vw;
+    width: 100%;
+    height: 145vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
+@media (min-width: 344px) and (max-width: 360px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
+  .contact {
+    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 145vw;
+    width: 100%;
+    height: 145vw;
+  }
+  .card-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle-contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    font-weight: bold;
+    font-size: 4vw;
+    margin-top: 5vw;
+    color: #ffa500;
+  }
+  .text-contact {
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: justify;
+    color: #0066cc;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  input[type="name"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="phone"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type="email"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  textarea[type="message"] {
+    width: 65vw; /* Adjust the width as needed */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+
+  .button-contact {
+    margin-top: 5vw;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
+  }
+}
+
+/* Dimensiones del Móvil LISTO */
+@media (min-width: 320px) and (max-width: 344px) {
+  /* Estilos para dispositivos móviles con estas dimensiones */
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
@@ -1503,44 +2468,44 @@
     margin-right: 10vw;
     margin-left: 10vw;
     font-weight: bold;
-    font-size: 6vw;
+    font-size: 4vw;
     margin-top: 5vw;
     color: #ffa500;
   }
   .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
     text-align: justify;
     color: #0066cc;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
   }
 
   input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
   }
   input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
   }
   input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
     font-size: 16px;
   }
   textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
+    width: 65vw; /* Adjust the width as needed */
     border: 1px solid #007bff; /* Blue border */
     border-radius: 15px;
     padding: 10px;
@@ -1556,829 +2521,15 @@
     border: none;
     border-radius: 15px;
     padding: 10px 15px;
-    font-size: 4.5vw;
+    font-size: 3vw;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
   }
-}
-
-/* Dimensiones del Móvil Mediano */
-@media (min-width: 426px) and (max-width: 430px) {
-  /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 190vw;
-    width: 100%;
-    height: 190vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
     color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Móvil Iphone XR FUNCIONA BIEN */
-@media (min-width: 414px) and (max-width: 426px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 190vw;
-    width: 100%;
-    height: 190vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Móvil Moto G Power FUNCIONA BIEN */
-@media (min-width: 410px) and (max-width: 414px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 200vw;
-    width: 100%;
-    height: 200vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Pixel 3XL FUNCIONA BIEN */
-@media (min-width: 392px) and (max-width: 410px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 200vw;
-    width: 100%;
-    height: 200vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Iphone 12 PRO FUNCIONA BIEN */
-@media (min-width: 390px) and (max-width: 392px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 200vw;
-    width: 100%;
-    height: 200vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Móvil LG Optimus L70 FUNCIONA BIEN */
-@media (min-width: 384px) and (max-width: 390px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 200vw;
-    width: 100%;
-    height: 200vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Móvil Iphone X FUNCIONA BIEN */
-@media (min-width: 374px) and (max-width: 384px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 200vw;
-    width: 100%;
-    height: 200vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Móvil Samsung Galaxy S8 FUNCIONA BIEN */
-@media (min-width: 360px) and (max-width: 374px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 195vw;
-    width: 100%;
-    height: 195vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Galaxy Z Fold 5 FUNCIONA BIEN */
-@media (min-width: 344px) and (max-width: 360px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 206vw;
-    width: 100%;
-    height: 206vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
-  }
-}
-
-/* Dimensiones del Móvil LISTO */
-@media (min-width: 320px) and (max-width: 344px) {
-  /* Estilos para dispositivos móviles con estas dimensiones */
-  .contact {
-    background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 206vw;
-    width: 100%;
-    height: 206vw;
-  }
-  .card-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .tittle-contact {
-    margin-right: 10vw;
-    margin-left: 10vw;
-    font-weight: bold;
-    font-size: 6vw;
-    margin-top: 5vw;
-    color: #ffa500;
-  }
-  .text-contact {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
-    margin-right: 11vw;
-    margin-left: 11vw;
-    text-align: justify;
-    color: #0066cc;
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  input[type="name"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="phone"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  input[type="email"] {
-    width: 85vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  textarea[type="message"] {
-    width: 83vw; /* Adjust the width as needed */
-    border: 1px solid #007bff; /* Blue border */
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 16px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-
-  .button-contact {
-    margin-top: 5vw;
-    font-weight: bold;
-    background-color: #ffa500;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    padding: 10px 15px;
-    font-size: 4.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    color: #fff;
   }
 }
 
@@ -2388,9 +2539,9 @@
   .contact {
     background-image: url(https://res.cloudinary.com/dmyppqapj/image/upload/v1724895454/M%C3%B3vil_peque%C3%B1o_3_fd7zae.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 230vw;
+    background-size: 100vw 190vw;
     width: 100%;
-    height: 230vw;
+    height: 190vw;
   }
   .card-contact {
     display: flex;
@@ -2461,5 +2612,10 @@
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     color: #fff;
+  }
+  .button-contact:hover,
+  .button-contact:active {
+    background-color: #ffcc00;
+    color: #0066cc;
   }
 }

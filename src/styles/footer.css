@@ -836,13 +836,13 @@ footer {
 }
 
 /* Dimensiones del Móvil Mediano-grande 1 */
-@media (min-width: 496px) and (max-width: 510px) {
+@media (min-width: 497px) and (max-width: 510px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
   .content-footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 88vw;
+    height: 90vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -883,6 +883,13 @@ footer {
   }
 }
 
+
+
+
+/* CELULARES*/
+
+
+
 /* Dimensiones del Móvil Nokia N9 */
 @media (min-width: 480px) and (max-width: 496px) {
   /* Estilos para dispositivos más grandes que un móvil y más pequeños que una tablet */
@@ -890,7 +897,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 100vw;
+    height: 96vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -927,7 +934,7 @@ footer {
 }
 
 /* Dimensiones del Móvil Mediano  */
-@media (min-width: 430px) and (max-width: 499px) {
+@media (min-width: 430px) and (max-width: 479px) {
   .content-footer {
     padding-left: 4vw;
     padding-right: 4vw;
@@ -975,7 +982,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
+    height: 105vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1018,7 +1025,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 110vw;
+    height: 105vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1061,7 +1068,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 115vw;
+    height: 110vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1104,7 +1111,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 115vw;
+    height: 110vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1146,7 +1153,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 120vw;
+    height: 110vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1188,7 +1195,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 120vw;
+    height: 115vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1230,7 +1237,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 120vw;
+    height: 118vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1316,7 +1323,7 @@ footer {
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    height: 125vw;
+    height: 120vw;
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
@@ -1396,7 +1403,7 @@ footer {
 }
 
 /* Dimensiones del Jio Phone 2 LISTO*/
-@media (min-width: 240px) and (max-width: 320px) {
+@media (min-width: 240px) and (max-width: 319px) {
   /* Estilos para dispositivos móviles con estas dimensiones */
   .content-footer {
     padding-left: 4vw;
