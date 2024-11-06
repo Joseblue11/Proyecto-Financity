@@ -49,7 +49,7 @@ export const Members = () => {
               />
               <div className="card-menber">
                 <h3 className="Members-title">Yuri Ramírez</h3>
-                <p className="Members-text">Secretaria Distrital<br />Inversion</p>
+                <p className="Members-text">Secretaria Distrital<br />Inversión</p>
               </div>
             </div>
             <div className="members">
